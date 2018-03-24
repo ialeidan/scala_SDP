@@ -11,8 +11,8 @@ import play.api.libs.json.Json
 
 object Application extends Controller {
 
-  val mongoClient = MongoClient(Play.configuration.getString("mongodb.uri").get)
-  val mongDB = mongoClient("heroku_85mqw3gf")
+//  val mongoClient = MongoClient(Play.configuration.getString("mongodb.uri").get)
+//  val mongDB = mongoClient("heroku_85mqw3gf")
 
 
   def index = Action {
@@ -47,7 +47,8 @@ object Application extends Controller {
       val name = (jsValue \ "name")
       val password = (jsValue \ "password")
 
-      Ok(Json.toJson(Map("status" -> "OK", "message" -> ("Hello " + name.toString))))
+//      Ok(Json.toJson(Map("status" -> "OK", "message" -> ("Hello " + name.toString))))
+      Ok(Play.configuration.getString("mongodb.uri").get)
     }.getOrElse{
       BadRequest(Json.toJson(Map("status" -> "KO", "message" -> "Missing parameter [name]")))
     }
