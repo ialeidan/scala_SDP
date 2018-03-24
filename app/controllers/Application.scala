@@ -11,8 +11,8 @@ import play.api.libs.json.Json
 
 object Application extends Controller {
 
-  val mongoClient = MongoClient(Play.configuration.getString("mongodb.uri").get)
-  val mongDB = mongoClient("heroku_85mqw3gf")
+//  val mongoClient = MongoClient(Play.configuration.getString("mongodb.uri").get)
+//  val mongDB = mongoClient("heroku_85mqw3gf")
 
 
   def index = Action {
@@ -54,31 +54,31 @@ object Application extends Controller {
   }
 
 
-  def testDB = Action { implicit request =>
-    var out = request.body.asJson
-    var ret = "";
-
-
-    val coll = mongDB("Users")
-
-    val allDocs = coll.find()
-    println( allDocs )
-    for(doc <- allDocs){
-        ret += " / " + doc.toString()
-    }
-
-    out.map {jsValue =>
-      val name = (jsValue \ "name")
-      val password = (jsValue \ "password")
-
-
-
-
-//      Ok(Json.toJson(Map("status" -> "OK", "message" -> ("Hello " + name.toString))))
-      Ok(ret)
-    }.getOrElse{
-      BadRequest(Json.toJson(Map("status" -> "KO", "message" -> "Missing parameter [name]")))
-    }
-  }
+//  def testDB = Action { implicit request =>
+//    var out = request.body.asJson
+//    var ret = "";
+//
+//
+//    val coll = mongDB("Users")
+//
+//    val allDocs = coll.find()
+//    println( allDocs )
+//    for(doc <- allDocs){
+//        ret += " / " + doc.toString()
+//    }
+//
+//    out.map {jsValue =>
+//      val name = (jsValue \ "name")
+//      val password = (jsValue \ "password")
+//
+//
+//
+//
+////      Ok(Json.toJson(Map("status" -> "OK", "message" -> ("Hello " + name.toString))))
+//      Ok(ret)
+//    }.getOrElse{
+//      BadRequest(Json.toJson(Map("status" -> "KO", "message" -> "Missing parameter [name]")))
+//    }
+//  }
 
 }

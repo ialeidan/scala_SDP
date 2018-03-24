@@ -2,128 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff5339d-4b51-4510-add2-f5b55a34bb09" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_0_1_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_0_1_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterPath="$PROJECT_DIR$/.idea/play2_project_settings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change beforePath="$PROJECT_DIR$/app/controllers/Application.scala" afterPath="$PROJECT_DIR$/app/controllers/Application.scala" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-sources.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-sources.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/Application$.html" afterPath="$PROJECT_DIR$/target/scala-2.11/api/controllers/Application$.html" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/ReverseApplication.html" afterPath="$PROJECT_DIR$/target/scala-2.11/api/controllers/ReverseApplication.html" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/api/controllers/javascript/ReverseApplication.html" afterPath="$PROJECT_DIR$/target/scala-2.11/api/controllers/javascript/ReverseApplication.html" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/api/index.html" afterPath="$PROJECT_DIR$/target/scala-2.11/api/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$db$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$db$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$index$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$$anonfun$index$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/Application.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/ReverseApplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/javascript/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/controllers/javascript/ReverseApplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$documentation$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$documentation$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_db1_invoker$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_db1_invoker$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Assets_at2_invoker$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes$$anonfun$routes$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/router/Routes.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/routes" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/routes" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-javadoc.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-javadoc.jar" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-sans-externalized.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-sans-externalized.jar" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-sources.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-sources.jar" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-web-assets.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-web-assets.jar" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT.pom" afterPath="$PROJECT_DIR$/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT.pom" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/routes/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.11/routes/main/controllers/routes.java" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/routes/main/router/Routes.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/routes/main/router/Routes.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/routes/main/router/RoutesPrefix.scala" afterPath="$PROJECT_DIR$/target/scala-2.11/routes/main/router/RoutesPrefix.scala" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/makePom/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/makePom/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/output" afterPath="$PROJECT_DIR$/target/streams/compile/doc/$global/streams/scala/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/compile/packageDoc/$global/streams/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/compile/packageSrc/$global/streams/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/playJarSansExternalized/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/playJarSansExternalized/$global/streams/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/playJarSansExternalized/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/playJarSansExternalized/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/playJarSansExternalized/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/compile/playJarSansExternalized/$global/streams/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" afterPath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/universal/stage/$global/streams/packager-mappings-universal" afterPath="$PROJECT_DIR$/target/streams/universal/stage/$global/streams/packager-mappings-universal" />
-      <change beforePath="$PROJECT_DIR$/target/streams/web-assets/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/web-assets/packageBin/$global/streams/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/web-assets/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/web-assets/packageBin/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/web-assets/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/target/streams/web-assets/packageBin/$global/streams/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/web-assets/webExportedDirectory/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/target/streams/web-assets/webExportedDirectory/$global/streams/sync-mappings" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/conf/routes" afterPath="$PROJECT_DIR$/target/universal/stage/conf/routes" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/lib/play-getting-started.play-getting-started-1.0-SNAPSHOT-assets.jar" afterPath="$PROJECT_DIR$/target/universal/stage/lib/play-getting-started.play-getting-started-1.0-SNAPSHOT-assets.jar" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/lib/play-getting-started.play-getting-started-1.0-SNAPSHOT-sans-externalized.jar" afterPath="$PROJECT_DIR$/target/universal/stage/lib/play-getting-started.play-getting-started-1.0-SNAPSHOT-sans-externalized.jar" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/Application$.html" afterPath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/Application$.html" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/ReverseApplication.html" afterPath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/ReverseApplication.html" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/javascript/ReverseApplication.html" afterPath="$PROJECT_DIR$/target/universal/stage/share/doc/api/controllers/javascript/ReverseApplication.html" />
-      <change beforePath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index.html" afterPath="$PROJECT_DIR$/target/universal/stage/share/doc/api/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -145,8 +24,8 @@
       <file leaf-file-name="Application.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="569">
+              <caret line="81" column="5" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="81" selection-end-column="5" />
               <folding>
                 <element signature="e#21#67#0" expanded="true" />
               </folding>
@@ -412,12 +291,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521899503599</updated>
-      <workItem from="1521899504874" duration="3677000" />
+      <workItem from="1521899504874" duration="3827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3677000" />
+    <option name="totallyTimeSpent" value="3827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -487,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="569">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="81" selection-end-column="5" />
           <folding>
             <element signature="e#21#67#0" expanded="true" />
           </folding>
