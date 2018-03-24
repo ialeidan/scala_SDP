@@ -11,8 +11,8 @@ import play.api.libs.json.Json
 
 object Application extends Controller {
 
-//  val mongoClient = MongoClient(Play.configuration.getString("mongodb.uri").get)
-//  val mongDB = mongoClient("heroku_85mqw3gf")
+  val mongoClient = MongoClient(Play.configuration.getString("mongodb.uri").get)
+  val mongDB = mongoClient("heroku_85mqw3gf")
 
 
   def index = Action {
