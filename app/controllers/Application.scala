@@ -1,7 +1,7 @@
 package controllers
 
 import com.fasterxml.jackson.databind.JsonNode
-import com.mongodb.casbah.MongoClient
+import com.mongodb.casbah.{MongoClient, MongoClientURI}
 import play.api._
 import play.api.mvc._
 import play.api.cache.Cache
@@ -11,8 +11,9 @@ import play.api.libs.json.Json
 
 object Application extends Controller {
 
-//  val mongoClient = MongoClient(Play.configuration.getString("mongodb.uri").get)
-//  val mongDB = mongoClient("heroku_85mqw3gf")
+  val mongoClientURI = MongoClientURI(Play.configuration.getString("mongodb.uri").get)
+  val mongoClient = MongoClient(mongoClientURI)
+  val mongDB = mongoClient("heroku_85mqw3gf")
 
 
   def index = Action {
