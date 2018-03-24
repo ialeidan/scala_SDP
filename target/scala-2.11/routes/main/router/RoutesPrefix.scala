@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/conf/routes
-// @DATE:Sat Mar 24 12:08:26 AST 2018
+// @SOURCE:/Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/routes
+// @DATE:Sat Mar 24 18:06:38 AST 2018
 
 
 package router {

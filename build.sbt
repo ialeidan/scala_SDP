@@ -14,3 +14,5 @@ libraryDependencies ++= Seq(
 )
 
 libraryDependencies <+= scalaVersion("org.scala-lang" % "scala-compiler" % _ )
+libraryDependencies += json
+libraryDependencies += "org.mongodb" %% "casbah" % "3.1.1"

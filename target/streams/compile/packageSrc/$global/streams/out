@@ -1,11 +1,11 @@
-[info] Packaging /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-sources.jar ...
+[info] Packaging /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-sources.jar ...
 [debug] Input file mappings:
 [debug] 	application.conf
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/conf/application.conf
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/application.conf
 [debug] 	routes
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/conf/routes
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/routes
 [debug] 	Global.scala
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/app/Global.scala
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/app/Global.scala
 [debug] 	controllers/Application.scala
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/app/controllers/Application.scala
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/app/controllers/Application.scala
 [info] Done packaging.

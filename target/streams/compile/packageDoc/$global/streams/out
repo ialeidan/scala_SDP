@@ -1,239 +1,241 @@
-[info] Packaging /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-javadoc.jar ...
+[info] Packaging /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/play-getting-started_2.11-1.0-SNAPSHOT-javadoc.jar ...
 [debug] Input file mappings:
-[debug] 	controllers/Application$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers/Application$.html
-[debug] 	index/index-a.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-a.html
-[debug] 	lib/template.css
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/template.css
-[debug] 	index/index-g.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-g.html
-[debug] 	lib/selected.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/selected.png
-[debug] 	index/index-d.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-d.html
 [debug] 	lib/selected2.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/selected2.png
-[debug] 	index/index-r.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-r.html
-[debug] 	index/index-_.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-_.html
-[debug] 	router
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/router
-[debug] 	lib/package.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/package.png
-[debug] 	router/Routes$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/router/Routes$.html
-[debug] 	lib/conversionbg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/conversionbg.gif
-[debug] 	lib/unselected.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/unselected.png
-[debug] 	lib/filter_box_left.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/filter_box_left.png
-[debug] 	views/html/main_Scope0$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/main_Scope0$.html
-[debug] 	lib/diagrams.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/diagrams.js
-[debug] 	lib/object_to_trait_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/object_to_trait_big.png
-[debug] 	lib/class_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/class_big.png
-[debug] 	Global$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/Global$.html
-[debug] 	views/html/main_Scope0$$main.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/main_Scope0$$main.html
-[debug] 	views/html/nav_Scope0$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/nav_Scope0$.html
-[debug] 	lib/jquery.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/jquery.js
-[debug] 	lib/signaturebg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/signaturebg.gif
-[debug] 	lib/filterboxbarbg.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/filterboxbarbg.png
-[debug] 	lib/navigation-li.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/navigation-li.png
-[debug] 	lib/tools.tooltip.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/tools.tooltip.js
-[debug] 	lib/arrow-right.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/arrow-right.png
-[debug] 	lib/object_to_type_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/object_to_type_big.png
-[debug] 	index/index-b.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-b.html
-[debug] 	lib/type.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/type.png
-[debug] 	index/index-c.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-c.html
-[debug] 	lib/trait_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/trait_big.png
-[debug] 	controllers/ReverseAssets.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers/ReverseAssets.html
-[debug] 	views/html/package.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/package.html
-[debug] 	controllers/javascript/ReverseApplication.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers/javascript/ReverseApplication.html
-[debug] 	lib/scheduler.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/scheduler.js
-[debug] 	lib/filter_box_left2.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/filter_box_left2.gif
-[debug] 	views/package.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/package.html
-[debug] 	lib/trait_to_object_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/trait_to_object_big.png
-[debug] 	lib/ownerbg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/ownerbg.gif
-[debug] 	lib/trait_diagram.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/trait_diagram.png
-[debug] 	lib/constructorsbg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/constructorsbg.gif
-[debug] 	lib/package_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/package_big.png
-[debug] 	lib/index.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/index.js
-[debug] 	views/html/index_Scope0$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/index_Scope0$.html
-[debug] 	index/index-e.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-e.html
-[debug] 	lib/selected2-right.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/selected2-right.png
-[debug] 	lib/fullcommenttopbg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/fullcommenttopbg.gif
-[debug] 	lib/type_diagram.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/type_diagram.png
-[debug] 	lib/signaturebg2.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/signaturebg2.gif
-[debug] 	views/html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html
-[debug] 	index/index-p.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-p.html
-[debug] 	lib/jquery.layout.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/jquery.layout.js
-[debug] 	package.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/package.html
-[debug] 	lib/class_to_object_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/class_to_object_big.png
-[debug] 	views/html/nav_Scope0$$nav.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/nav_Scope0$$nav.html
-[debug] 	index/index-f.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-f.html
-[debug] 	controllers/package.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers/package.html
-[debug] 	lib/object.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/object.png
-[debug] 	lib/selected-right.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/selected-right.png
-[debug] 	index/index-h.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-h.html
-[debug] 	lib/selected-implicits.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/selected-implicits.png
-[debug] 	lib/jquery-ui.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/jquery-ui.js
-[debug] 	index/index-m.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-m.html
-[debug] 	index/index-v.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-v.html
-[debug] 	index.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index.js
-[debug] 	lib/ownderbg2.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/ownderbg2.gif
-[debug] 	lib/filter_box_right.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/filter_box_right.png
-[debug] 	lib/modernizr.custom.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/modernizr.custom.js
-[debug] 	lib/defbg-green.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/defbg-green.gif
-[debug] 	router/RoutesPrefix$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/router/RoutesPrefix$.html
-[debug] 	lib/remove.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/remove.png
-[debug] 	lib/arrow-down.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/arrow-down.png
-[debug] 	views/html/nav$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/nav$.html
-[debug] 	lib/index.css
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/index.css
-[debug] 	controllers/javascript/package.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers/javascript/package.html
-[debug] 	lib/class.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/class.png
-[debug] 	views/html/index_Scope0$$index.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/index_Scope0$$index.html
-[debug] 	lib/class_diagram.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/class_diagram.png
-[debug] 	lib/object_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/object_big.png
-[debug] 	lib/navigation-li-a.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/navigation-li-a.png
-[debug] 	lib/template.js
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/template.js
-[debug] 	controllers/routes.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers/routes.html
-[debug] 	lib/object_diagram.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/object_diagram.png
-[debug] 	lib/ref-index.css
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/ref-index.css
-[debug] 	index/index-i.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-i.html
-[debug] 	router/Routes.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/router/Routes.html
-[debug] 	controllers
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers
-[debug] 	index/index-s.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-s.html
-[debug] 	lib/defbg-blue.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/defbg-blue.gif
-[debug] 	lib/filterbg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/filterbg.gif
-[debug] 	lib/packagesbg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/packagesbg.gif
-[debug] 	lib/diagrams.css
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/diagrams.css
-[debug] 	lib/permalink.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/permalink.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/selected2.png
 [debug] 	index.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index.html
-[debug] 	lib/type_to_object_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/type_to_object_big.png
-[debug] 	lib/ownerbg2.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/ownerbg2.gif
-[debug] 	index/index-j.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-j.html
-[debug] 	router/package.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/router/package.html
-[debug] 	lib/filterboxbarbg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/filterboxbarbg.gif
-[debug] 	lib/type_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/type_big.png
-[debug] 	controllers/javascript/ReverseAssets.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers/javascript/ReverseAssets.html
-[debug] 	views
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views
-[debug] 	lib/typebg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/typebg.gif
-[debug] 	lib/object_to_class_big.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/object_to_class_big.png
-[debug] 	lib/trait.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/trait.png
-[debug] 	lib/filterboxbg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/filterboxbg.gif
-[debug] 	views/html/main$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/main$.html
-[debug] 	controllers/javascript
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers/javascript
-[debug] 	index
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index
-[debug] 	lib/selected-right-implicits.png
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/selected-right-implicits.png
-[debug] 	controllers/ReverseApplication.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/controllers/ReverseApplication.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index.html
+[debug] 	lib/signaturebg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/signaturebg.gif
 [debug] 	views/html/index$.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/views/html/index$.html
-[debug] 	index/index-n.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-n.html
-[debug] 	index/index-w.html
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/index/index-w.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/index$.html
+[debug] 	controllers/javascript/ReverseAssets.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers/javascript/ReverseAssets.html
+[debug] 	lib/typebg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/typebg.gif
+[debug] 	router/Routes.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/router/Routes.html
+[debug] 	router/RoutesPrefix$.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/router/RoutesPrefix$.html
+[debug] 	controllers/javascript/package.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers/javascript/package.html
+[debug] 	controllers/Application$.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers/Application$.html
+[debug] 	lib/template.css
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/template.css
+[debug] 	index
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index
+[debug] 	lib/selected2-right.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/selected2-right.png
+[debug] 	lib/permalink.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/permalink.png
+[debug] 	lib/filter_box_left.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/filter_box_left.png
+[debug] 	index/index-s.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-s.html
+[debug] 	lib/type.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/type.png
+[debug] 	lib/navigation-li-a.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/navigation-li-a.png
+[debug] 	lib/diagrams.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/diagrams.js
+[debug] 	views/html/nav_Scope0$.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/nav_Scope0$.html
+[debug] 	views
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views
+[debug] 	index/index-f.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-f.html
+[debug] 	controllers/javascript
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers/javascript
+[debug] 	lib/trait_to_object_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/trait_to_object_big.png
+[debug] 	lib/package_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/package_big.png
+[debug] 	lib/tools.tooltip.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/tools.tooltip.js
+[debug] 	index.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index.js
+[debug] 	lib/ref-index.css
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/ref-index.css
+[debug] 	lib/template.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/template.js
+[debug] 	lib/trait_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/trait_big.png
+[debug] 	index/index-b.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-b.html
+[debug] 	router/package.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/router/package.html
+[debug] 	lib/index.css
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/index.css
 [debug] 	lib
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib
+[debug] 	lib/trait.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/trait.png
+[debug] 	index/index-v.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-v.html
+[debug] 	index/index-p.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-p.html
+[debug] 	controllers/ReverseApplication.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers/ReverseApplication.html
+[debug] 	lib/object_diagram.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/object_diagram.png
+[debug] 	lib/object.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/object.png
+[debug] 	views/html/nav_Scope0$$nav.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/nav_Scope0$$nav.html
+[debug] 	lib/object_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/object_big.png
+[debug] 	lib/type_to_object_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/type_to_object_big.png
+[debug] 	index/index-j.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-j.html
+[debug] 	package.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/package.html
+[debug] 	lib/filterboxbarbg.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/filterboxbarbg.png
+[debug] 	lib/selected-right-implicits.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/selected-right-implicits.png
+[debug] 	views/html/nav$.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/nav$.html
+[debug] 	index/index-w.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-w.html
+[debug] 	controllers/javascript/ReverseApplication.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers/javascript/ReverseApplication.html
+[debug] 	lib/jquery.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/jquery.js
+[debug] 	views/html/main$.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/main$.html
+[debug] 	index/index-n.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-n.html
+[debug] 	index/index-d.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-d.html
+[debug] 	lib/index.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/index.js
+[debug] 	views/html/index_Scope0$$index.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/index_Scope0$$index.html
+[debug] 	lib/arrow-right.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/arrow-right.png
+[debug] 	lib/package.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/package.png
+[debug] 	Global$.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/Global$.html
+[debug] 	lib/filterbg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/filterbg.gif
+[debug] 	views/html/main_Scope0$$main.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/main_Scope0$$main.html
+[debug] 	lib/ownerbg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/ownerbg.gif
+[debug] 	router
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/router
+[debug] 	index/index-a.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-a.html
+[debug] 	views/html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html
+[debug] 	lib/modernizr.custom.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/modernizr.custom.js
+[debug] 	lib/arrow-down.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/arrow-down.png
+[debug] 	lib/trait_diagram.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/trait_diagram.png
+[debug] 	lib/remove.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/remove.png
+[debug] 	lib/filterboxbg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/filterboxbg.gif
+[debug] 	index/index-e.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-e.html
+[debug] 	lib/defbg-blue.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/defbg-blue.gif
+[debug] 	lib/selected-right.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/selected-right.png
+[debug] 	views/package.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/package.html
+[debug] 	lib/packagesbg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/packagesbg.gif
+[debug] 	lib/filter_box_right.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/filter_box_right.png
+[debug] 	lib/navigation-li.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/navigation-li.png
+[debug] 	lib/jquery-ui.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/jquery-ui.js
+[debug] 	controllers/routes.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers/routes.html
+[debug] 	index/index-g.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-g.html
+[debug] 	lib/selected.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/selected.png
+[debug] 	controllers/package.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers/package.html
+[debug] 	lib/ownderbg2.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/ownderbg2.gif
+[debug] 	views/html/main_Scope0$.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/main_Scope0$.html
+[debug] 	index/index-c.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-c.html
+[debug] 	lib/filterboxbarbg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/filterboxbarbg.gif
+[debug] 	views/html/index_Scope0$.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/index_Scope0$.html
+[debug] 	views/html/package.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/views/html/package.html
+[debug] 	lib/class_diagram.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/class_diagram.png
+[debug] 	lib/conversionbg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/conversionbg.gif
+[debug] 	lib/diagrams.css
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/diagrams.css
+[debug] 	lib/class_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/class_big.png
+[debug] 	lib/ownerbg2.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/ownerbg2.gif
+[debug] 	controllers/ReverseAssets.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers/ReverseAssets.html
+[debug] 	lib/constructorsbg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/constructorsbg.gif
+[debug] 	index/index-h.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-h.html
+[debug] 	index/index-m.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-m.html
+[debug] 	lib/signaturebg2.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/signaturebg2.gif
+[debug] 	lib/defbg-green.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/defbg-green.gif
+[debug] 	lib/filter_box_left2.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/filter_box_left2.gif
+[debug] 	lib/object_to_type_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/object_to_type_big.png
+[debug] 	index/index-r.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-r.html
+[debug] 	lib/scheduler.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/scheduler.js
+[debug] 	lib/unselected.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/unselected.png
 [debug] 	lib/valuemembersbg.gif
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/api/lib/valuemembersbg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/valuemembersbg.gif
+[debug] 	lib/object_to_trait_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/object_to_trait_big.png
+[debug] 	lib/object_to_class_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/object_to_class_big.png
+[debug] 	lib/class_to_object_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/class_to_object_big.png
+[debug] 	index/index-t.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-t.html
+[debug] 	lib/type_diagram.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/type_diagram.png
+[debug] 	lib/class.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/class.png
+[debug] 	router/Routes$.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/router/Routes$.html
+[debug] 	lib/jquery.layout.js
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/jquery.layout.js
+[debug] 	lib/type_big.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/type_big.png
+[debug] 	lib/selected-implicits.png
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/selected-implicits.png
+[debug] 	lib/fullcommenttopbg.gif
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/lib/fullcommenttopbg.gif
+[debug] 	index/index-i.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-i.html
+[debug] 	controllers
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/controllers
+[debug] 	index/index-_.html
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/api/index/index-_.html
 [info] Done packaging.

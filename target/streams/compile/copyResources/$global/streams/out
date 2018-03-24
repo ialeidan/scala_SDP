@@ -1,3 +1,3 @@
 [debug] Copy resource mappings: 
-[debug] 	(/Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/conf/application.conf,/Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/classes/application.conf)
-[debug] 	(/Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/conf/routes,/Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/target/scala-2.11/classes/routes)
+[debug] 	(/Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/application.conf,/Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/application.conf)
+[debug] 	(/Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/routes,/Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/routes)

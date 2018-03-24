@@ -4,7 +4,7 @@
 		module="play-getting-started_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180324165207"
+		publication="20180324184524"
 	>
 		<description>
 		play-getting-started
@@ -43,5 +43,7 @@
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.4.3" conf="compile->default(compile)"/>
 		<dependency org="org.postgresql" name="postgresql" rev="9.4-1201-jdbc41" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ws_2.11" rev="2.4.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-json_2.11" rev="2.4.3" conf="compile->default(compile)"/>
+		<dependency org="org.mongodb" name="casbah_2.11" rev="3.1.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
