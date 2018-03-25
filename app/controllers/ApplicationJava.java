@@ -24,8 +24,9 @@ public class ApplicationJava extends Controller{
             }
         };
 
-
+        database.Add();
         database.testRead();
+
 
         return ok(Json.toJson(ret));
 //        return ok(Id);

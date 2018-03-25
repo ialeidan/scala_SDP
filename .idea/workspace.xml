@@ -2,129 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae989f6d-f926-4422-a1bb-643a432e623a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_0_1_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_0_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_0_1_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterPath="$PROJECT_DIR$/.idea/play2_project_settings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_settings.xml" afterPath="$PROJECT_DIR$/.idea/play2_settings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$a17930c318933133b53b$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$a17930c318933133b53b.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$a17930c318933133b53b.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cf5dfe903ab95795cde2$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cf5dfe903ab95795cde2$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cf5dfe903ab95795cde2.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$cf5dfe903ab95795cde2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$10014728aba919628161$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$10014728aba919628161$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$10014728aba919628161.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$10014728aba919628161.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f07b27bb896f371fc8d$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f07b27bb896f371fc8d$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f07b27bb896f371fc8d.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f07b27bb896f371fc8d.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21cc6975bbaf74ad8a5a$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21cc6975bbaf74ad8a5a$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21cc6975bbaf74ad8a5a.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$21cc6975bbaf74ad8a5a.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$439239712250363b0b7d$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$439239712250363b0b7d$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$439239712250363b0b7d$$anonfun$$sbtdef$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$439239712250363b0b7d$$anonfun$$sbtdef$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$439239712250363b0b7d$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$439239712250363b0b7d.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$439239712250363b0b7d.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$442f5728857ac9353317$$anonfun$root$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$442f5728857ac9353317$$anonfun$root$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$442f5728857ac9353317$$anonfun$root$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$442f5728857ac9353317$$anonfun$root$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$442f5728857ac9353317$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$442f5728857ac9353317.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$442f5728857ac9353317.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$45786f963dd6033f08d0$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$45786f963dd6033f08d0$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$45786f963dd6033f08d0.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$45786f963dd6033f08d0.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$590dfeb0eed2aa64774b$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$590dfeb0eed2aa64774b$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$590dfeb0eed2aa64774b.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$590dfeb0eed2aa64774b.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b0c69253b57361b628a4$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b0c69253b57361b628a4$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b0c69253b57361b628a4.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b0c69253b57361b628a4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e08d127bf47b3836c6c4$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e08d127bf47b3836c6c4$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e08d127bf47b3836c6c4.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e08d127bf47b3836c6c4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fa0a4638aed8e990e9ce$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fa0a4638aed8e990e9ce$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fa0a4638aed8e990e9ce.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fa0a4638aed8e990e9ce.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-sources.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-sources.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" afterPath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
+      <change beforePath="$PROJECT_DIR$/app/database/DatabaseJava.java" afterPath="$PROJECT_DIR$/app/database/DatabaseJava.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -141,6 +20,38 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <element signature="e#1354#1355#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -152,6 +63,14 @@
       <map>
         <entry key="$PROJECT_DIR$/../play-java-starter-example" value="PREVIEW" />
       </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
+        <option value="$PROJECT_DIR$/app/database/DatabaseJava.java" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -199,6 +118,23 @@
               <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -210,6 +146,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -354,15 +294,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521983375531</updated>
-      <workItem from="1521983379086" duration="572000" />
+      <workItem from="1521983379086" duration="1349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="572000" />
+    <option name="totallyTimeSpent" value="1349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -372,7 +313,7 @@
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -409,11 +350,104 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>root</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sbt: aopalliance:aopalliance:1.0:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
