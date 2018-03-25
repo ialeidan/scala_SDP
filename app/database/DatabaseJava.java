@@ -13,8 +13,8 @@ import org.bson.Document;
 
 public class DatabaseJava{
 
-    @Inject
-    private static Configuration configuration;
+    private  Configuration configuration = Play.current().injector().instanceOf(Configuration .class);
+
 
     MongoClientURI mongoClientURI;
     MongoClient mongoClient;
