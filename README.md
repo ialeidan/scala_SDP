@@ -20,7 +20,10 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 ## Deploying to Heroku
 
 ```sh
-$ heroku create
+$ git pull
+$ git add -A
+$ git commit -m "Message"
+$ git push origin development
 $ git push heroku master
 $ heroku open
 ```
