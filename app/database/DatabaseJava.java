@@ -21,6 +21,7 @@ public class DatabaseJava{
     MongoDatabase db;
 
     public DatabaseJava(){
+        System.out.println(configuration.getString("mongodb.uri"));
         mongoClientURI = new MongoClientURI(configuration.getString("mongodb.uri"));
         mongoClient = new MongoClient(mongoClientURI);
         db = mongoClient.getDatabase("heroku_85mqw3gf");
