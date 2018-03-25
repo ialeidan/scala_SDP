@@ -26,7 +26,7 @@ $ git pull
 $ git add -A
 $ git commit -m "Message"
 $ git push origin development
-$ git push heroku master
+$ git push heroku development:master
 $ heroku open
 ```
 
