@@ -7,7 +7,7 @@ import play.mvc.Result;
 
 import java.util.HashMap;
 
-public class ApplicationJava extends Controller{
+class ApplicationJava extends Controller{
 
 
     public Result index1() {
