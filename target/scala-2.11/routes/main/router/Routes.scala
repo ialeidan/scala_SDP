@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/routes
-// @DATE:Sat Mar 24 18:06:38 AST 2018
+// @DATE:Sun Mar 25 11:00:53 AST 2018
 
 package router
 
@@ -38,8 +38,9 @@ class Routes extends GeneratedRouter {
 
   def documentation: Seq[(String, String, String)] = List(
     ("""GET""", prefix, """controllers.Application.index"""),
-    ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """db""", """controllers.Application.db"""),
     ("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """test""", """controllers.Application.test"""),
+    ("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """testDB""", """controllers.Application.testDB"""),
+    ("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """testJ""", """@controllers.ApplicationJava@.index1()"""),
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.at(path:String = "/public", file:String)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -66,27 +67,10 @@ class Routes extends GeneratedRouter {
   )
 
   // @LINE:7
-  private[this] lazy val controllers_Application_db1_route: Route.ParamsExtractor = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("db")))
-  )
-  private[this] lazy val controllers_Application_db1_invoker = createInvoker(
-    controllers.Application.test,
-    HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.Application",
-      "db",
-      Nil,
-      "GET",
-      """""",
-      this.prefix + """db"""
-    )
-  )
-
-  // @LINE:8
-  private[this] lazy val controllers_Application_test2_route: Route.ParamsExtractor = Route("POST",
+  private[this] lazy val controllers_Application_test1_route: Route.ParamsExtractor = Route("POST",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("test")))
   )
-  private[this] lazy val controllers_Application_test2_invoker = createInvoker(
+  private[this] lazy val controllers_Application_test1_invoker = createInvoker(
     controllers.Application.test,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -99,11 +83,45 @@ class Routes extends GeneratedRouter {
     )
   )
 
-  // @LINE:11
-  private[this] lazy val controllers_Assets_at3_route: Route.ParamsExtractor = Route("GET",
+  // @LINE:8
+  private[this] lazy val controllers_Application_testDB2_route: Route.ParamsExtractor = Route("POST",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("testDB")))
+  )
+  private[this] lazy val controllers_Application_testDB2_invoker = createInvoker(
+    controllers.Application.testDB,
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "testDB",
+      Nil,
+      "POST",
+      """""",
+      this.prefix + """testDB"""
+    )
+  )
+
+  // @LINE:9
+  private[this] lazy val controllers_ApplicationJava_index13_route: Route.ParamsExtractor = Route("POST",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("testJ")))
+  )
+  private[this] lazy val controllers_ApplicationJava_index13_invoker = createInvoker(
+    play.api.Play.maybeApplication.map(_.injector).getOrElse(play.api.inject.NewInstanceInjector).instanceOf(classOf[controllers.ApplicationJava]).index1(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.ApplicationJava",
+      "index1",
+      Nil,
+      "POST",
+      """""",
+      this.prefix + """testJ"""
+    )
+  )
+
+  // @LINE:13
+  private[this] lazy val controllers_Assets_at4_route: Route.ParamsExtractor = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_at3_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_at4_invoker = createInvoker(
     controllers.Assets.at(fakeValue[String], fakeValue[String]),
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -126,21 +144,27 @@ class Routes extends GeneratedRouter {
       }
   
     // @LINE:7
-    case controllers_Application_db1_route(params) =>
+    case controllers_Application_test1_route(params) =>
       call { 
-        controllers_Application_db1_invoker.call(controllers.Application.test)
+        controllers_Application_test1_invoker.call(controllers.Application.test)
       }
   
     // @LINE:8
-    case controllers_Application_test2_route(params) =>
+    case controllers_Application_testDB2_route(params) =>
       call { 
-        controllers_Application_test2_invoker.call(controllers.Application.test)
+        controllers_Application_testDB2_invoker.call(controllers.Application.testDB)
       }
   
-    // @LINE:11
-    case controllers_Assets_at3_route(params) =>
+    // @LINE:9
+    case controllers_ApplicationJava_index13_route(params) =>
+      call { 
+        controllers_ApplicationJava_index13_invoker.call(play.api.Play.maybeApplication.map(_.injector).getOrElse(play.api.inject.NewInstanceInjector).instanceOf(classOf[controllers.ApplicationJava]).index1())
+      }
+  
+    // @LINE:13
+    case controllers_Assets_at4_route(params) =>
       call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
-        controllers_Assets_at3_invoker.call(controllers.Assets.at(path, file))
+        controllers_Assets_at4_invoker.call(controllers.Assets.at(path, file))
       }
   }
 }

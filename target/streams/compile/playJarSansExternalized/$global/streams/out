@@ -6,36 +6,48 @@
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/main.class
 [debug] 	views/html/main_Scope0$main.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/main_Scope0$main.class
-[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class
+[debug] 	router/Routes$$anonfun$router$Routes$$controllers_ApplicationJava_index13_invoker$1$$anonfun$apply$1.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_ApplicationJava_index13_invoker$1$$anonfun$apply$1.class
 [debug] 	router/Routes$$anonfun$routes$1.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1.class
 [debug] 	META-INF/resources/webjars/play-getting-started/1.0-SNAPSHOT/stylesheets
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/public/stylesheets
 [debug] 	router/Routes$$anonfun$documentation$1.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$documentation$1.class
+[debug] 	database
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/database
+[debug] 	router/Routes$$anonfun$router$Routes$$controllers_ApplicationJava_index13_invoker$1.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_ApplicationJava_index13_invoker$1.class
 [debug] 	views/html/nav_Scope0.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/nav_Scope0.class
+[debug] 	router/Routes$$anonfun$router$Routes$$controllers_ApplicationJava_index13_invoker$1$$anonfun$apply$2.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_ApplicationJava_index13_invoker$1$$anonfun$apply$2.class
 [debug] 	views/html/nav_Scope0$nav.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/nav_Scope0$nav.class
-[debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_db1_invoker$1.class
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_db1_invoker$1.class
+[debug] 	controllers/Application$$anonfun$testDB$1$$anonfun$apply$5.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/Application$$anonfun$testDB$1$$anonfun$apply$5.class
 [debug] 	views/main.scala.html
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/main.scala.html
+[debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_testDB2_invoker$1.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_testDB2_invoker$1.class
 [debug] 	views/html/nav$.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/nav$.class
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class
 [debug] 	views/html/index_Scope0.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/index_Scope0.class
-[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class
+[debug] 	controllers/javascript/ReverseApplicationJava.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/javascript/ReverseApplicationJava.class
 [debug] 	router/Routes$.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$.class
 [debug] 	views/nav.scala.html
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/nav.scala.html
+[debug] 	controllers/ReverseApplicationJava.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/ReverseApplicationJava.class
 [debug] 	Global$.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/Global$.class
+[debug] 	database/Database.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/database/Database.class
 [debug] 	controllers/Application$$anonfun$test$1$$anonfun$apply$1.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/Application$$anonfun$test$1$$anonfun$apply$1.class
 [debug] 	controllers/Application$$anonfun$test$1.class
@@ -46,18 +58,34 @@
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/public/images/lang-logo.png
 [debug] 	views/html/nav.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/nav.class
+[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class
 [debug] 	META-INF/resources/webjars/play-getting-started/1.0-SNAPSHOT/javascripts
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/public/javascripts
+[debug] 	controllers/ApplicationJava.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/ApplicationJava.class
 [debug] 	router/RoutesPrefix$.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/RoutesPrefix$.class
 [debug] 	controllers/ReverseApplication.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/ReverseApplication.class
+[debug] 	controllers/ApplicationJava$1.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/ApplicationJava$1.class
+[debug] 	controllers/Application$$anonfun$testDB$1.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/Application$$anonfun$testDB$1.class
 [debug] 	views/html/main$.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/main$.class
+[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$6$$anonfun$apply$8.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$6$$anonfun$apply$8.class
+[debug] 	controllers/Application$$anonfun$testDB$1$$anonfun$apply$3.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/Application$$anonfun$testDB$1$$anonfun$apply$3.class
 [debug] 	META-INF/resources/webjars/play-getting-started/1.0-SNAPSHOT/images/favicon.png
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/public/images/favicon.png
+[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$6$$anonfun$apply$7.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$6$$anonfun$apply$7.class
 [debug] 	views/index.scala.html
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/index.scala.html
+[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$6.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$6.class
 [debug] 	controllers/Application$.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/Application$.class
 [debug] 	META-INF/resources/webjars/play-getting-started/1.0-SNAPSHOT/javascripts/hello.js
@@ -76,18 +104,22 @@
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/Application.class
 [debug] 	controllers/javascript/ReverseAssets.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/javascript/ReverseAssets.class
+[debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_test1_invoker$1.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_test1_invoker$1.class
 [debug] 	controllers/routes$javascript.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/routes$javascript.class
 [debug] 	Global.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/Global.class
+[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$9.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$9.class
 [debug] 	router/Routes.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes.class
 [debug] 	views/html/index.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/index.class
-[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class
 [debug] 	views/html/main_Scope0$.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/main_Scope0$.class
+[debug] 	controllers/Application$$anonfun$testDB$1$$anonfun$apply$4.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/Application$$anonfun$testDB$1$$anonfun$apply$4.class
 [debug] 	META-INF/resources/webjars/play-getting-started/1.0-SNAPSHOT/images
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/public/images
 [debug] 	controllers/routes.class
@@ -96,14 +128,16 @@
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/index$.class
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class
+[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$3.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$3.class
 [debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class
 [debug] 	controllers
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers
+[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$4.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$4.class
 [debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1.class
-[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class
 [debug] 	controllers/Application$$anonfun$index$1.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/Application$$anonfun$index$1.class
 [debug] 	controllers/Application$$anonfun$test$1$$anonfun$apply$2.class
@@ -112,8 +146,8 @@
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/RoutesPrefix.class
 [debug] 	views/html/nav_Scope0$.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/nav_Scope0$.class
-[debug] 	controllers/Application$$anonfun$db$1.class
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/Application$$anonfun$db$1.class
+[debug] 	router/Routes$$anonfun$router$Routes$$controllers_Assets_at4_invoker$1.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Assets_at4_invoker$1.class
 [debug] 	controllers/javascript/ReverseApplication.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/javascript/ReverseApplication.class
 [debug] 	views/html/index_Scope0$.class
@@ -124,14 +158,12 @@
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/public/stylesheets/main.css
 [debug] 	views
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views
-[debug] 	router/Routes$$anonfun$router$Routes$$controllers_Application_test2_invoker$1.class
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_test2_invoker$1.class
+[debug] 	router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$5.class
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$5.class
 [debug] 	controllers/ReverseAssets.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/ReverseAssets.class
 [debug] 	views/html/main_Scope0.class
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/views/html/main_Scope0.class
-[debug] 	router/Routes$$anonfun$router$Routes$$controllers_Assets_at3_invoker$1.class
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Assets_at3_invoker$1.class
 [debug] 	controllers/javascript
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/scala-2.11/classes/controllers/javascript
 [debug] 	views/html/main_Scope0$main$$anonfun$f$1.class

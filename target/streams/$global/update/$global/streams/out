@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26b22a1f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bf1ac5d
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
 [debug] 	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [compile->runtime]
@@ -927,24 +927,8 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default(compile)]
 [info] Resolving org.mongodb#casbah_2.11;3.1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah_2.11;3.1.1 {compile=[default(compile)]}
-[info] Resolving org.mongodb#casbah_2.11;3.1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah_2.11;3.1.1 {compile=[default(compile)]}
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah_2.11/3.1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.mongodb#casbah_2.11;3.1.1
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom
-[debug] 	public: found md file for org.mongodb#casbah_2.11;3.1.1
-[debug] 		=> https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom (3.1.1)
-[debug] downloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah_2.11;3.1.1!casbah_2.11.pom(pom.original) (470ms)
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah_2.11/3.1.1/jars/casbah_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.jar
-[debug] 		tried /Users/ibrahimaleidan/.sbt/preloaded/org.mongodb/casbah_2.11/3.1.1/jars/casbah_2.11.jar
-[debug] 		tried file:////Users/ibrahimaleidan/.sbt/preloaded/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.jar
-[debug] 	found org.mongodb#casbah_2.11;3.1.1 in public
+[debug] sbt-chain: module revision found in cache: org.mongodb#casbah_2.11;3.1.1
+[debug] 	found org.mongodb#casbah_2.11;3.1.1 in sbt-chain
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
 [debug] == resolving dependencies org.mongodb#casbah_2.11;3.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -952,42 +936,16 @@
 [debug] == resolving dependencies org.mongodb#casbah_2.11;3.1.1->org.mongodb#casbah-commons_2.11;3.1.1 [compile->master(compile)]
 [info] Resolving org.mongodb#casbah-commons_2.11;3.1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah-commons_2.11;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.mongodb#casbah-commons_2.11;3.1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-commons_2.11;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah-commons_2.11/3.1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.mongodb#casbah-commons_2.11;3.1.1
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.pom
-[debug] 	public: found md file for org.mongodb#casbah-commons_2.11;3.1.1
-[debug] 		=> https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.pom (3.1.1)
-[debug] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah-commons_2.11;3.1.1!casbah-commons_2.11.pom(pom.original) (453ms)
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah-commons_2.11/3.1.1/jars/casbah-commons_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.jar
-[debug] 	found org.mongodb#casbah-commons_2.11;3.1.1 in public
+[debug] sbt-chain: module revision found in cache: org.mongodb#casbah-commons_2.11;3.1.1
+[debug] 	found org.mongodb#casbah-commons_2.11;3.1.1 in sbt-chain
 [debug] == resolving dependencies org.mongodb#casbah_2.11;3.1.1->org.mongodb#casbah-commons_2.11;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.11;3.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.11;3.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.11;3.1.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master(compile)]
 [info] Resolving com.github.nscala-time#nscala-time_2.11;1.0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.11;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.github.nscala-time#nscala-time_2.11;1.0.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.11;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/com.github.nscala-time/nscala-time_2.11/1.0.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.github.nscala-time#nscala-time_2.11;1.0.0
-[debug] 		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom
-[debug] 	public: found md file for com.github.nscala-time#nscala-time_2.11;1.0.0
-[debug] 		=> https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom (1.0.0)
-[debug] downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom
-[debug] 	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.pom(pom.original) (452ms)
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/com.github.nscala-time/nscala-time_2.11/1.0.0/jars/nscala-time_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar
-[debug] 	found com.github.nscala-time#nscala-time_2.11;1.0.0 in public
+[debug] sbt-chain: module revision found in cache: com.github.nscala-time#nscala-time_2.11;1.0.0
+[debug] 	found com.github.nscala-time#nscala-time_2.11;1.0.0 in sbt-chain
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.11;3.1.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile(*)]
 [debug] == resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)]
 [debug] == resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
@@ -1004,21 +962,8 @@
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.11;3.1.1->org.mongodb#mongo-java-driver;3.2.2 [compile->master(compile)]
 [info] Resolving org.mongodb#mongo-java-driver;3.2.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#mongo-java-driver;3.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.mongodb#mongo-java-driver;3.2.2 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#mongo-java-driver;3.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/mongo-java-driver/3.2.2/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.mongodb#mongo-java-driver;3.2.2
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom
-[debug] 	public: found md file for org.mongodb#mongo-java-driver;3.2.2
-[debug] 		=> https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom (3.2.2)
-[debug] downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.pom(pom.original) (457ms)
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/mongo-java-driver/3.2.2/jars/mongo-java-driver.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
-[debug] 	found org.mongodb#mongo-java-driver;3.2.2 in public
+[debug] sbt-chain: module revision found in cache: org.mongodb#mongo-java-driver;3.2.2
+[debug] 	found org.mongodb#mongo-java-driver;3.2.2 in sbt-chain
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.11;3.1.1->org.mongodb#mongo-java-driver;3.2.2 [compile->compile(*)]
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.11;3.1.1->org.slf4j#slf4j-api;1.6.0 [compile->master(compile)]
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.11;3.1.1->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)]
@@ -1047,21 +992,8 @@
 [debug] == resolving dependencies org.mongodb#casbah_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [compile->master(compile)]
 [info] Resolving org.mongodb#casbah-core_2.11;3.1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah-core_2.11;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.mongodb#casbah-core_2.11;3.1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-core_2.11;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah-core_2.11/3.1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.mongodb#casbah-core_2.11;3.1.1
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.pom
-[debug] 	public: found md file for org.mongodb#casbah-core_2.11;3.1.1
-[debug] 		=> https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.pom (3.1.1)
-[debug] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah-core_2.11;3.1.1!casbah-core_2.11.pom(pom.original) (455ms)
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah-core_2.11/3.1.1/jars/casbah-core_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.jar
-[debug] 	found org.mongodb#casbah-core_2.11;3.1.1 in public
+[debug] sbt-chain: module revision found in cache: org.mongodb#casbah-core_2.11;3.1.1
+[debug] 	found org.mongodb#casbah-core_2.11;3.1.1 in sbt-chain
 [debug] == resolving dependencies org.mongodb#casbah_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies org.mongodb#casbah-core_2.11;3.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.mongodb#casbah-core_2.11;3.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
@@ -1070,21 +1002,8 @@
 [debug] == resolving dependencies org.mongodb#casbah-core_2.11;3.1.1->org.mongodb#casbah-query_2.11;3.1.1 [compile->master(compile)]
 [info] Resolving org.mongodb#casbah-query_2.11;3.1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah-query_2.11;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.mongodb#casbah-query_2.11;3.1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-query_2.11;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah-query_2.11/3.1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.mongodb#casbah-query_2.11;3.1.1
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.pom
-[debug] 	public: found md file for org.mongodb#casbah-query_2.11;3.1.1
-[debug] 		=> https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.pom (3.1.1)
-[debug] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah-query_2.11;3.1.1!casbah-query_2.11.pom(pom.original) (460ms)
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah-query_2.11/3.1.1/jars/casbah-query_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.jar
-[debug] 	found org.mongodb#casbah-query_2.11;3.1.1 in public
+[debug] sbt-chain: module revision found in cache: org.mongodb#casbah-query_2.11;3.1.1
+[debug] 	found org.mongodb#casbah-query_2.11;3.1.1 in sbt-chain
 [debug] == resolving dependencies org.mongodb#casbah-core_2.11;3.1.1->org.mongodb#casbah-query_2.11;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies org.mongodb#casbah-query_2.11;3.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.mongodb#casbah-query_2.11;3.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
@@ -1109,21 +1028,8 @@
 [debug] == resolving dependencies org.mongodb#casbah_2.11;3.1.1->org.mongodb#casbah-gridfs_2.11;3.1.1 [compile->master(compile)]
 [info] Resolving org.mongodb#casbah-gridfs_2.11;3.1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah-gridfs_2.11;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.mongodb#casbah-gridfs_2.11;3.1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-gridfs_2.11;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah-gridfs_2.11/3.1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.mongodb#casbah-gridfs_2.11;3.1.1
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.pom
-[debug] 	public: found md file for org.mongodb#casbah-gridfs_2.11;3.1.1
-[debug] 		=> https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.pom (3.1.1)
-[debug] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.11;3.1.1!casbah-gridfs_2.11.pom(pom.original) (459ms)
-[debug] 		tried /Users/ibrahimaleidan/.ivy2/local/org.mongodb/casbah-gridfs_2.11/3.1.1/jars/casbah-gridfs_2.11.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.jar
-[debug] 	found org.mongodb#casbah-gridfs_2.11;3.1.1 in public
+[debug] sbt-chain: module revision found in cache: org.mongodb#casbah-gridfs_2.11;3.1.1
+[debug] 	found org.mongodb#casbah-gridfs_2.11;3.1.1 in sbt-chain
 [debug] == resolving dependencies org.mongodb#casbah_2.11;3.1.1->org.mongodb#casbah-gridfs_2.11;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
@@ -1146,6 +1052,11 @@
 [debug] == resolving dependencies org.mongodb#casbah_2.11;3.1.1->org.mongodb#casbah-gridfs_2.11;3.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.mongodb#casbah_2.11;3.1.1->org.mongodb#casbah-gridfs_2.11;3.1.1 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT [compile]
@@ -1862,6 +1773,11 @@
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT [test]
 [debug] == resolving dependencies for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT [runtime]
@@ -2579,6 +2495,11 @@
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.3 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.4.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.4.3 {test=[default(compile)]}
@@ -3772,6 +3693,11 @@
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->master]
 [debug] == resolving dependencies for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT [optional]
 [debug] == resolving dependencies for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -4491,6 +4417,11 @@
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->master]
 [debug] == resolving dependencies for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT [test-internal]
@@ -5210,6 +5141,11 @@
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.mongodb#casbah-gridfs_2.11;3.1.1->org.mongodb#casbah-core_2.11;3.1.1 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;2.8.0 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->org.mongodb#mongo-java-driver;3.2.2 [compile->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.3 [test->default(compile)]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.3 [test->runtime]
 [debug] == resolving dependencies play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.3 [test->compile]
@@ -6166,42 +6102,12 @@
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0.1!httpcore.jar
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.0.1!httpclient.jar
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-commons_2.11;3.1.1!casbah-commons_2.11.jar (902ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-core_2.11;3.1.1!casbah-core_2.11.jar (707ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-query_2.11;3.1.1!casbah-query_2.11.jar (582ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.11;3.1.1!casbah-gridfs_2.11.jar (467ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar
-[info] 	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar (503ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
-[info] 	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar (1266ms)
+[debug] 	[NOT REQUIRED] org.mongodb#casbah-commons_2.11;3.1.1!casbah-commons_2.11.jar
+[debug] 	[NOT REQUIRED] org.mongodb#casbah-core_2.11;3.1.1!casbah-core_2.11.jar
+[debug] 	[NOT REQUIRED] org.mongodb#casbah-query_2.11;3.1.1!casbah-query_2.11.jar
+[debug] 	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.11;3.1.1!casbah-gridfs_2.11.jar
+[debug] 	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar
+[debug] 	[NOT REQUIRED] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.4.3!play-test_2.11.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar
@@ -6252,7 +6158,7 @@
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 10697ms :: artifacts dl 4597ms
+[debug] :: resolution report :: resolve 3878ms :: artifacts dl 105ms
 [debug] 	report for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT compile produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile.xml
 [debug] 	report for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT runtime produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime.xml
 [debug] 	report for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT test produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test.xml
@@ -6266,5 +6172,9 @@
 [debug] 	report for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT docs produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-docs.xml
 [debug] 	report for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT pom produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-pom.xml
 [debug] 	report for play-getting-started#play-getting-started_2.11;1.0-SNAPSHOT scala-tool produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-scala-tool.xml
-[debug] 	resolve done (10697ms resolve - 4597ms download)
+[debug] 	resolve done (3878ms resolve - 105ms download)
 [info] Done updating.
+[warn] There may be incompatibilities among your library dependencies.
+[warn] Here are some of the libraries that were evicted:
+[warn] 	* org.mongodb:mongo-java-driver:2.8.0 -> 3.2.2
+[warn] Run 'evicted' to see detailed eviction warnings

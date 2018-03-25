@@ -4,7 +4,7 @@
 		module="play-getting-started$sources_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20180324184540"
+		publication="20180325111038"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -30,7 +30,7 @@
 		<dependency org="com.typesafe.play" name="play-server_2.11" rev="2.4.3" transitive="false" conf="compile->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;compile-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;runtime-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;test-internal->default,compile,runtime(*),master(compile),runtime,default(compile),compile(*),master;docs->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="play-server_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.mongodb" name="mongo-java-driver" rev="3.2.2" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
+		<dependency org="org.mongodb" name="mongo-java-driver" rev="3.2.2" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);runtime->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);test->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile);test-internal->compile,runtime(*),master(compile),runtime,compile(*),master,default(compile)">
 			<artifact name="mongo-java-driver" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-jdbc_2.11" rev="2.4.3" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
@@ -377,9 +377,6 @@
 		</dependency>
 		<dependency org="com.ning" name="async-http-client" rev="1.9.21" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="async-http-client" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.mongodb" name="casbah_2.11" rev="3.1.1" transitive="false" conf="compile->default,compile,runtime,default(compile),master;runtime->default,compile,runtime,default(compile),master;test->default,compile,runtime,default(compile),master;compile-internal->default,compile,runtime,default(compile),master;runtime-internal->default,compile,runtime,default(compile),master;test-internal->default,compile,runtime,default(compile),master">
-			<artifact name="casbah_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="com.google.guava" name="guava" rev="16.0.1" transitive="false" conf="docs->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>

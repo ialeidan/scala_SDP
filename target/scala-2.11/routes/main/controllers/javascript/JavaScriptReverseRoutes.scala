@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/routes
-// @DATE:Sat Mar 24 18:06:38 AST 2018
+// @DATE:Sun Mar 25 11:00:53 AST 2018
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -14,7 +14,27 @@ import _root_.controllers.Assets.Asset
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:11
+  // @LINE:9
+  class ReverseApplicationJava(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:9
+    def index1: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.ApplicationJava.index1",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "testJ"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:13
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -22,7 +42,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:11
+    // @LINE:13
     def at: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.at",
       """
@@ -52,7 +72,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:8
+    // @LINE:7
     def test: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.test",
       """
@@ -62,12 +82,12 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:7
-    def db: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.db",
+    // @LINE:8
+    def testDB: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.testDB",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "db"})
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "testDB"})
         }
       """
     )

@@ -2,10 +2,14 @@
 [debug] Input file mappings:
 [debug] 	application.conf
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/application.conf
-[debug] 	routes
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/routes
-[debug] 	Global.scala
-[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/app/Global.scala
 [debug] 	controllers/Application.scala
 [debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/app/controllers/Application.scala
+[debug] 	routes
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/routes
+[debug] 	database/Database.scala
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/app/database/Database.scala
+[debug] 	controllers/ApplicationJava.java
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/app/controllers/ApplicationJava.java
+[debug] 	Global.scala
+[debug] 	  /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/app/Global.scala
 [info] Done packaging.

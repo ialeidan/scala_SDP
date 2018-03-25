@@ -1,6 +1,7 @@
 package controllers;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import database.DatabaseJava;
 import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
@@ -17,12 +18,15 @@ public class ApplicationJava extends Controller{
         HashMap<String, Object> ret = new HashMap<String, Object>(){
             {
                 put("id", Id.get("id").intValue()+1);
-                put("username", Id.get("name"));
+                put("username", Id.get("username"));
             }
         };
 
-//        return ok(Json.toJson(ret));
-        return ok(Id);
+        DatabaseJava.testRead();
+
+        return ok(Json.toJson(ret));
+//        return ok(Id);
+//        return ok(Id.get("id").intValue() + "");
 
 
     }
