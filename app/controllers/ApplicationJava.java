@@ -27,8 +27,7 @@ public class ApplicationJava extends Controller{
         database.Add();
         database.testRead();
 
-
-        return ok("jhhi");
+        return ok(database.Return("{\"name\": \"Mohammed\"}"));
 //        return ok(Id);
 //        return ok(Id.get("id").intValue() + "");
 
