@@ -9,8 +9,6 @@ This application support the [Getting Started with Scala/Play on Heroku](https:/
 Make sure you have Play and sbt installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
-$ git clone https://github.com/heroku/scala-getting-started.git
-$ cd scala-getting-started
 $ sbt compile stage
 $ heroku local
 ```
@@ -26,7 +24,7 @@ $ git pull
 $ git add -A
 $ git commit -m "Message"
 $ git push origin development
-$ git push heroku master
+$ git push heroku development:master
 $ heroku open
 ```
 

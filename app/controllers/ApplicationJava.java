@@ -24,6 +24,8 @@ public class ApplicationJava extends Controller{
 //            }
 //        };
 
+
+     //   database.testRead();
         database.Add();
         database.testRead();
 
