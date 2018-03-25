@@ -6,5 +6,8 @@
 GET     /                           controllers.Application.index
 POST     /test                       controllers.Application.test
 POST     /testDB                       controllers.Application.testDB
+POST    /testJ                      controllers.ApplicationJava.index1
+
+
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

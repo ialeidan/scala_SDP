@@ -70,7 +70,7 @@ class Routes extends GeneratedRouter {
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("db")))
   )
   private[this] lazy val controllers_Application_db1_invoker = createInvoker(
-    controllers.Application.db,
+    controllers.Application.test,
     HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.Application",
@@ -128,7 +128,7 @@ class Routes extends GeneratedRouter {
     // @LINE:7
     case controllers_Application_db1_route(params) =>
       call { 
-        controllers_Application_db1_invoker.call(controllers.Application.db)
+        controllers_Application_db1_invoker.call(controllers.Application.test)
       }
   
     // @LINE:8
