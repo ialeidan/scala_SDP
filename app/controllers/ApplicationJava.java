@@ -24,13 +24,10 @@ public class ApplicationJava extends Controller{
             }
         };
 
-<<<<<<< HEAD
 
      //   database.testRead();
-=======
         database.Add();
         database.testRead();
->>>>>>> c9fcb5777000666213b1370d3c02233b154ac8b3
 
 
         return ok(Json.toJson(ret));
