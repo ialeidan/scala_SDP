@@ -11,6 +11,8 @@ import java.util.HashMap;
 public class ApplicationJava extends Controller{
 
 
+    private DatabaseJava database = new DatabaseJava();
+
     public Result index1() {
         JsonNode Id =request().body().asJson();
 
@@ -22,7 +24,8 @@ public class ApplicationJava extends Controller{
             }
         };
 
-        DatabaseJava.testRead();
+
+        database.testRead();
 
         return ok(Json.toJson(ret));
 //        return ok(Id);

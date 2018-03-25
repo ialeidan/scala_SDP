@@ -16,9 +16,15 @@ public class DatabaseJava{
     @Inject
     private static Configuration configuration;
 
-    static MongoClientURI mongoClientURI = new MongoClientURI(configuration.getString("mongodb.uri"));
-    static MongoClient mongoClient = new MongoClient(mongoClientURI);
-    static MongoDatabase db = mongoClient.getDatabase("heroku_85mqw3gf");
+    MongoClientURI mongoClientURI;
+    MongoClient mongoClient;
+    MongoDatabase db;
+
+    public DatabaseJava(){
+        mongoClientURI = new MongoClientURI(configuration.getString("mongodb.uri"));
+        mongoClient = new MongoClient(mongoClientURI);
+        db = mongoClient.getDatabase("heroku_85mqw3gf");
+    }
 
     static Block<Document> printBlock = new Block<Document>() {
         @Override
@@ -27,7 +33,7 @@ public class DatabaseJava{
         }
     };
 
-    public static void testRead(){
+    public void testRead(){
         MongoCollection<Document> collection = db.getCollection("restaurants");
 
         collection.find().forEach(printBlock);
