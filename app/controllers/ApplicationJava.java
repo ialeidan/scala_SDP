@@ -21,8 +21,8 @@ public class ApplicationJava extends Controller{
             }
         };
 
-        return ok(Json.toJson(ret));
-//        return ok(Id);
+//        return ok(Json.toJson(ret));
+        return ok(Id);
 
 
     }
