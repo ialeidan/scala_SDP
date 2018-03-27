@@ -1,5 +1,6 @@
 package database;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.mongodb.Block;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
@@ -10,6 +11,8 @@ import play.api.Play;
 
 import javax.inject.Inject;
 import org.bson.Document;
+
+import java.util.HashMap;
 
 public class DatabaseJava{
 
@@ -28,11 +31,32 @@ public class DatabaseJava{
     }
 
     public boolean  Add(){
-        String s = "{ \"_id\": { \"$oid\": \"5ab673d6734d1d57bac4a670\" }, \"Customers\": { \"1\": { \"name\": \"Mohammed\", \"email\": \"ibrahim@example.com\", \"phone\": \"0500854443\" } } }";
-        MongoCollection<Document> collection = db.getCollection("User");
+        String s = "{\"Name\": \"Mohammed\"}";
+        MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(s);
         collection.insertOne(doc);
         return true;
+    }
+
+    public String Return(String json){
+        MongoCollection<Document> collection = db.getCollection("User");
+        Document found = (Document) collection.find(Document.parse(json)).first();
+        Document temp = new Document();
+        temp.append("email", found.get("email"));
+        return temp.toJson();
+    }
+
+    public HashMap test(String email){
+
+        HashMap<String, Object> ret = new HashMap<String, Object>(){
+            {
+                put("id","");
+                put("username", "");
+            }
+        };
+
+        return ret;
+
     }
 
 
