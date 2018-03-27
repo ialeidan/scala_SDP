@@ -75,9 +75,9 @@ Seq[Any](format.raw/*1.1*/("""<nav class="navbar navbar-default navbar-static-to
 object nav extends nav_Scope0.nav
               /*
                   -- GENERATED --
-                  DATE: Sat Mar 24 12:08:26 AST 2018
-                  SOURCE: /Users/ibrahimaleidan/Dev/Heruko SDP/scala-getting-started/app/views/nav.scala.html
-                  HASH: 10bcd7847c519e18a74ba769e6669dbe56975728
+                  DATE: Sun Mar 25 17:12:45 GMT+03:00 2018
+                  SOURCE: C:/Users/fares/IdeaProjects/scala_SDP/app/views/nav.scala.html
+                  HASH: 05431dedc9178cc37793858a0b53707b9a83b5ab
                   MATRIX: 605->0
                   LINES: 25->1
                   -- GENERATED --

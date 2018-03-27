@@ -6,8 +6,13 @@
 GET     /                           controllers.Application.index
 POST     /test                       controllers.Application.test
 POST     /testDB                       controllers.Application.testDB
-POST    /testJ                      @controllers.ApplicationJava.index1()
+GET    /testJ                      @controllers.ApplicationJava.index1()
+POST   /auth/login                                 @controllers.Application.login()
 
+POST   /auth/customer/register                     @controllers.Application.register()
 
+POST   /auth/customer/spregister                     @controllers.Application.spRegister()
+
+GET   /history                                    @controllers.Application.history()
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

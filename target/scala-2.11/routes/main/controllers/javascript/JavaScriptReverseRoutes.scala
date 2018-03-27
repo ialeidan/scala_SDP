@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/routes
-// @DATE:Sun Mar 25 11:00:53 AST 2018
+// @SOURCE:C:/Users/fares/IdeaProjects/scala_SDP/conf/routes
+// @DATE:Sun Mar 25 17:12:42 GMT+03:00 2018
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -27,7 +27,7 @@ package controllers.javascript {
       "controllers.ApplicationJava.index1",
       """
         function() {
-          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "testJ"})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "testJ"})
         }
       """
     )

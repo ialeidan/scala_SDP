@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/conf/routes
-// @DATE:Sun Mar 25 11:00:53 AST 2018
+// @SOURCE:C:/Users/fares/IdeaProjects/scala_SDP/conf/routes
+// @DATE:Sun Mar 25 17:12:42 GMT+03:00 2018
 
 package router
 
@@ -40,7 +40,7 @@ class Routes extends GeneratedRouter {
     ("""GET""", prefix, """controllers.Application.index"""),
     ("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """test""", """controllers.Application.test"""),
     ("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """testDB""", """controllers.Application.testDB"""),
-    ("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """testJ""", """@controllers.ApplicationJava@.index1()"""),
+    ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """testJ""", """@controllers.ApplicationJava@.index1()"""),
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.at(path:String = "/public", file:String)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -101,7 +101,7 @@ class Routes extends GeneratedRouter {
   )
 
   // @LINE:9
-  private[this] lazy val controllers_ApplicationJava_index13_route: Route.ParamsExtractor = Route("POST",
+  private[this] lazy val controllers_ApplicationJava_index13_route: Route.ParamsExtractor = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("testJ")))
   )
   private[this] lazy val controllers_ApplicationJava_index13_invoker = createInvoker(
@@ -111,7 +111,7 @@ class Routes extends GeneratedRouter {
       "controllers.ApplicationJava",
       "index1",
       Nil,
-      "POST",
+      "GET",
       """""",
       this.prefix + """testJ"""
     )
