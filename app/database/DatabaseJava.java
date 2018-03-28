@@ -6,6 +6,7 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import org.bson.conversions.Bson;
 import play.Configuration;
 import play.api.Play;
 
@@ -16,6 +17,12 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
+
+import com.mongodb.client.MongoCursor;
+import static com.mongodb.client.model.Filters.*;
+import com.mongodb.client.result.DeleteResult;
+import static com.mongodb.client.model.Updates.*;
+import com.mongodb.client.result.UpdateResult;
 
 public class DatabaseJava{
 
@@ -81,7 +88,9 @@ public class DatabaseJava{
 
     public HashMap register(String json)throws NoSuchAlgorithmException {
         MongoCollection<Document> collection = db.getCollection("Users");
-        boolean check = collection.find(Document.parse(json)).first() != null;
+
+
+        boolean check = collection.find(eq("email", Document.parse(json).get("email"))).first() != null;
         if(check){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
@@ -93,7 +102,7 @@ public class DatabaseJava{
         else {
             Document doc = Document.parse(json);
             doc.append("password", hash(doc.get("password").toString()));
-            doc.append("type", doc.get("customers"));
+            doc.append("type", "customer");
             collection.insertOne(doc);
             Document temp = getToken(doc.getString("username"));
             HashMap<String, Object> ret = new HashMap<String, Object>() {
@@ -120,7 +129,7 @@ public class DatabaseJava{
         else {
             Document doc = Document.parse(json);
             doc.append("password", hash(doc.get("password").toString()));
-            doc.append("type", doc.get("SP").toString());
+            doc.append("type", "SP");
             collection.insertOne(doc);
             Document temp = getToken(doc.getString("username"));
             HashMap<String, Object> ret = new HashMap<String, Object>() {
