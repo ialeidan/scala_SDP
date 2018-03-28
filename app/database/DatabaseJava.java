@@ -78,11 +78,12 @@ public class DatabaseJava{
             };
             return ret;
         }
-        Document token = getToken(doc.getString("email"));
+//        Document token = getToken(doc.getString("email"));
+        ObjectId id = (ObjectId)doc.get( "_id" );
         HashMap<String, Object> ret = new HashMap<String, Object>() {
             {
-                put("access_token", token.get("access_token"));
-                put("user_id", token.get("access_token"));
+                put("access_token", id.toHexString());
+                put("user_id", id.toHexString());
             }
         };
         return ret;
@@ -106,13 +107,10 @@ public class DatabaseJava{
             doc.append("password", hash(doc.get("password").toString()));
             doc.append("type", "customer");
             collection.insertOne(doc);
-            Document temp = getToken(doc.getString("email"));
             ObjectId id = (ObjectId)doc.get( "_id" );
             HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
-//                    put("access_token", temp.get("access_token"));
-//                    put("user_id", temp.get("access_token"));
-                    put("access_token", id.toString());
+                    put("access_token", id.toHexString());
                     put("user_id", id.toHexString());
                 }
             };
@@ -136,11 +134,11 @@ public class DatabaseJava{
             doc.append("password", hash(doc.get("password").toString()));
             doc.append("type", "SP");
             collection.insertOne(doc);
-            Document temp = getToken(doc.getString("email"));
+            ObjectId id = (ObjectId)doc.get( "_id" );
             HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
-                    put("access_token", temp.get("access_token"));
-                    put("user_id", temp.get("access_token"));
+                    put("access_token", id.toHexString());
+                    put("user_id", id.toHexString());
                 }
             };
             return ret;
