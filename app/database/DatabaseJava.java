@@ -50,8 +50,8 @@ public class DatabaseJava{
 //        temp.append("access_token", found.get("access_token"));
 //        temp.append("user_id", found.get("user_id"));
         ObjectId id = (ObjectId)found.get( "_id" );
-        temp.append("access_token", id);
-        temp.append("user_id", id);
+        temp.append("access_token", id.toHexString());
+        temp.append("user_id", id.toHexString());
         return temp;
     }
 
