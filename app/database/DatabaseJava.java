@@ -49,8 +49,9 @@ public class DatabaseJava{
         Document temp = new Document();
 //        temp.append("access_token", found.get("access_token"));
 //        temp.append("user_id", found.get("user_id"));
-        temp.append("access_token", found.get("_id"));
-        temp.append("user_id", found.get("_id"));
+        ObjectId id = (ObjectId)found.get( "_id" );
+        temp.append("access_token", id);
+        temp.append("user_id", id);
         return temp;
     }
 
@@ -78,12 +79,11 @@ public class DatabaseJava{
             };
             return ret;
         }
-//        Document token = getToken(doc.getString("email"));
-        ObjectId id = (ObjectId)doc.get( "_id" );
+        Document token = getToken(doc.getString("email"));
         HashMap<String, Object> ret = new HashMap<String, Object>() {
             {
-                put("access_token", id.toHexString());
-                put("user_id", id.toHexString());
+                put("access_token", token.get("access_token"));
+                put("user_id", token.get("user_id"));
             }
         };
         return ret;
