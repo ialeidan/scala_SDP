@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.mongodb.Block;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
+import com.mongodb.casbah.commons.ValidBSONType;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.conversions.Bson;
@@ -105,10 +106,13 @@ public class DatabaseJava{
             doc.append("type", "customer");
             collection.insertOne(doc);
             Document temp = getToken(doc.getString("email"));
+            ValidBSONType.ObjectId id = (ValidBSONType.ObjectId)doc.get( "_id" );
             HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
-                    put("access_token", temp.get("access_token"));
-                    put("user_id", temp.get("access_token"));
+//                    put("access_token", temp.get("access_token"));
+//                    put("user_id", temp.get("access_token"));
+                    put("access_token", id);
+                    put("user_id", id);
                 }
             };
             return ret;
