@@ -112,8 +112,8 @@ public class DatabaseJava{
                 {
 //                    put("access_token", temp.get("access_token"));
 //                    put("user_id", temp.get("access_token"));
-                    put("access_token", id);
-                    put("user_id", id);
+                    put("access_token", id.toString());
+                    put("user_id", id.toHexString());
                 }
             };
             return ret;
