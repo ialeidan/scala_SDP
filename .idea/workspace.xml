@@ -24,7 +24,7 @@
       <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="-778">
               <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="25" />
               <folding />
             </state>
@@ -44,8 +44,8 @@
       <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+            <state relative-caret-position="217">
+              <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,6 +54,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getToken</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -302,12 +307,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522218767078</updated>
       <workItem from="1522218772551" duration="3316000" />
-      <workItem from="1522267707453" duration="1452000" />
+      <workItem from="1522267707453" duration="1920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4768000" />
+    <option name="totallyTimeSpent" value="5236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -387,7 +392,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="-778">
           <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
@@ -395,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+        <state relative-caret-position="217">
+          <caret line="43" column="28" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

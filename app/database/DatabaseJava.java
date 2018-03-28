@@ -41,9 +41,9 @@ public class DatabaseJava{
     }
 
 
-    public Document getToken(String json){
+    public Document getToken(String email){
         MongoCollection<Document> collection = db.getCollection("Users");
-        Document found = (Document) collection.find(Document.parse(json)).first();
+        Document found = (Document) collection.find(eq("email", email)).first();
         Document temp = new Document();
 //        temp.append("access_token", found.get("access_token"));
 //        temp.append("user_id", found.get("user_id"));
@@ -79,8 +79,8 @@ public class DatabaseJava{
         Document token = getToken(doc.getString("email"));
         HashMap<String, Object> ret = new HashMap<String, Object>() {
             {
-                put("access_token", temp.get("access_token"));
-                put("user_id", temp.get("access_token"));
+                put("access_token", token.get("access_token"));
+                put("user_id", token.get("access_token"));
             }
         };
         return ret;
@@ -104,7 +104,7 @@ public class DatabaseJava{
             doc.append("password", hash(doc.get("password").toString()));
             doc.append("type", "customer");
             collection.insertOne(doc);
-            Document temp = getToken(doc.getString("username"));
+            Document temp = getToken(doc.getString("email"));
             HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
                     put("access_token", temp.get("access_token"));
@@ -117,7 +117,7 @@ public class DatabaseJava{
 
     public HashMap spRegister(String json)throws NoSuchAlgorithmException {
         MongoCollection<Document> collection = db.getCollection("Users");
-        boolean check = collection.find(Document.parse(json)).first() != null;
+        boolean check = collection.find(eq("email", Document.parse(json).get("email"))).first() != null;
         if(check){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
@@ -131,7 +131,7 @@ public class DatabaseJava{
             doc.append("password", hash(doc.get("password").toString()));
             doc.append("type", "SP");
             collection.insertOne(doc);
-            Document temp = getToken(doc.getString("username"));
+            Document temp = getToken(doc.getString("email"));
             HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
                     put("access_token", temp.get("access_token"));
