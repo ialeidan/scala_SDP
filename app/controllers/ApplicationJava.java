@@ -22,6 +22,27 @@ public class ApplicationJava extends Controller{
 
 
     }
+    public Result login() {
+        JsonNode Id =request().body().asJson();
+        //Error
+        if(Id.get("email")== null || Id.get("password")==null) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "NO USERNAME OR PASSWORD");
+                }
+
+            };
+
+            return ok(Json.toJson(ERR));
+        }
+
+        //return ok(Json.toJson(  login(Id.get("email"),Id.get("password") ))); //login function will be created by bakri, it will return HashMap Object,parameter is JsonNode
+
+        return ok("Hello ");
+
+    }
     public Result register() {
         JsonNode reg =request().body().asJson();
 
