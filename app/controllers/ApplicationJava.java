@@ -15,25 +15,9 @@ public class ApplicationJava extends Controller{
     private DatabaseJava database = new DatabaseJava();
 
     public Result index1() {
-//        JsonNode Id =request().body().asJson();
-//
-//
-//        H+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ashMap<String, Object> ret = new HashMap<String, Object>(){
-//            {
-//                put("id", Id.get("id").intValue()+1);
-//                put("username", Id.get("username"));
-//            }
-//        };
 
 
-
-     //   database.testRead();
-        database.Add();
-        database.testRead();
-
-        return ok(database.Return("{\"name\": \"Mohammed\"}"));
-//        return ok(Id);
-//        return ok(Id.get("id").intValue() + "");
+        return ok("{\"name\": \"Mohammed\"}");
 
 
     }

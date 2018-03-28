@@ -38,10 +38,45 @@ public class DatabaseJava{
         MongoCollection<Document> collection = db.getCollection("Users");
         Document found = (Document) collection.find(Document.parse(json)).first();
         Document temp = new Document();
-        temp.append("access_token", found.get("access_token"));
-        temp.append("user_id", found.get("user_id"));
+//        temp.append("access_token", found.get("access_token"));
+//        temp.append("user_id", found.get("user_id"));
+        temp.append("access_token", found.get("_id"));
+        temp.append("user_id", found.get("_id"));
         return temp;
+    }
 
+    public HashMap Login(String json) throws NoSuchAlgorithmException {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        Document temp = new Document();
+        temp.append("email", doc.get("email"));
+        boolean check = collection.find(temp).first() == null;
+        if(check){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("Errors",("EMAIL_NOT_FOUND"));
+                }
+            };
+            return ret;
+        }
+        temp.append("password", hash(doc.get("password").toString()));
+        check = collection.find(temp).first() == null;
+        if(check){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("Errors",("INVALID_PASSWORD"));
+                }
+            };
+            return ret;
+        }
+        Document token = getToken(doc.getString("email"));
+        HashMap<String, Object> ret = new HashMap<String, Object>() {
+            {
+                put("access_token", temp.get("access_token"));
+                put("user_id", temp.get("access_token"));
+            }
+        };
+        return ret;
     }
 
     public HashMap register(String json)throws NoSuchAlgorithmException {
@@ -58,7 +93,7 @@ public class DatabaseJava{
         else {
             Document doc = Document.parse(json);
             doc.append("password", hash(doc.get("password").toString()));
-            doc.append("type", hash(doc.get("customers").toString()));
+            doc.append("type", doc.get("customers"));
             collection.insertOne(doc);
             Document temp = getToken(doc.getString("username"));
             HashMap<String, Object> ret = new HashMap<String, Object>() {
@@ -85,7 +120,7 @@ public class DatabaseJava{
         else {
             Document doc = Document.parse(json);
             doc.append("password", hash(doc.get("password").toString()));
-            doc.append("type", hash(doc.get("SP").toString()));
+            doc.append("type", doc.get("SP").toString());
             collection.insertOne(doc);
             Document temp = getToken(doc.getString("username"));
             HashMap<String, Object> ret = new HashMap<String, Object>() {
@@ -97,7 +132,6 @@ public class DatabaseJava{
             return ret;
         }
     }
-
 
     public String hash(String pass) throws NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
@@ -111,8 +145,5 @@ public class DatabaseJava{
         }
         return hexString.toString();
     }
-
-
-
 
 }
