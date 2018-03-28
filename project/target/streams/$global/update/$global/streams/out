@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/fares/IdeaProjects/scala_SDP/project/}scala_sdp-build...
+[info] Updating {file:/C:/Users/Mohammed/IdeaProjects/scala_SDP/project/}scala_sdp-build...
 [debug] :: resolving dependencies :: default#scala_sdp-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -13305,19 +13305,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 3802ms :: artifacts dl 135ms
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT provided produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-provided.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT optional produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-optional.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile-internal produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile-internal.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime-internal.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test-internal produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test-internal.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT plugin produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-plugin.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT sources produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-sources.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT docs produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-docs.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT pom produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-pom.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT scala-tool produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-scala-tool.xml
-[debug] 	resolve done (3802ms resolve - 135ms download)
+[debug] :: resolution report :: resolve 2539ms :: artifacts dl 98ms
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT provided produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-provided.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT optional produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-optional.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile-internal.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime-internal.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test-internal.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT plugin produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-plugin.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT sources produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-sources.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT docs produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-docs.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT pom produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-pom.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-scala-tool.xml
+[debug] 	resolve done (2539ms resolve - 98ms download)
 [info] Done updating.

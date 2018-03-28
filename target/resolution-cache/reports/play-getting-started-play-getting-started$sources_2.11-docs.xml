@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="docs"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20180325161610"/>
+		date="20180328093322"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-omnidoc_2.11">
 			<revision name="2.4.3" status="release" pubdate="20151119033957" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/omnidoc" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
@@ -15,7 +15,7 @@
 				<metadata-artifact status="no" details="" size="2858" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-omnidoc_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.4.3/play-omnidoc_2.11-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-omnidoc_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="320" time="574" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-omnidoc_2.11\srcs\play-omnidoc_2.11-2.4.3-sources.jar">
+					<artifact name="play-omnidoc_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="320" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-omnidoc_2.11\srcs\play-omnidoc_2.11-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.4.3/play-omnidoc_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -27,7 +27,7 @@
 				<metadata-artifact status="no" details="" size="2992" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-docs_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.4.3/play-docs_2.11-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-docs_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4779" time="578" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-docs_2.11\srcs\play-docs_2.11-2.4.3-sources.jar">
+					<artifact name="play-docs_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4779" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-docs_2.11\srcs\play-docs_2.11-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.4.3/play-docs_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -39,7 +39,7 @@
 				<metadata-artifact status="no" details="" size="3523" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-netty-server_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="19612" time="737" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\srcs\play-netty-server_2.11-2.4.3-sources.jar">
+					<artifact name="play-netty-server_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19612" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\srcs\play-netty-server_2.11-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -51,7 +51,7 @@
 				<metadata-artifact status="no" details="" size="7263" time="0" location="C:\Users\Mohammed\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="3.10.4.Final" rev-constraint-default="3.10.4.Final" rev-constraint-dynamic="3.10.4.Final" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1154004" time="2111" location="C:\Users\Mohammed\.ivy2\cache\io.netty\netty\srcs\netty-3.10.4.Final-sources.jar">
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1154004" time="0" location="C:\Users\Mohammed\.ivy2\cache\io.netty\netty\srcs\netty-3.10.4.Final-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -75,7 +75,7 @@
 				<metadata-artifact status="no" details="" size="3105" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\ivy-1.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="1.1.4" rev-constraint-default="1.1.4" rev-constraint-dynamic="1.1.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="netty-http-pipelining" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3772" time="639" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\srcs\netty-http-pipelining-1.1.4-sources.jar">
+					<artifact name="netty-http-pipelining" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3772" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.netty\netty-http-pipelining\srcs\netty-http-pipelining-1.1.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -171,7 +171,7 @@
 				<metadata-artifact status="no" details="" size="3472" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-server_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-server_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="25353" time="888" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-server_2.11\srcs\play-server_2.11-2.4.3-sources.jar">
+					<artifact name="play-server_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25353" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-server_2.11\srcs\play-server_2.11-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -183,7 +183,7 @@
 				<metadata-artifact status="no" details="" size="8101" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="359644" time="1438" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play_2.11\srcs\play_2.11-2.4.3-sources.jar">
+					<artifact name="play_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="359644" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play_2.11\srcs\play_2.11-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -304,7 +304,7 @@
 				<metadata-artifact status="no" details="" size="3239" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\ivy-2.3.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.3.13" rev-constraint-default="2.3.13" rev-constraint-dynamic="2.3.13" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="akka-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1972" time="599" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\srcs\akka-slf4j_2.11-2.3.13-sources.jar">
+					<artifact name="akka-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1972" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\srcs\akka-slf4j_2.11-2.3.13-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -316,7 +316,7 @@
 				<metadata-artifact status="no" details="" size="2827" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.3.13" rev-constraint-default="2.3.13" rev-constraint-dynamic="2.3.13" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="336307" time="1087" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.13-sources.jar">
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="336307" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.13-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -329,7 +329,7 @@
 				<metadata-artifact status="no" details="" size="10120" time="0" location="C:\Users\Mohammed\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="217957" time="1262" location="C:\Users\Mohammed\.ivy2\cache\ch.qos.logback\logback-classic\srcs\logback-classic-1.1.3-sources.jar">
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="217957" time="0" location="C:\Users\Mohammed\.ivy2\cache\ch.qos.logback\logback-classic\srcs\logback-classic-1.1.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -342,7 +342,7 @@
 				<metadata-artifact status="no" details="" size="7751" time="0" location="C:\Users\Mohammed\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="385981" time="1581" location="C:\Users\Mohammed\.ivy2\cache\ch.qos.logback\logback-core\srcs\logback-core-1.1.3-sources.jar">
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="385981" time="0" location="C:\Users\Mohammed\.ivy2\cache\ch.qos.logback\logback-core\srcs\logback-core-1.1.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -354,7 +354,7 @@
 				<metadata-artifact status="no" details="" size="2964" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="41398" time="708" location="C:\Users\Mohammed\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.1-sources.jar">
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41398" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -414,7 +414,7 @@
 				<metadata-artifact status="no" details="" size="2971" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-netty-utils\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-netty-utils" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="18952" time="817" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-netty-utils\srcs\play-netty-utils-2.4.3-sources.jar">
+					<artifact name="play-netty-utils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18952" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-netty-utils\srcs\play-netty-utils-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -426,7 +426,7 @@
 				<metadata-artifact status="no" details="" size="4965" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="23213" time="809" location="C:\Users\Mohammed\.ivy2\cache\org.slf4j\jcl-over-slf4j\srcs\jcl-over-slf4j-1.7.12-sources.jar">
+					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23213" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.slf4j\jcl-over-slf4j\srcs\jcl-over-slf4j-1.7.12-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -438,7 +438,7 @@
 				<metadata-artifact status="no" details="" size="5004" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.slf4j\jul-to-slf4j\ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jul-to-slf4j" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4819" time="593" location="C:\Users\Mohammed\.ivy2\cache\org.slf4j\jul-to-slf4j\srcs\jul-to-slf4j-1.7.12-sources.jar">
+					<artifact name="jul-to-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4819" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.slf4j\jul-to-slf4j\srcs\jul-to-slf4j-1.7.12-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -450,7 +450,7 @@
 				<metadata-artifact status="no" details="" size="4785" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="50813" time="624" location="C:\Users\Mohammed\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.12-sources.jar">
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50813" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.12-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -462,7 +462,7 @@
 				<metadata-artifact status="no" details="" size="4771" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-json_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-json_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="35003" time="910" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-json_2.11\srcs\play-json_2.11-2.4.3-sources.jar">
+					<artifact name="play-json_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35003" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-json_2.11\srcs\play-json_2.11-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -474,7 +474,7 @@
 				<metadata-artifact status="no" details="" size="7415" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37375" time="1602" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\srcs\jackson-datatype-jsr310-2.5.4-sources.jar">
+					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37375" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\srcs\jackson-datatype-jsr310-2.5.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -486,7 +486,7 @@
 				<metadata-artifact status="no" details="" size="7522" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11216" time="747" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\srcs\jackson-datatype-jdk8-2.5.4-sources.jar">
+					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11216" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\srcs\jackson-datatype-jdk8-2.5.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -498,7 +498,7 @@
 				<metadata-artifact status="no" details="" size="8771" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="824978" time="3221" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.5.4-sources.jar">
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="824978" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.5.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -510,7 +510,7 @@
 				<metadata-artifact status="no" details="" size="6472" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="44848" time="1297" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.5.4-sources.jar">
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="44848" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.5.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -522,7 +522,7 @@
 				<metadata-artifact status="no" details="" size="6922" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.5.4" rev-constraint-default="2.5.4" rev-constraint-dynamic="2.5.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="241162" time="1182" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.5.4-sources.jar">
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="241162" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.5.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -534,7 +534,7 @@
 				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.6/"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="561028" time="1185" location="C:\Users\Mohammed\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.6-sources.jar">
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="561028" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -558,7 +558,7 @@
 				<metadata-artifact status="no" details="" size="6666" time="0" location="C:\Users\Mohammed\.ivy2\cache\joda-time\joda-time\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="761196" time="1427" location="C:\Users\Mohammed\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.8.1-sources.jar">
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="761196" time="0" location="C:\Users\Mohammed\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.8.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -570,7 +570,7 @@
 				<metadata-artifact status="no" details="" size="2704" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-datacommons_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1587" time="978" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\srcs\play-datacommons_2.11-2.4.3-sources.jar">
+					<artifact name="play-datacommons_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1587" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\srcs\play-datacommons_2.11-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -582,7 +582,7 @@
 				<metadata-artifact status="no" details="" size="2701" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-functional_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-functional_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="9757" time="663" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-functional_2.11\srcs\play-functional_2.11-2.4.3-sources.jar">
+					<artifact name="play-functional_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9757" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-functional_2.11\srcs\play-functional_2.11-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -594,7 +594,7 @@
 				<metadata-artifact status="no" details="" size="3345" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-iteratees_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37879" time="792" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\srcs\play-iteratees_2.11-2.4.3-sources.jar">
+					<artifact name="play-iteratees_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37879" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\srcs\play-iteratees_2.11-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -630,7 +630,7 @@
 				<metadata-artifact status="no" details="" size="2826" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\build-link\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="build-link" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4268" time="575" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\build-link\srcs\build-link-2.4.3-sources.jar">
+					<artifact name="build-link" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4268" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\build-link\srcs\build-link-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -644,7 +644,7 @@
 				<metadata-artifact status="no" details="" size="3235" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.javassist\javassist\ivy-3.19.0-GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="3.19.0-GA" rev-constraint-default="3.19.0-GA" rev-constraint-dynamic="3.19.0-GA" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="javassist" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="519277" time="1463" location="C:\Users\Mohammed\.ivy2\cache\org.javassist\javassist\srcs\javassist-3.19.0-GA-sources.jar">
+					<artifact name="javassist" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="519277" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.javassist\javassist\srcs\javassist-3.19.0-GA-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -656,7 +656,7 @@
 				<metadata-artifact status="no" details="" size="2508" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-exceptions\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-exceptions" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2258" time="1227" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-exceptions\srcs\play-exceptions-2.4.3-sources.jar">
+					<artifact name="play-exceptions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2258" time="0" location="C:\Users\Mohammed\.ivy2\cache\com.typesafe.play\play-exceptions\srcs\play-exceptions-2.4.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -668,7 +668,7 @@
 				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom"/>
 				<caller organisation="play-getting-started" name="play-getting-started$sources_2.11" conf="docs" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.11.6/"/>
 				<artifacts>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="906435" time="1190" location="C:\Users\Mohammed\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.6-sources.jar">
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="906435" time="0" location="C:\Users\Mohammed\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar"/>
 					</artifact>
 				</artifacts>

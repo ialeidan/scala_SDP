@@ -4,7 +4,7 @@
 		module="scala_sdp-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180326172723"
+		publication="20180328093310"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

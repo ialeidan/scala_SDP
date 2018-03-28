@@ -12,6 +12,9 @@ import play.api.Play;
 import javax.inject.Inject;
 import org.bson.Document;
 
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 
 public class DatabaseJava{
@@ -30,50 +33,86 @@ public class DatabaseJava{
         db = mongoClient.getDatabase("heroku_85mqw3gf");
     }
 
-    public boolean  Add(){
-        String s = "{\"Name\": \"Mohammed\"}";
-        MongoCollection<Document> collection = db.getCollection("Users");
-        Document doc = Document.parse(s);
-        collection.insertOne(doc);
-        return true;
-    }
 
-    public String Return(String json){
-        MongoCollection<Document> collection = db.getCollection("User");
+    public Document getToken(String json){
+        MongoCollection<Document> collection = db.getCollection("Users");
         Document found = (Document) collection.find(Document.parse(json)).first();
         Document temp = new Document();
-        temp.append("email", found.get("email"));
-        return temp.toJson();
-    }
-
-    public HashMap test(String email){
-
-        HashMap<String, Object> ret = new HashMap<String, Object>(){
-            {
-                put("id","");
-                put("username", "");
-            }
-        };
-
-        return ret;
+        temp.append("access_token", found.get("access_token"));
+        temp.append("user_id", found.get("user_id"));
+        return temp;
 
     }
 
-
-    static Block<Document> printBlock = new Block<Document>() {
-        @Override
-        public void apply(final Document document) {
-            System.out.println(document.toJson());
+    public HashMap register(String json)throws NoSuchAlgorithmException {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        boolean check = collection.find(Document.parse(json)).first() != null;
+        if(check){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("Errors",("EMAIL_EXISTS"));
+                }
+            };
+            return ret;
         }
-    };
-
-
-
-    public void testRead(){
-        MongoCollection<Document> collection = db.getCollection("restaurants");
-
-        collection.find().forEach(printBlock);
-
+        else {
+            Document doc = Document.parse(json);
+            doc.append("password", hash(doc.get("password").toString()));
+            doc.append("type", hash(doc.get("customers").toString()));
+            collection.insertOne(doc);
+            Document temp = getToken(doc.getString("username"));
+            HashMap<String, Object> ret = new HashMap<String, Object>() {
+                {
+                    put("access_token", temp.get("access_token"));
+                    put("user_id", temp.get("access_token"));
+                }
+            };
+            return ret;
+        }
     }
+
+    public HashMap spRegister(String json)throws NoSuchAlgorithmException {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        boolean check = collection.find(Document.parse(json)).first() != null;
+        if(check){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("Errors",("EMAIL_EXISTS"));
+                }
+            };
+            return ret;
+        }
+        else {
+            Document doc = Document.parse(json);
+            doc.append("password", hash(doc.get("password").toString()));
+            doc.append("type", hash(doc.get("SP").toString()));
+            collection.insertOne(doc);
+            Document temp = getToken(doc.getString("username"));
+            HashMap<String, Object> ret = new HashMap<String, Object>() {
+                {
+                    put("access_token", temp.get("access_token"));
+                    put("user_id", temp.get("access_token"));
+                }
+            };
+            return ret;
+        }
+    }
+
+
+    public String hash(String pass) throws NoSuchAlgorithmException {
+        MessageDigest digest = MessageDigest.getInstance("SHA-256");
+        byte[] hash = digest.digest(
+                pass.getBytes(StandardCharsets.UTF_8));
+        StringBuffer hexString = new StringBuffer();
+        for (int i = 0; i < hash.length; i++) {
+            String hex = Integer.toHexString(0xff & hash[i]);
+            if(hex.length() == 1) hexString.append('0');
+            hexString.append(hex);
+        }
+        return hexString.toString();
+    }
+
+
+
 
 }
