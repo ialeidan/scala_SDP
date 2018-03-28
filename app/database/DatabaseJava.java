@@ -8,6 +8,7 @@ import com.mongodb.casbah.commons.ValidBSONType;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.conversions.Bson;
+import org.bson.types.ObjectId;
 import play.Configuration;
 import play.api.Play;
 
@@ -106,7 +107,7 @@ public class DatabaseJava{
             doc.append("type", "customer");
             collection.insertOne(doc);
             Document temp = getToken(doc.getString("email"));
-            ValidBSONType.ObjectId id = (ValidBSONType.ObjectId)doc.get( "_id" );
+            ObjectId id = (ObjectId)doc.get( "_id" );
             HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
 //                    put("access_token", temp.get("access_token"));
