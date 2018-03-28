@@ -1,254 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb7c36f1-5657-4e77-9a95-d7818d3566eb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/hydra.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/scala_sdp-build.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/scala_sdp.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$0da2310e93205dd0ef9b.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$eaeab3040666709e3e3e.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$085a96347e1d657dc561.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$08a48bbfff79ccd2792a.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3b218640ade4a2d818c2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4bf6c77d94d81cddc3bf.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$640e5a2d32b46b83799b.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$65f053e0d7f96fb8b598.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$897f886a6465ffde4d49.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$93514abd6a7688deef1b.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b3e24ec7b397852b2ced.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b5e6d32395d282a463d8.class" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__cglib_cglib_nodep_2_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_5_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_5_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_5_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_5_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_5_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_nscala_time_nscala_time_2_11_1_0_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_2_0_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_gson_gson_2_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_18_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_inject_extensions_guice_assistedinject_4_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_inject_guice_4_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_h2database_h2_1_4_187_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_jolbox_bonecp_0_8_0_RELEASE_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_ning_async_http_client_1_9_21_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_novocode_junit_interface_0_11_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_11_2_3_13_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_11_2_3_13_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_netty_netty_http_pipelining_1_1_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_build_link_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_cache_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_datacommons_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_exceptions_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_functional_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_iteratees_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_jdbc_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_jdbc_api_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_json_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_netty_server_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_netty_utils_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_server_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_test_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_play_ws_2_11_2_4_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_play_twirl_api_2_11_1_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_zaxxer_HikariCP_2_3_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_collections_commons_collections_3_2_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_10_4_Final_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_transaction_jta_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_8_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__junit_junit_4_12_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_jna_3_4_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jna_platform_3_4_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_ehcache_ehcache_core_2_6_11_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_cssparser_cssparser_0_9_14_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_htmlunit_htmlunit_2_15_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_htmlunit_htmlunit_core_js_2_15_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_nekohtml_nekohtml_1_9_21_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__oauth_signpost_signpost_commonshttp4_1_2_1_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__oauth_signpost_signpost_core_1_2_1_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_exec_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_3_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_3_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpmime_4_3_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_http_8_1_15_v20140411_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_io_8_1_15_v20140411_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_util_8_1_15_v20140411_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_websocket_8_1_15_v20140411_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_fluentlenium_fluentlenium_core_0_10_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_hamcrest_hamcrest_core_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_javassist_javassist_3_19_0_GA_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_1_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_casbah_commons_2_11_3_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_casbah_core_2_11_3_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_casbah_gridfs_2_11_3_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_casbah_query_2_11_3_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_mongodb_mongo_java_driver_3_2_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_postgresql_postgresql_9_4_1201_jdbc41_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_sbt_test_interface_1_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_stm_scala_stm_2_11_0_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_api_2_44_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_chrome_driver_2_44_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_firefox_driver_2_44_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_htmlunit_driver_2_44_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_ie_driver_2_44_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_java_2_44_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_remote_driver_2_44_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_safari_driver_2_44_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_seleniumhq_selenium_selenium_support_2_44_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_12_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_12_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_12_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_w3c_css_sac_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_webbitserver_webbit_0_4_14_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__tyrex_tyrex_1_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_serializer_2_7_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_xalan_2_7_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xerces_xercesImpl_2_11_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xml_apis_xml_apis_1_4_01_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    <list default="true" id="38e0ff7f-2f8a-4a73-be66-aa7c3c4bd052" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" afterPath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
-<<<<<<< HEAD
-=======
-    <list default="true" id="ae989f6d-f926-4422-a1bb-643a432e623a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" afterPath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/app/database/DatabaseJava.java" afterPath="$PROJECT_DIR$/app/database/DatabaseJava.java" />
->>>>>>> c9fcb5777000666213b1370d3c02233b154ac8b3
-=======
-      <change beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
->>>>>>> 002fead5337da9d094cdb9c8f4b665d5303b8713
-=======
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$053e34b39aca6be191f3$.class" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$0da2310e93205dd0ef9b$.class" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$053e34b39aca6be191f3.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$b5e6d32395d282a463d8.cache" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$053e34b39aca6be191f3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$48b687b935497a4dae60$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$eaeab3040666709e3e3e$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$48b687b935497a4dae60$.class" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$eaeab3040666709e3e3e$.class" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$48b687b935497a4dae60.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$b3e24ec7b397852b2ced.cache" />
-      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$48b687b935497a4dae60.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$12e185af8eb2032907ff$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$897f886a6465ffde4d49$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$12e185af8eb2032907ff$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$897f886a6465ffde4d49$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$12e185af8eb2032907ff.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$93514abd6a7688deef1b.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$12e185af8eb2032907ff.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$14eb345bc65e6bd25ad9$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$4bf6c77d94d81cddc3bf$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$14eb345bc65e6bd25ad9$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$4bf6c77d94d81cddc3bf$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$14eb345bc65e6bd25ad9.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$897f886a6465ffde4d49.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$14eb345bc65e6bd25ad9.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$397ad3d13d7209b9cea5$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$93514abd6a7688deef1b$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$397ad3d13d7209b9cea5$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$93514abd6a7688deef1b$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$397ad3d13d7209b9cea5.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$65f053e0d7f96fb8b598.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$397ad3d13d7209b9cea5.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6a8d1265e6bb5b63b982$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$085a96347e1d657dc561$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6a8d1265e6bb5b63b982$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$085a96347e1d657dc561$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6a8d1265e6bb5b63b982.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$4bf6c77d94d81cddc3bf.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6a8d1265e6bb5b63b982.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$820a3f96ed00617f8402$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$65f053e0d7f96fb8b598$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$820a3f96ed00617f8402$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$65f053e0d7f96fb8b598$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$820a3f96ed00617f8402.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$3b218640ade4a2d818c2.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$820a3f96ed00617f8402.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$913c44bd18f8112ac7d1$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$b3e24ec7b397852b2ced$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$913c44bd18f8112ac7d1$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$b3e24ec7b397852b2ced$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$913c44bd18f8112ac7d1.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$08a48bbfff79ccd2792a.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$913c44bd18f8112ac7d1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb0538ca906ac1ec375f$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$08a48bbfff79ccd2792a$$anonfun$$sbtdef$1$$anonfun$apply$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb0538ca906ac1ec375f$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$08a48bbfff79ccd2792a$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb0538ca906ac1ec375f$$anonfun$$sbtdef$2.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$08a48bbfff79ccd2792a$$anonfun$$sbtdef$2.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb0538ca906ac1ec375f$$anonfun$$sbtdef$3.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$08a48bbfff79ccd2792a$$anonfun$$sbtdef$3.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb0538ca906ac1ec375f$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$08a48bbfff79ccd2792a$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb0538ca906ac1ec375f.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$085a96347e1d657dc561.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb0538ca906ac1ec375f.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0457ed09f37f6d61e34$$anonfun$root$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$640e5a2d32b46b83799b$$anonfun$root$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0457ed09f37f6d61e34$$anonfun$root$2.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$640e5a2d32b46b83799b$$anonfun$root$2.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0457ed09f37f6d61e34$$anonfun$root$3.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$640e5a2d32b46b83799b$$anonfun$root$3.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0457ed09f37f6d61e34$$anonfun$root$4.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$640e5a2d32b46b83799b$$anonfun$root$4.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0457ed09f37f6d61e34$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$640e5a2d32b46b83799b$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0457ed09f37f6d61e34.cache" afterPath="$PROJECT_DIR$/project/target/config-classes/$640e5a2d32b46b83799b.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e0457ed09f37f6d61e34.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec671aceeadf0f558916$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$b5e6d32395d282a463d8$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec671aceeadf0f558916$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$b5e6d32395d282a463d8$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec671aceeadf0f558916.cache" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$eaeab3040666709e3e3e.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec671aceeadf0f558916.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fccd8fb2a6112e34ca71$$anonfun$$sbtdef$1.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$3b218640ade4a2d818c2$$anonfun$$sbtdef$1.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fccd8fb2a6112e34ca71$.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$3b218640ade4a2d818c2$.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fccd8fb2a6112e34ca71.cache" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$0da2310e93205dd0ef9b.cache" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fccd8fb2a6112e34ca71.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/scala_sdp-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/scala_sdp-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/scala_sdp-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/scala_sdp-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-sources.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-scala_sdp-build-test.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-compile.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-docs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-optional.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-provided.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-runtime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-scala-tool.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-sources.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started_2.11-test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
->>>>>>> c5a62d22121c4d5f4ab5a54293d9106e43bddba3
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -256,23 +14,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <state relative-caret-position="340">
-              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
->>>>>>> c9fcb5777000666213b1370d3c02233b154ac8b3
-=======
-            <state relative-caret-position="408">
-              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-=======
+            <state relative-caret-position="283">
+              <caret line="117" column="57" lean-forward="false" selection-start-line="117" selection-start-column="57" selection-end-line="117" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/routes">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> c5a62d22121c4d5f4ab5a54293d9106e43bddba3
               <folding />
             </state>
           </provider>
@@ -281,15 +44,11 @@
       <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="136">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
->>>>>>> 002fead5337da9d094cdb9c8f4b665d5303b8713
-=======
-            <state relative-caret-position="300">
-              <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
->>>>>>> c5a62d22121c4d5f4ab5a54293d9106e43bddba3
-              <folding />
+            <state relative-caret-position="-25">
+              <caret line="108" column="39" lean-forward="false" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -303,12 +62,41 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../play-java-starter-example" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/database/DatabaseJava.java" />
+        <option value="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="Play2ProjectSettings">
+    <option name="LANGUAGE_IMPORTS">
+      <array>
+        <option value="play.api.templates.PlayMagic._" />
+      </array>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="196" />
+    <option name="y" value="-11" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -325,48 +113,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
+              <item name="heroku_scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
+              <item name="heroku_scala" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
+              <item name="heroku_scala" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
+              <item name="heroku_scala" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heroku_scala" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -382,7 +172,6 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -464,8 +253,39 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1522218806859" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="play-getting-started" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../play-morphia-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../play-morphia-sample-master" value="PREVIEW" />
+      </map>
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -476,79 +296,56 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb7c36f1-5657-4e77-9a95-d7818d3566eb" name="Default" comment="" />
-      <created>1521988584543</created>
+      <changelist id="38e0ff7f-2f8a-4a73-be66-aa7c3c4bd052" name="Default" comment="" />
+      <created>1522218767078</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <updated>1521985380661</updated>
-      <workItem from="1521985385236" duration="403000" />
-=======
-      <updated>1521983375531</updated>
-<<<<<<< HEAD
-      <workItem from="1521983379086" duration="1349000" />
->>>>>>> c9fcb5777000666213b1370d3c02233b154ac8b3
-=======
-      <workItem from="1521983379086" duration="2248000" />
->>>>>>> 002fead5337da9d094cdb9c8f4b665d5303b8713
-=======
-      <updated>1521988584543</updated>
-      <workItem from="1521988586087" duration="115000" />
->>>>>>> c5a62d22121c4d5f4ab5a54293d9106e43bddba3
+      <updated>1522218767078</updated>
+      <workItem from="1522218772551" duration="3316000" />
+      <workItem from="1522267707453" duration="563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="403000" />
+    <option name="totallyTimeSpent" value="3879000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-=======
-    <option name="totallyTimeSpent" value="1349000" />
-=======
-    <option name="totallyTimeSpent" value="2248000" />
->>>>>>> 002fead5337da9d094cdb9c8f4b665d5303b8713
-=======
-    <option name="totallyTimeSpent" value="115000" />
->>>>>>> c5a62d22121c4d5f4ab5a54293d9106e43bddba3
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.040296923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,33 +370,54 @@
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding />
+          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <state relative-caret-position="238">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-=======
-        <state relative-caret-position="340">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
->>>>>>> c9fcb5777000666213b1370d3c02233b154ac8b3
-=======
-        <state relative-caret-position="408">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
->>>>>>> 002fead5337da9d094cdb9c8f4b665d5303b8713
-=======
-        <state relative-caret-position="-5304">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> c5a62d22121c4d5f4ab5a54293d9106e43bddba3
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="117" column="57" lean-forward="false" selection-start-line="117" selection-start-column="57" selection-end-line="117" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="108" column="39" lean-forward="false" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -6,6 +6,7 @@ import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
 
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 
 
@@ -15,25 +16,9 @@ public class ApplicationJava extends Controller{
     private DatabaseJava database = new DatabaseJava();
 
     public Result index1() {
-//        JsonNode Id =request().body().asJson();
-//
-//
-//        H+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ashMap<String, Object> ret = new HashMap<String, Object>(){
-//            {
-//                put("id", Id.get("id").intValue()+1);
-//                put("username", Id.get("username"));
-//            }
-//        };
 
 
-
-     //   database.testRead();
-        database.Add();
-        database.testRead();
-
-        return ok(database.Return("{\"name\": \"Mohammed\"}"));
-//        return ok(Id);
-//        return ok(Id.get("id").intValue() + "");
+        return ok("{\"name\": \"Mohammed\"}");
 
 
     }
@@ -75,10 +60,25 @@ public class ApplicationJava extends Controller{
         }
 
 
+        try {
+            HashMap<String, Object> ret = database.register(reg.toString());
+            return ok(Json.toJson(ret));
+        } catch (NoSuchAlgorithmException e) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
 
-// return ok(Json.toJson( register(reg.get("first_name"),reg.get("last_name"),reg.get("email"),reg.get("password"),reg.get("national_id"),reg.get("phone"),reg.get("username") ))); //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
+            };
+            e.printStackTrace();
+            return ok(Json.toJson(ERR));
 
-        return ok("Hello ");
+        }
+         //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
+
+//        return ok("Hello ");
     }
     public Result spRegister() {
         JsonNode spReg =request().body().asJson();
@@ -94,11 +94,67 @@ public class ApplicationJava extends Controller{
 
             };
 
-            return ok(Json.toJson(ERR));}
+            return ok(Json.toJson(ERR));
+        }
+
+        try {
+            HashMap<String, Object> ret = database.spRegister(spReg.toString());
+            return ok(Json.toJson(ret));
+        } catch (NoSuchAlgorithmException e) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+            e.printStackTrace();
+            return ok(Json.toJson(ERR));
+
+        }
 
 //        return ok(Json.toJson( spRegister( spReg.get("name"),spReg.get("email"),spReg.get("password"),spReg.get("phone"),spReg.get("username")))); //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
 
-        return ok("Hello ");
+//        return ok("Hello ");
+    }
+    public Result login() {
+        JsonNode spReg =request().body().asJson();
+
+        if(spReg.get("email")== null || spReg.get("password")==null)
+        {
+            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+
+            return ok(Json.toJson(ERR));
+        }
+
+        try {
+            HashMap<String, Object> ret = database.Login(spReg.toString());
+            return ok(Json.toJson(ret));
+        } catch (NoSuchAlgorithmException e) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+            e.printStackTrace();
+            return ok(Json.toJson(ERR));
+
+        }
+
+//        return ok(Json.toJson( spRegister( spReg.get("name"),spReg.get("email"),spReg.get("password"),spReg.get("phone"),spReg.get("username")))); //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
+
+//        return ok("Hello ");
     }
     public Result history() {
         JsonNode hist =request().body().asJson();
