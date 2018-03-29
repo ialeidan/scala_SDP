@@ -11,7 +11,7 @@ POST   /auth/login                                 @controllers.ApplicationJava.
 
 POST   /auth/customer/register                     @controllers.ApplicationJava.register()
 
-POST   /auth/customer/spregister                     @controllers.ApplicationJava.spRegister()
+POST   /auth/sp/register                     @controllers.ApplicationJava.spRegister()
 
 GET   /history                                    @controllers.ApplicationJava.history()
 # Map static resources from the /public folder to the /assets URL path
