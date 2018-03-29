@@ -63,7 +63,7 @@ public class ApplicationJava extends Controller{
     public Result spRegister() {
         JsonNode spReg =request().body().asJson();
 
-        if(spReg.get("email")== null || spReg.get("password")==null || spReg.get("phone")==null || spReg.get("username")==null )
+        if(spReg.get("email")== null || spReg.get("password")==null || spReg.get("phone")==null || spReg.get("username")==null || spReg.get("device")==null)
         {
             HashMap<String, Object> ERR = new HashMap<String, Object>(){
                 {

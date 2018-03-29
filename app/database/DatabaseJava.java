@@ -133,6 +133,7 @@ public class DatabaseJava{
             Document doc = Document.parse(json);
             doc.append("password", hash(doc.get("password").toString()));
             doc.append("type", "SP");
+            doc.append("device", doc.get("device"));
             collection.insertOne(doc);
             ObjectId id = (ObjectId)doc.get( "_id" );
             HashMap<String, Object> ret = new HashMap<String, Object>() {
