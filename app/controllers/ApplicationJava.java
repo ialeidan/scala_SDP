@@ -154,4 +154,37 @@ public class ApplicationJava extends Controller{
 //          return ok(Json.toJson( history( hist.get("User_id") ))); //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
         return ok("Hello ");
     }
+    public Result status() {
+        JsonNode status =request().body().asJson();
+
+        if(status.get("user_id")== null)
+        {
+            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+
+            return ok(Json.toJson(ERR));
+        }
+
+        try {
+            HashMap<String, Object> ret = database.status(status.toString());//status function
+            return ok(Json.toJson(ret));
+        } catch (NoSuchAlgorithmException e) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+            e.printStackTrace();
+            return ok(Json.toJson(ERR));
+
+        }
 }

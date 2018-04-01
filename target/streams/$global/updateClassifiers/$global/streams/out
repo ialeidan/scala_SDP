@@ -846,6 +846,22 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default]
+[info] Resolving org.mongodb#casbah_2.11;3.1.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah_2.11;3.1.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.mongodb#casbah_2.11;3.1.1
+[debug] 	found org.mongodb#casbah_2.11;3.1.1 in sbt-chain
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
 [info] Resolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...
 [debug] sbt-chain: Checking cache for: dependency: oauth.signpost#signpost-commonshttp4;1.2.1.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
@@ -1441,6 +1457,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
@@ -2029,6 +2057,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
@@ -2619,6 +2659,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
@@ -3201,6 +3253,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
@@ -4101,6 +4165,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->compile]
+[info] Resolving xalan#serializer;2.7.1 ...
+[debug] sbt-chain: Checking cache for: dependency: xalan#serializer;2.7.1 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: xalan#serializer;2.7.1
+[debug] 	found xalan#serializer;2.7.1 in sbt-chain
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->runtime(*)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->master(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->compile(*)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [test->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [test->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [test->compile]
@@ -4229,6 +4305,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [test->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [test->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [test->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test->compile]
@@ -4824,6 +4912,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
@@ -5414,6 +5514,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile-internal->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile-internal->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile-internal->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile-internal->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile-internal->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile-internal->compile]
@@ -6006,6 +6118,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
@@ -6594,6 +6718,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
@@ -7183,6 +7319,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime-internal->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime-internal->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime-internal->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime-internal->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime-internal->compile]
@@ -7794,6 +7942,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [compile->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->compile]
@@ -8400,6 +8560,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [runtime->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
@@ -9172,6 +9344,14 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->runtime(*)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->master(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->compile(*)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [test->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [test->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [test->compile]
@@ -9276,6 +9456,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [test->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [test->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [test->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test->compile]
@@ -10050,6 +10242,14 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test-internal->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test-internal->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test-internal->runtime(*)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test-internal->master(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test-internal->compile(*)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test-internal->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [test-internal->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [test-internal->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.3 [test-internal->compile]
@@ -10154,6 +10354,18 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [test-internal->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [test-internal->compile(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.9.21 [test-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->default]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->default(compile)]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->runtime]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->compile]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->master]
+[debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->org.mongodb#casbah_2.11;3.1.1 [test-internal->master]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test-internal->compile]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test-internal->runtime(*)]
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test-internal->compile]
@@ -10736,138 +10948,659 @@
 [debug] == resolving dependencies play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT->jline#jline;2.12.1 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-server_2.11;2.4.3!play-server_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.4.3!play-jdbc_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.5.4!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.12!jcl-over-slf4j.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.1.3!logback-classic.jar(src)
-[debug] 	[NOT REQUIRED] org.mongodb#casbah-query_2.11;3.1.1!casbah-query_2.11.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-server_2.11\2.4.3\srcs\play-server_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.11;2.4.3!play-server_2.11.jar(src) (1231ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.mongodb\mongo-java-driver\3.2.2\srcs\mongo-java-driver-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar
+[info] 	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar(src) (12027ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-jdbc_2.11\2.4.3\srcs\play-jdbc_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.4.3/play-jdbc_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.4.3/play-jdbc_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.4.3/play-jdbc_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.4.3/play-jdbc_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.4.3/play-jdbc_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc_2.11;2.4.3!play-jdbc_2.11.jar(src) (1233ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.5.4\srcs\jackson-annotations-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.5.4!jackson-annotations.jar(src) (1986ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.slf4j\jcl-over-slf4j\1.7.12\srcs\jcl-over-slf4j-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.12!jcl-over-slf4j.jar(src) (1333ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\ch.qos.logback\logback-classic\1.1.3\srcs\logback-classic-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3-sources.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-classic;1.1.3!logback-classic.jar(src) (3665ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.mongodb\casbah-query_2.11\3.1.1\srcs\casbah-query_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1-sources.jar
+[info] 	[SUCCESSFUL ] org.mongodb#casbah-query_2.11;3.1.1!casbah-query_2.11.jar(src) (898ms)
 [debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.11;2.4.3!play_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.mongodb#casbah-commons_2.11;3.1.1!casbah-commons_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.12!jul-to-slf4j.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play_2.11\2.4.3\srcs\play_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play_2.11;2.4.3!play_2.11.jar(src) (4029ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.mongodb\casbah-commons_2.11\3.1.1\srcs\casbah-commons_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1-sources.jar
+[info] 	[SUCCESSFUL ] org.mongodb#casbah-commons_2.11;3.1.1!casbah-commons_2.11.jar(src) (812ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.slf4j\jul-to-slf4j\1.7.12\srcs\jul-to-slf4j-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.12!jul-to-slf4j.jar(src) (639ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.scala-lang\scala-compiler\2.11.7\srcs\scala-compiler-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src) (19887ms)
 [debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.11;1.1.1!twirl-api_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.4.3!build-link.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.netty#netty-http-pipelining;1.1.4!netty-http-pipelining.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\build-link\2.4.3\srcs\build-link-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#build-link;2.4.3!build-link.jar(src) (704ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.netty\netty-http-pipelining\1.1.4\srcs\netty-http-pipelining-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/netty/netty-http-pipelining/1.1.4/netty-http-pipelining-1.1.4-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.netty#netty-http-pipelining;1.1.4!netty-http-pipelining.jar(src) (734ms)
 [debug] 	[NOT REQUIRED] oauth.signpost#signpost-core;1.2.1.2!signpost-core.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.3.13!akka-slf4j_2.11.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.akka\akka-slf4j_2.11\2.3.13\srcs\akka-slf4j_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.11;2.3.13!akka-slf4j_2.11.jar(src) (669ms)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.jar(src)
-[debug] 	[NOT REQUIRED] com.google.guava#guava;18.0!guava.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.postgresql\postgresql\9.4-1201-jdbc41\srcs\postgresql-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar
+[info] 	[SUCCESSFUL ] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.jar(src) (3066ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.google.guava\guava\18.0\srcs\guava-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar
+[info] 	[SUCCESSFUL ] com.google.guava#guava;18.0!guava.jar(src) (9156ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.scala-lang\scala-library\2.11.7\srcs\scala-library-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar(src) (9441ms)
 [debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.11;2.4.3!play-json_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.13!akka-actor_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-iteratees_2.11;2.4.3!play-iteratees_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-ws_2.11;2.4.3!play-ws_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty;3.10.4.Final!netty.jar(src)
-[debug] 	[NOT REQUIRED] org.mongodb#casbah-core_2.11;3.1.1!casbah-core_2.11.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-json_2.11\2.4.3\srcs\play-json_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.11;2.4.3!play-json_2.11.jar(src) (963ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.akka\akka-actor_2.11\2.3.13\srcs\akka-actor_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.13!akka-actor_2.11.jar(src) (2395ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-iteratees_2.11\2.4.3\srcs\play-iteratees_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.11;2.4.3!play-iteratees_2.11.jar(src) (1298ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-ws_2.11\2.4.3\srcs\play-ws_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.4.3/play-ws_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.4.3/play-ws_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.4.3/play-ws_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.4.3/play-ws_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.4.3/play-ws_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws_2.11;2.4.3!play-ws_2.11.jar(src) (1854ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.4\srcs\scala-xml_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src) (2432ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.slf4j\slf4j-api\1.7.12\srcs\slf4j-api-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src) (1168ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\io.netty\netty\3.10.4.Final\srcs\netty-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final-sources.jar
+[info] downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final-sources.jar
+[info] 	[SUCCESSFUL ] io.netty#netty;3.10.4.Final!netty.jar(src) (10126ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.mongodb\casbah-core_2.11\3.1.1\srcs\casbah-core_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1-sources.jar
+[info] 	[SUCCESSFUL ] org.mongodb#casbah-core_2.11;3.1.1!casbah-core_2.11.jar(src) (1491ms)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-server_2.11;2.4.3!play-netty-server_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.8.1!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.4.3!play-exceptions.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-netty-server_2.11\2.4.3\srcs\play-netty-server_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-server_2.11;2.4.3!play-netty-server_2.11.jar(src) (1469ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.scala-lang\scala-reflect\2.11.7\srcs\scala-reflect-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src) (4046ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\joda-time\joda-time\2.8.1\srcs\joda-time-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1-sources.jar
+[info] 	[SUCCESSFUL ] joda-time#joda-time;2.8.1!joda-time.jar(src) (5322ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.github.nscala-time\nscala-time_2.11\1.0.0\srcs\nscala-time_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0-sources.jar
+[info] 	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar(src) (1334ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-exceptions\2.4.3\srcs\play-exceptions-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-exceptions;2.4.3!play-exceptions.jar(src) (780ms)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.0.1!httpclient.jar(src)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.7!joda-convert.jar(src)
-[debug] 	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.11;3.1.1!casbah-gridfs_2.11.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.mongodb\casbah-gridfs_2.11\3.1.1\srcs\casbah-gridfs_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1-sources.jar
+[info] 	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.11;3.1.1!casbah-gridfs_2.11.jar(src) (874ms)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
-[debug] 	[NOT REQUIRED] org.javassist#javassist;3.19.0-GA!javassist.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.javassist\javassist\3.19.0-GA\srcs\javassist-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/javassist/javassist/3.19.0-GA/javassist-3.19.0-GA-sources.jar
+[info] 	[SUCCESSFUL ] org.javassist#javassist;3.19.0-GA!javassist.jar(src) (5324ms)
 [debug] 	[NOT REQUIRED] com.google.inject#guice;4.0!guice.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4!jackson-datatype-jsr310.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-datacommons_2.11;2.4.3!play-datacommons_2.11.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.5.4\srcs\jackson-datatype-jsr310-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4!jackson-datatype-jsr310.jar(src) (1557ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.5.4\srcs\jackson-databind-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.jar(src) (6121ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-datacommons_2.11\2.4.3\srcs\play-datacommons_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.11;2.4.3!play-datacommons_2.11.jar(src) (705ms)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.0.1!httpcore.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-stm#scala-stm_2.11;0.7!scala-stm_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4!jackson-datatype-jdk8.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.5.4\srcs\jackson-datatype-jdk8-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4!jackson-datatype-jdk8.jar(src) (784ms)
 [debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
-[debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;2.3.7!HikariCP.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.4.3!play-cache_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.4.3!play-functional_2.11.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.zaxxer\HikariCP\2.3.7\srcs\HikariCP-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.3.7/HikariCP-2.3.7-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.3.7/HikariCP-2.3.7-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.3.7/HikariCP-2.3.7-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.3.7/HikariCP-2.3.7-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.3.7/HikariCP-2.3.7-sources.jar
+[info] 	[SUCCESSFUL ] com.zaxxer#HikariCP;2.3.7!HikariCP.jar(src) (1050ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-cache_2.11\2.4.3\srcs\play-cache_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.3/play-cache_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.3/play-cache_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.3/play-cache_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.3/play-cache_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.3/play-cache_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-cache_2.11;2.4.3!play-cache_2.11.jar(src) (1310ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-functional_2.11\2.4.3\srcs\play-functional_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.11;2.4.3!play-functional_2.11.jar(src) (766ms)
 [debug] 	[NOT REQUIRED] net.sf.ehcache#ehcache-core;2.6.11!ehcache-core.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-api_2.11;2.4.3!play-jdbc-api_2.11.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-jdbc-api_2.11\2.4.3\srcs\play-jdbc-api_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.4.3/play-jdbc-api_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.4.3/play-jdbc-api_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.4.3/play-jdbc-api_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.4.3/play-jdbc-api_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.4.3/play-jdbc-api_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-api_2.11;2.4.3!play-jdbc-api_2.11.jar(src) (749ms)
 [debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
 [debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.1.3!logback-core.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\ch.qos.logback\logback-core\1.1.3\srcs\logback-core-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-sources.jar
+[info] 	[SUCCESSFUL ] ch.qos.logback#logback-core;1.1.3!logback-core.jar(src) (2849ms)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.5.4!jackson-core.jar(src)
-[debug] 	[NOT REQUIRED] com.h2database#h2;1.4.187!h2.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.5.4\srcs\jackson-core-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4-sources.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.4!jackson-core.jar(src) (2583ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.h2database\h2\1.4.187\srcs\h2-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/h2database/h2/1.4.187/h2-1.4.187-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.187/h2-1.4.187-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.187/h2-1.4.187-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/h2database/h2/1.4.187/h2-1.4.187-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/h2database/h2/1.4.187/h2-1.4.187-sources.jar
+[info] 	[SUCCESSFUL ] com.h2database#h2;1.4.187!h2.jar(src) (10041ms)
 [debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-utils;2.4.3!play-netty-utils.jar(src)
-[debug] 	[NOT REQUIRED] com.ning#async-http-client;1.9.21!async-http-client.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-netty-utils\2.4.3\srcs\play-netty-utils-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-utils;2.4.3!play-netty-utils.jar(src) (769ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.ning\async-http-client\1.9.21\srcs\async-http-client-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/ning/async-http-client/1.9.21/async-http-client-1.9.21-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/ning/async-http-client/1.9.21/async-http-client-1.9.21-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/ning/async-http-client/1.9.21/async-http-client-1.9.21-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/ning/async-http-client/1.9.21/async-http-client-1.9.21-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/ning/async-http-client/1.9.21/async-http-client-1.9.21-sources.jar
+[info] 	[SUCCESSFUL ] com.ning#async-http-client;1.9.21!async-http-client.jar(src) (2012ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.mongodb\casbah_2.11\3.1.1\srcs\casbah_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1-sources.jar
+[debug] 		tried C:\Users\fares\.sbt\preloaded\org.mongodb\casbah_2.11\3.1.1\srcs\casbah_2.11-sources.jar
+[debug] 		tried file:/C:/Users/fares/.sbt/preloaded/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1-sources.jar
+[warn] 	[FAILED     ] org.mongodb#casbah_2.11;3.1.1!casbah_2.11.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   C:\Users\fares\.ivy2\local\org.mongodb\casbah_2.11\3.1.1\srcs\casbah_2.11-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1-sources.jar
+[warn] ==== local-preloaded-ivy: tried
+[warn]   C:\Users\fares\.sbt\preloaded\org.mongodb\casbah_2.11\3.1.1\srcs\casbah_2.11-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:/C:/Users/fares/.sbt/preloaded/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1-sources.jar
 [debug] 	[NOT REQUIRED] oauth.signpost#signpost-commonshttp4;1.2.1.2!signpost-commonshttp4.jar(src)
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.3!commons-logging.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.3.4!httpclient.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.3.2!httpcore.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.15.v20140411!jetty-http.jar(src)
-[debug] 	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;0.10.3!fluentlenium-core.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.3.3!httpmime.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.14!cssparser.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-safari-driver;2.44.0!selenium-safari-driver.jar(src)
-[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.3!jsr305.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-chrome-driver;2.44.0!selenium-chrome-driver.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.15!htmlunit-core-js.jar(src)
-[debug] 	[NOT REQUIRED] net.java.dev.jna#jna;3.4.0!jna.jar(src)
-[debug] 	[NOT REQUIRED] net.java.dev.jna#platform;3.4.0!platform.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-ie-driver;2.44.0!selenium-ie-driver.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.nekohtml#nekohtml;1.9.21!nekohtml.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.15.v20140411!jetty-io.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-java;2.44.0!selenium-java.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\commons-logging\commons-logging\1.1.3\srcs\commons-logging-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
+[info] 	[SUCCESSFUL ] commons-logging#commons-logging;1.1.3!commons-logging.jar(src) (1068ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.apache.httpcomponents\httpclient\4.3.4\srcs\httpclient-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.3.4!httpclient.jar(src) (4487ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.apache.httpcomponents\httpcore\4.3.2\srcs\httpcore-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.3.2!httpcore.jar(src) (2831ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.eclipse.jetty\jetty-http\8.1.15.v20140411\srcs\jetty-http-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.15.v20140411/jetty-http-8.1.15.v20140411-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.15.v20140411/jetty-http-8.1.15.v20140411-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.15.v20140411/jetty-http-8.1.15.v20140411-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.15.v20140411/jetty-http-8.1.15.v20140411-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.15.v20140411/jetty-http-8.1.15.v20140411-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.15.v20140411!jetty-http.jar(src) (1102ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.fluentlenium\fluentlenium-core\0.10.3\srcs\fluentlenium-core-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.10.3/fluentlenium-core-0.10.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.10.3/fluentlenium-core-0.10.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.10.3/fluentlenium-core-0.10.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.10.3/fluentlenium-core-0.10.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/0.10.3/fluentlenium-core-0.10.3-sources.jar
+[info] 	[SUCCESSFUL ] org.fluentlenium#fluentlenium-core;0.10.3!fluentlenium-core.jar(src) (1071ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.apache.httpcomponents\httpmime\4.3.3\srcs\httpmime-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.httpcomponents#httpmime;4.3.3!httpmime.jar(src) (1258ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\net.sourceforge.cssparser\cssparser\0.9.14\srcs\cssparser-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.14/cssparser-0.9.14-sources.jar
+[info] downloading https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.14/cssparser-0.9.14-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.14/cssparser-0.9.14-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.14/cssparser-0.9.14-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.14/cssparser-0.9.14-sources.jar
+[info] 	[SUCCESSFUL ] net.sourceforge.cssparser#cssparser;0.9.14!cssparser.jar(src) (3245ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.seleniumhq.selenium\selenium-safari-driver\2.44.0\srcs\selenium-safari-driver-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/2.44.0/selenium-safari-driver-2.44.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/2.44.0/selenium-safari-driver-2.44.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/2.44.0/selenium-safari-driver-2.44.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/2.44.0/selenium-safari-driver-2.44.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/2.44.0/selenium-safari-driver-2.44.0-sources.jar
+[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-safari-driver;2.44.0!selenium-safari-driver.jar(src) (1083ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.google.code.findbugs\jsr305\2.0.3\srcs\jsr305-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3-sources.jar
+[info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;2.0.3!jsr305.jar(src) (627ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.seleniumhq.selenium\selenium-chrome-driver\2.44.0\srcs\selenium-chrome-driver-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.44.0/selenium-chrome-driver-2.44.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.44.0/selenium-chrome-driver-2.44.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.44.0/selenium-chrome-driver-2.44.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.44.0/selenium-chrome-driver-2.44.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.44.0/selenium-chrome-driver-2.44.0-sources.jar
+[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-chrome-driver;2.44.0!selenium-chrome-driver.jar(src) (800ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\net.sourceforge.htmlunit\htmlunit-core-js\2.15\srcs\htmlunit-core-js-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.15/htmlunit-core-js-2.15-sources.jar
+[info] downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.15/htmlunit-core-js-2.15-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.15/htmlunit-core-js-2.15-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.15/htmlunit-core-js-2.15-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.15/htmlunit-core-js-2.15-sources.jar
+[info] 	[SUCCESSFUL ] net.sourceforge.htmlunit#htmlunit-core-js;2.15!htmlunit-core-js.jar(src) (5506ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\net.java.dev.jna\jna\3.4.0\srcs\jna-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/java/dev/jna/jna/3.4.0/jna-3.4.0-sources.jar
+[info] 	[SUCCESSFUL ] net.java.dev.jna#jna;3.4.0!jna.jar(src) (4130ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\net.java.dev.jna\platform\3.4.0\srcs\platform-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform-3.4.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform-3.4.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform-3.4.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform-3.4.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform-3.4.0-sources.jar
+[info] 	[SUCCESSFUL ] net.java.dev.jna#platform;3.4.0!platform.jar(src) (3953ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.seleniumhq.selenium\selenium-ie-driver\2.44.0\srcs\selenium-ie-driver-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.44.0/selenium-ie-driver-2.44.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.44.0/selenium-ie-driver-2.44.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.44.0/selenium-ie-driver-2.44.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.44.0/selenium-ie-driver-2.44.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.44.0/selenium-ie-driver-2.44.0-sources.jar
+[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-ie-driver;2.44.0!selenium-ie-driver.jar(src) (684ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\net.sourceforge.nekohtml\nekohtml\1.9.21\srcs\nekohtml-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21-sources.jar
+[info] downloading https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21-sources.jar
+[info] 	[SUCCESSFUL ] net.sourceforge.nekohtml#nekohtml;1.9.21!nekohtml.jar(src) (1270ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.eclipse.jetty\jetty-io\8.1.15.v20140411\srcs\jetty-io-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.15.v20140411/jetty-io-8.1.15.v20140411-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.15.v20140411/jetty-io-8.1.15.v20140411-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.15.v20140411/jetty-io-8.1.15.v20140411-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.15.v20140411/jetty-io-8.1.15.v20140411-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.15.v20140411/jetty-io-8.1.15.v20140411-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.15.v20140411!jetty-io.jar(src) (1281ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.seleniumhq.selenium\selenium-java\2.44.0\srcs\selenium-java-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/2.44.0/selenium-java-2.44.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/2.44.0/selenium-java-2.44.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/2.44.0/selenium-java-2.44.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/2.44.0/selenium-java-2.44.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/2.44.0/selenium-java-2.44.0-sources.jar
+[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-java;2.44.0!selenium-java.jar(src) (1367ms)
 [debug] 	[NOT REQUIRED] org.webbitserver#webbit;0.4.14!webbit.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;2.44.0!selenium-api.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;2.44.0!selenium-firefox-driver.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.4.3!play-test_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.15.v20140411!jetty-util.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;2.44.0!selenium-remote-driver.jar(src)
-[debug] 	[NOT REQUIRED] xalan#xalan;2.7.1!xalan.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.seleniumhq.selenium\selenium-api\2.44.0\srcs\selenium-api-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/2.44.0/selenium-api-2.44.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/2.44.0/selenium-api-2.44.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/2.44.0/selenium-api-2.44.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/2.44.0/selenium-api-2.44.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/2.44.0/selenium-api-2.44.0-sources.jar
+[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-api;2.44.0!selenium-api.jar(src) (1806ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.seleniumhq.selenium\selenium-firefox-driver\2.44.0\srcs\selenium-firefox-driver-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/2.44.0/selenium-firefox-driver-2.44.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/2.44.0/selenium-firefox-driver-2.44.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/2.44.0/selenium-firefox-driver-2.44.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/2.44.0/selenium-firefox-driver-2.44.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/2.44.0/selenium-firefox-driver-2.44.0-sources.jar
+[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-firefox-driver;2.44.0!selenium-firefox-driver.jar(src) (1050ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-test_2.11\2.4.3\srcs\play-test_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.4.3/play-test_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.4.3/play-test_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.4.3/play-test_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.4.3/play-test_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.4.3/play-test_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.11;2.4.3!play-test_2.11.jar(src) (922ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.eclipse.jetty\jetty-util\8.1.15.v20140411\srcs\jetty-util-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.15.v20140411/jetty-util-8.1.15.v20140411-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.15.v20140411/jetty-util-8.1.15.v20140411-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.15.v20140411/jetty-util-8.1.15.v20140411-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.15.v20140411/jetty-util-8.1.15.v20140411-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.15.v20140411/jetty-util-8.1.15.v20140411-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.15.v20140411!jetty-util.jar(src) (2153ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.seleniumhq.selenium\selenium-remote-driver\2.44.0\srcs\selenium-remote-driver-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.44.0/selenium-remote-driver-2.44.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.44.0/selenium-remote-driver-2.44.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.44.0/selenium-remote-driver-2.44.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.44.0/selenium-remote-driver-2.44.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.44.0/selenium-remote-driver-2.44.0-sources.jar
+[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-remote-driver;2.44.0!selenium-remote-driver.jar(src) (1938ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\xalan\xalan\2.7.1\srcs\xalan-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1-sources.jar
+[info] 	[SUCCESSFUL ] xalan#xalan;2.7.1!xalan.jar(src) (25357ms)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0!selenium-htmlunit-driver.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.seleniumhq.selenium\selenium-htmlunit-driver\2.44.0\srcs\selenium-htmlunit-driver-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.44.0/selenium-htmlunit-driver-2.44.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.44.0/selenium-htmlunit-driver-2.44.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.44.0/selenium-htmlunit-driver-2.44.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.44.0/selenium-htmlunit-driver-2.44.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.44.0/selenium-htmlunit-driver-2.44.0-sources.jar
+[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-htmlunit-driver;2.44.0!selenium-htmlunit-driver.jar(src) (915ms)
 [debug] 	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar(src)
-[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.3!gson.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.google.code.gson\gson\2.3\srcs\gson-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3-sources.jar
+[info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.3!gson.jar(src) (1417ms)
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.15!htmlunit.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-exec;1.1!commons-exec.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\net.sourceforge.htmlunit\htmlunit\2.15\srcs\htmlunit-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.15/htmlunit-2.15-sources.jar
+[info] downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.15/htmlunit-2.15-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.15/htmlunit-2.15-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.15/htmlunit-2.15-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.15/htmlunit-2.15-sources.jar
+[info] 	[SUCCESSFUL ] net.sourceforge.htmlunit#htmlunit;2.15!htmlunit.jar(src) (7737ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.apache.commons\commons-exec\1.1\srcs\commons-exec-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.1/commons-exec-1.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-exec;1.1!commons-exec.jar(src) (805ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\xalan\serializer\2.7.1\srcs\serializer-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
+[debug] 		tried C:\Users\fares\.sbt\preloaded\xalan\serializer\2.7.1\srcs\serializer-sources.jar
+[debug] 		tried file:/C:/Users/fares/.sbt/preloaded/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
+[warn] 	[FAILED     ] xalan#serializer;2.7.1!serializer.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   C:\Users\fares\.ivy2\local\xalan\serializer\2.7.1\srcs\serializer-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
+[warn] ==== local-preloaded-ivy: tried
+[warn]   C:\Users\fares\.sbt\preloaded\xalan\serializer\2.7.1\srcs\serializer-sources.jar
+[warn] ==== local-preloaded: tried
+[warn]   file:/C:/Users/fares/.sbt/preloaded/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;2.44.0!selenium-support.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\commons-collections\commons-collections\3.2.1\srcs\commons-collections-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar
+[info] 	[SUCCESSFUL ] commons-collections#commons-collections;3.2.1!commons-collections.jar(src) (4763ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.seleniumhq.selenium\selenium-support\2.44.0\srcs\selenium-support-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/2.44.0/selenium-support-2.44.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/2.44.0/selenium-support-2.44.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/2.44.0/selenium-support-2.44.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/2.44.0/selenium-support-2.44.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/2.44.0/selenium-support-2.44.0-sources.jar
+[info] 	[SUCCESSFUL ] org.seleniumhq.selenium#selenium-support;2.44.0!selenium-support.jar(src) (1400ms)
 [debug] 	[NOT REQUIRED] cglib#cglib-nodep;2.1_3!cglib-nodep.jar(src)
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.15.v20140411!jetty-websocket.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.eclipse.jetty\jetty-websocket\8.1.15.v20140411\srcs\jetty-websocket-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.15.v20140411/jetty-websocket-8.1.15.v20140411-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.15.v20140411/jetty-websocket-8.1.15.v20140411-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.15.v20140411/jetty-websocket-8.1.15.v20140411-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.15.v20140411/jetty-websocket-8.1.15.v20140411-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.15.v20140411/jetty-websocket-8.1.15.v20140411-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.15.v20140411!jetty-websocket.jar(src) (1655ms)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar(src)
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.4.0!pegdown.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.scala-lang\scala-library\2.11.6\srcs\scala-library-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.6!scala-library.jar(src) (10664ms)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.5!parboiled-java.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.11;1.2.2!play-doc_2.11.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.11;2.4.3!play-docs_2.11.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-docs_2.11\2.4.3\srcs\play-docs_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.4.3/play-docs_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.4.3/play-docs_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.4.3/play-docs_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.4.3/play-docs_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.4.3/play-docs_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.11;2.4.3!play-docs_2.11.jar(src) (719ms)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm;4.1!asm.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;4.1!asm-tree.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-omnidoc_2.11;2.4.3!play-omnidoc_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(src)
+[debug] 		tried C:\Users\fares\.ivy2\local\com.typesafe.play\play-omnidoc_2.11\2.4.3\srcs\play-omnidoc_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.4.3/play-omnidoc_2.11-2.4.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.4.3/play-omnidoc_2.11-2.4.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.4.3/play-omnidoc_2.11-2.4.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.4.3/play-omnidoc_2.11-2.4.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.4.3/play-omnidoc_2.11-2.4.3-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.11;2.4.3!play-omnidoc_2.11.jar(src) (734ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.scala-lang\scala-reflect\2.11.6\srcs\scala-reflect-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src) (6802ms)
+[debug] 		tried C:\Users\fares\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\srcs\scala-parser-combinators_2.11-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(src) (1263ms)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;16.0.1!guava.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 2344ms :: artifacts dl 83ms
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT compile produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-compile.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT runtime produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-runtime.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT test produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-test.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT provided produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-provided.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT optional produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-optional.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT compile-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-compile-internal.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT runtime-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-runtime-internal.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT test-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-test-internal.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT plugin produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-plugin.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT sources produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-sources.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT docs produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-docs.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT pom produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-pom.xml
-[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-scala-tool.xml
-[debug] 	resolve done (2344ms resolve - 83ms download)
+[debug] 		tried C:\Users\fares\.ivy2\local\jline\jline\2.12.1\srcs\jline-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1-sources.jar
+[info] 	[SUCCESSFUL ] jline#jline;2.12.1!jline.jar(src) (1608ms)
+[debug] :: resolution report :: resolve 2138ms :: artifacts dl 254019ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.mongodb#casbah_2.11;3.1.1!casbah_2.11.jar(src)
+[warn] 	:: xalan#serializer;2.7.1!serializer.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT compile produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-compile.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT runtime produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-runtime.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT test produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-test.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT provided produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-provided.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT optional produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-optional.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT compile-internal produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-compile-internal.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT runtime-internal produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-runtime-internal.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT test-internal produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-test-internal.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT plugin produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-plugin.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT sources produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-sources.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT docs produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-docs.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT pom produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-pom.xml
+[debug] 	report for play-getting-started#play-getting-started$sources_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\fares\IdeaProjects\scala_SDP\target\resolution-cache\reports\play-getting-started-play-getting-started$sources_2.11-scala-tool.xml
+[debug] 	resolve done (2138ms resolve - 254019ms download)

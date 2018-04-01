@@ -1,10 +1,14 @@
-[info] Updating {file:/C:/Users/Mohammed/IdeaProjects/scala_SDP/project/}scala_sdp-build...
+[info] Updating {file:/C:/Users/fares/IdeaProjects/scala_SDP/project/}scala_sdp-build...
 [debug] :: resolving dependencies :: default#scala_sdp-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[info] Resolving org.scala-sbt#global-plugins;0.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}
+[debug] 	found org.scala-sbt#global-plugins;0.0 in inter-project
 [debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#sbt-plugin;2.4.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#sbt-plugin;2.4.3 {compile=[default(compile)]}
@@ -2215,6 +2219,7 @@
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
@@ -3985,6 +3990,7 @@
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
@@ -6584,6 +6590,7 @@
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile-internal]
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
@@ -8964,6 +8971,7 @@
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
@@ -10736,6 +10744,7 @@
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [test]
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime]
 [debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
@@ -13305,19 +13314,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2539ms :: artifacts dl 98ms
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT provided produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-provided.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT optional produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-optional.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile-internal.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime-internal.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test-internal.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT plugin produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-plugin.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT sources produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-sources.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT docs produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-docs.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT pom produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-pom.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-scala-tool.xml
-[debug] 	resolve done (2539ms resolve - 98ms download)
+[debug] :: resolution report :: resolve 2742ms :: artifacts dl 87ms
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT provided produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-provided.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT optional produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-optional.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile-internal produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile-internal.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime-internal.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test-internal produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test-internal.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT plugin produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-plugin.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT sources produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-sources.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT docs produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-docs.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT pom produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-pom.xml
+[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT scala-tool produced in C:\Users\fares\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-scala-tool.xml
+[debug] 	resolve done (2742ms resolve - 87ms download)
 [info] Done updating.
