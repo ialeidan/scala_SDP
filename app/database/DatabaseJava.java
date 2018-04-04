@@ -60,8 +60,8 @@ public class DatabaseJava{
         Document doc = Document.parse(json);
         Document temp = new Document();
         temp.append("email", doc.get("email"));
-        boolean check = collection.find(temp).first() == null;
-        if(check){
+        boolean noexist = collection.find(temp).first() == null;
+        if(noexist){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
                     put("Errors",("EMAIL_NOT_FOUND"));
@@ -70,8 +70,8 @@ public class DatabaseJava{
             return ret;
         }
         temp.append("password", hash(doc.get("password").toString()));
-        check = collection.find(temp).first() == null;
-        if(check){
+        noexist = collection.find(temp).first() == null;
+        if(noexist){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
                     put("Errors",("INVALID_PASSWORD"));
@@ -93,8 +93,8 @@ public class DatabaseJava{
         MongoCollection<Document> collection = db.getCollection("Users");
 
 
-        boolean check = collection.find(eq("email", Document.parse(json).get("email"))).first() != null;
-        if(check){
+        boolean exist = collection.find(eq("email", Document.parse(json).get("email"))).first() != null;
+        if(exist){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
                     put("Errors",("EMAIL_EXISTS"));
@@ -120,8 +120,8 @@ public class DatabaseJava{
 
     public HashMap spRegister(String json)throws NoSuchAlgorithmException {
         MongoCollection<Document> collection = db.getCollection("Users");
-        boolean check = collection.find(eq("email", Document.parse(json).get("email"))).first() != null;
-        if(check){
+        boolean exist = collection.find(eq("email", Document.parse(json).get("email"))).first() != null;
+        if(exist){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
                     put("Errors",("EMAIL_EXISTS"));
@@ -144,6 +144,52 @@ public class DatabaseJava{
             };
             return ret;
         }
+    }
+
+    public HashMap [] history(String json){
+        MongoCollection<Document> collection = db.getCollection("History");
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("user_id", doc.get("user_id"))).first() != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object>[] ret = new HashMap[1];
+            ret[0] = new HashMap<String, Object>() {
+                {
+                    put("Errors", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ///count how many document are there
+        int i = 0;
+        MongoCursor<Document> cursor = collection.find(eq("user_id",doc.get("user_id"))).iterator();
+        try {
+            while (cursor.hasNext()) {
+                cursor.next();
+                i++;
+            }
+        } finally {
+            cursor.close();
+        }
+        ///adding document to the HashMap
+        cursor = collection.find(eq("user_id",doc.get("user_id"))).iterator();
+        try {
+            HashMap<String, Object>[] ret = new HashMap[i];
+            i = 0;
+            while (cursor.hasNext()) {
+                Document temp = cursor.next();
+                ret[i] = new HashMap<String, Object>() {
+                    {
+                        put("_id", temp.get("_id"));
+                    }
+                };
+                i++;
+            }
+            return ret;
+        } finally {
+            cursor.close();
+        }
+
     }
 
     public String hash(String pass) throws NoSuchAlgorithmException {
