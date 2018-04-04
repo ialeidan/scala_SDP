@@ -149,7 +149,7 @@ public class DatabaseJava{
     public HashMap [] history(String json){
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
-        boolean exist = collection.find(eq("user_id", doc.get("user_id"))).first() != null;
+        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
         ////check if user authenticated
         if(!exist){
             HashMap<String, Object>[] ret = new HashMap[1];
