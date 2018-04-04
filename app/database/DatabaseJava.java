@@ -182,6 +182,15 @@ public class DatabaseJava{
                 ret[i] = new HashMap<String, Object>() {
                     {
                         put("_id", temp.get("_id"));
+                        put("customer_id", temp.get("customer_id"));
+                        put("sp_id", temp.get("sp_id"));
+                        put("status", temp.get("status"));
+                        put("rating", temp.get("rating"));
+                        put("timestamp", temp.get("timestamp"));
+                        put("\"location\" : { \"from\" : { \"latitude\" ", temp.get("\"location\" : { \"from\" : { \"latitude\" "));
+                        put("\"location\" : { \"from\" : { \"longitude\" ", temp.get("\"location\" : { \"from\" : { \"longitude\" "));
+                        put("\"location\" : { \"to\" : { \"latitude\" ", temp.get("\"location\" : { \"to\" : { \"latitude\" "));
+                        put("\"location\" : { \"to\" : { \"longitude\" ", temp.get("\"location\" : { \"to\" : { \"longitude\" "));
                     }
                 };
                 i++;
@@ -193,6 +202,68 @@ public class DatabaseJava{
 
     }
 
+    public HashMap status(String json) {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+
+        ////check if requesting
+        collection = db.getCollection("Requests");
+        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
+        if(exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("status", "requesting");
+                }
+            };
+            return ret;
+        }
+
+        ////check if in service or waiting for payment
+        collection = db.getCollection("Progress");
+        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
+        if(exist){
+            ////check if in service
+            exist = doc.get("status").equals("in service");
+            if(exist) {
+                HashMap<String, Object> ret = new HashMap<String, Object>() {
+                    {
+                        put("status", "in service");
+                    }
+                };
+                return ret;
+            }
+            ////check if waiting for payment
+            exist = doc.get("status").equals("payment");
+            if(exist) {
+                HashMap<String, Object> ret = new HashMap<String, Object>() {
+                    {
+                        put("status", "payment");
+                    }
+                };
+                return ret;
+            }
+        }
+        ////if not all above, return not on service
+        HashMap<String, Object> ret = new HashMap<String, Object>() {
+            {
+                put("status", "not on service");
+            }
+        };
+        return ret;
+
+    }
 
     public String hash(String pass) throws NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance("SHA-256");

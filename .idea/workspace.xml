@@ -24,8 +24,8 @@
       <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="158" column="24" lean-forward="false" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="24" />
+            <state relative-caret-position="-47">
+              <caret line="154" column="3" lean-forward="false" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -34,14 +34,15 @@
       <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="151" column="33" lean-forward="false" selection-start-line="151" selection-start-column="33" selection-end-line="151" selection-end-column="33" />
+            <state relative-caret-position="518">
+              <caret line="259" column="13" lean-forward="true" selection-start-line="259" selection-start-column="13" selection-end-line="259" selection-end-column="13" />
               <folding>
                 <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
+                <element signature="method#history#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
               </folding>
             </state>
@@ -53,6 +54,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>status</find>
+      <find>not</find>
+      <find>history</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,6 +74,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
         <option value="$PROJECT_DIR$/app/database/DatabaseJava.java" />
       </list>
     </option>
@@ -89,8 +93,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="310" />
-    <option name="y" value="455" />
+    <option name="x" value="812" />
+    <option name="y" value="-23" />
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -141,6 +145,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,12 +290,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522850354614</updated>
-      <workItem from="1522850356022" duration="1350000" />
+      <workItem from="1522850356022" duration="4534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1350000" />
+    <option name="totallyTimeSpent" value="4534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -344,22 +349,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="158" column="24" lean-forward="false" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="24" />
+        <state relative-caret-position="-47">
+          <caret line="154" column="3" lean-forward="false" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="151" column="33" lean-forward="false" selection-start-line="151" selection-start-column="33" selection-end-line="151" selection-end-column="33" />
+        <state relative-caret-position="518">
+          <caret line="259" column="13" lean-forward="true" selection-start-line="259" selection-start-column="13" selection-end-line="259" selection-end-column="13" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#history#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
