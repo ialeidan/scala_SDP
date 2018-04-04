@@ -147,7 +147,7 @@ public class DatabaseJava{
     }
 
     public HashMap [] history(String json){
-        MongoCollection<Document> collection = db.getCollection("History");
+        MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("user_id", doc.get("user_id"))).first() != null;
         ////check if user authenticated
@@ -160,6 +160,7 @@ public class DatabaseJava{
             };
             return ret;
         }
+        collection = db.getCollection("History");
         ///count how many document are there
         int i = 0;
         MongoCursor<Document> cursor = collection.find(eq("user_id",doc.get("user_id"))).iterator();
@@ -191,6 +192,7 @@ public class DatabaseJava{
         }
 
     }
+
 
     public String hash(String pass) throws NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
