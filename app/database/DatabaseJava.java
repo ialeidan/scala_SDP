@@ -265,6 +265,47 @@ public class DatabaseJava{
 
     }
 
+    public HashMap sendrequest(String json) {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ///if another request is running sent error
+        collection = db.getCollection("Requests");
+        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
+        if(exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("request", "error");
+                }
+            };
+            return ret;
+        }
+        ////else send success and request id
+        collection.insertOne(doc);
+        ObjectId id = (ObjectId)doc.get( "_id" );
+        HashMap<String, Object> ret = new HashMap<String, Object>() {
+            {
+                put("request", "success");
+                put("request_id", id.toHexString());
+            }
+        };
+        return ret;
+
+
+
+    }
+
     public String hash(String pass) throws NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
         byte[] hash = digest.digest(
