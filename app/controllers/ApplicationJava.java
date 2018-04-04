@@ -10,7 +10,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 
 
-public class ApplicationJava extends Controller{
+public class ApplicationJava extends Controller {
 
 
     private DatabaseJava database = new DatabaseJava();
@@ -24,10 +24,10 @@ public class ApplicationJava extends Controller{
     }
 
     public Result register() {
-        JsonNode reg =request().body().asJson();
+        JsonNode reg = request().body().asJson();
 
-        if(reg.get("email")== null || reg.get("password")==null || reg.get("phone")==null || reg.get("username")==null ){
-            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+        if (reg.get("email") == null || reg.get("password") == null || reg.get("phone") == null || reg.get("username") == null) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
                     put("code", "400");
@@ -44,7 +44,7 @@ public class ApplicationJava extends Controller{
             HashMap<String, Object> ret = database.register(reg.toString());
             return ok(Json.toJson(ret));
         } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
                     put("code", "400");
@@ -56,16 +56,16 @@ public class ApplicationJava extends Controller{
             return ok(Json.toJson(ERR));
 
         }
-         //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
+        //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
 
 //        return ok("Hello ");
     }
-    public Result spRegister() {
-        JsonNode spReg =request().body().asJson();
 
-        if(spReg.get("email")== null || spReg.get("password")==null || spReg.get("phone")==null || spReg.get("username")==null || spReg.get("device")==null)
-        {
-            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+    public Result spRegister() {
+        JsonNode spReg = request().body().asJson();
+
+        if (spReg.get("email") == null || spReg.get("password") == null || spReg.get("phone") == null || spReg.get("username") == null || spReg.get("device") == null) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
                     put("code", "400");
@@ -81,7 +81,7 @@ public class ApplicationJava extends Controller{
             HashMap<String, Object> ret = database.spRegister(spReg.toString());
             return ok(Json.toJson(ret));
         } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
                     put("code", "400");
@@ -98,12 +98,12 @@ public class ApplicationJava extends Controller{
 
 //        return ok("Hello ");
     }
-    public Result login() {
-        JsonNode spReg =request().body().asJson();
 
-        if(spReg.get("email")== null || spReg.get("password")==null)
-        {
-            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+    public Result login() {
+        JsonNode spReg = request().body().asJson();
+
+        if (spReg.get("email") == null || spReg.get("password") == null) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
                     put("code", "400");
@@ -119,7 +119,7 @@ public class ApplicationJava extends Controller{
             HashMap<String, Object> ret = database.Login(spReg.toString());
             return ok(Json.toJson(ret));
         } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
                     put("code", "400");
@@ -136,11 +136,11 @@ public class ApplicationJava extends Controller{
 
 //        return ok("Hello ");
     }
+
     public Result history() {
-        JsonNode hist =request().body().asJson();
-        if(hist.get("User_id")== null)
-        {
-            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+        JsonNode hist = request().body().asJson();
+        if (hist.get("User_id") == null) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
                     put("code", "400");
@@ -149,17 +149,18 @@ public class ApplicationJava extends Controller{
 
             };
 
-            return ok(Json.toJson(ERR));}
+            return ok(Json.toJson(ERR));
+        }
 
 //          return ok(Json.toJson( history( hist.get("User_id") ))); //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
         return ok("Hello ");
     }
-    public Result status() {
-        JsonNode status =request().body().asJson();
 
-        if(status.get("user_id")== null)
-        {
-            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+    public Result status() {
+        JsonNode status = request().body().asJson();
+
+        if (status.get("user_id") == null) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
                     put("code", "400");
@@ -175,7 +176,7 @@ public class ApplicationJava extends Controller{
             HashMap<String, Object> ret = database.status(status.toString());//status function
             return ok(Json.toJson(ret));
         } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>(){
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
                     put("code", "400");
@@ -187,4 +188,38 @@ public class ApplicationJava extends Controller{
             return ok(Json.toJson(ERR));
 
         }
+    }
+    public Result sendrequest() {
+        JsonNode request = request().body().asJson();
+
+        if (request.get("user_id") == null || request.get("service") == null) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+
+            return ok(Json.toJson(ERR));
+        }
+
+        try {
+            HashMap<String, Object> ret = database.request(request.toString());//request function
+            return ok(Json.toJson(ret));
+        } catch (NoSuchAlgorithmException e) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+            e.printStackTrace();
+            return ok(Json.toJson(ERR));
+
+        }
+    }
 }
