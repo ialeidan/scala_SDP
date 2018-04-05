@@ -157,8 +157,8 @@ public class DatabaseJava{
             };
             return ret;
         }
-        collection = db.getCollection("History");
         ///count how many document are there
+        collection = db.getCollection("History");
         int i = 0;
         MongoCursor<Document> cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();
         try {
@@ -216,7 +216,6 @@ public class DatabaseJava{
             };
             return ret;
         }
-
         ////check if requesting
         collection = db.getCollection("Requests");
         exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
@@ -228,7 +227,6 @@ public class DatabaseJava{
             };
             return ret;
         }
-
         ////check if in service or waiting for payment
         collection = db.getCollection("Progress");
         exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
@@ -261,7 +259,6 @@ public class DatabaseJava{
             }
         };
         return ret;
-
     }
 
     public HashMap sendrequest(String json) {
@@ -341,15 +338,17 @@ public class DatabaseJava{
             i = 0;
             while (cursor.hasNext()) {
                 Document temp = cursor.next();
+                ObjectId id = (ObjectId)temp.get( "_id" );
                 ret[i] = new HashMap<String, Object>() {
                     {
-                        put("bid_id", temp.get("_id"));
+                        put("bid_id", id);
                         put("request_id", temp.get("request_id"));
                         put("customer_id", temp.get("customer_id"));
                         put("sp_id", temp.get("sp_id"));
+                        put("status", temp.get("status"));
                         put("price", temp.get("price"));
-                        put("\"location\" : { \"latitude\" ", temp.get("\"location\" : { \"latitude\" "));
-                        put("\"location\" : { \"longitude\" ", temp.get("\"location\" : { \"latitude\" "));
+                        put("location : { latitude ", temp.get("location\" : { latitude "));
+                        put("location : { longitude ", temp.get("location\" : { latitude "));
                     }
                 };
                 i++;
@@ -404,15 +403,15 @@ public class DatabaseJava{
         collection.insertOne(temp);
         collection = db.getCollection("Requests");
         collection.deleteOne(eq("_id", doc.get("user_id")));
+        ///delete other bids from collection
+        collection = db.getCollection("Bids");
+        collection.deleteMany(eq("request_id", request.get("_id")));
         HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
                     put("request", "success");
                 }
             };
             return ret;
-
-
-
     }
 
     public String hash(String pass) throws NoSuchAlgorithmException {
