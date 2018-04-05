@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b316c487-1fca-48a6-8fb5-b7d848da043c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/database/DatabaseJava.java" afterPath="$PROJECT_DIR$/app/database/DatabaseJava.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,15 +35,14 @@
       <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="57" column="70" lean-forward="false" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
+            <state relative-caret-position="337">
+              <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
               <folding>
                 <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-                <element signature="method#history#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#status#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#sendrequest#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
@@ -95,11 +94,10 @@
       </array>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="39" />
-    <option name="y" value="192" />
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -430,15 +428,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522850354614</updated>
-      <workItem from="1522850356022" duration="6837000" />
+      <workItem from="1522850356022" duration="9010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6837000" />
+    <option name="totallyTimeSpent" value="9010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -463,9 +461,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13256785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116648994" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11777302" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -499,15 +497,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="57" column="70" lean-forward="false" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
+        <state relative-caret-position="337">
+          <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#history#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#status#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#sendrequest#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />

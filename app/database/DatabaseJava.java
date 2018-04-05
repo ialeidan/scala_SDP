@@ -163,7 +163,7 @@ public class DatabaseJava{
         collection = db.getCollection("History");
         ///count how many document are there
         int i = 0;
-        MongoCursor<Document> cursor = collection.find(eq("user_id",doc.get("user_id"))).iterator();
+        MongoCursor<Document> cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();
         try {
             while (cursor.hasNext()) {
                 cursor.next();
@@ -173,7 +173,7 @@ public class DatabaseJava{
             cursor.close();
         }
         ///adding document to the HashMap
-        cursor = collection.find(eq("user_id",doc.get("user_id"))).iterator();
+        cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();
         try {
             HashMap<String, Object>[] ret = new HashMap[i];
             i = 0;
@@ -181,7 +181,9 @@ public class DatabaseJava{
                 Document temp = cursor.next();
                 ret[i] = new HashMap<String, Object>() {
                     {
-                        put("_id", temp.get("_id"));
+                        put("history_id", temp.get("_id"));
+                        put("request_id", temp.get("request_id"));
+                        put("info", temp.get("info"));
                         put("customer_id", temp.get("customer_id"));
                         put("sp_id", temp.get("sp_id"));
                         put("status", temp.get("status"));
