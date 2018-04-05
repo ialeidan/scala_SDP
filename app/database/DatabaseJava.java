@@ -186,10 +186,10 @@ public class DatabaseJava{
                         put("status", temp.get("status"));
                         put("rating", temp.get("rating"));
                         put("timestamp", temp.get("timestamp"));
-                        put("\"location\" : { \"from\" : { \"latitude\" ", temp.get("\"location\" : { \"from\" : { \"latitude\" "));
-                        put("\"location\" : { \"from\" : { \"longitude\" ", temp.get("\"location\" : { \"from\" : { \"longitude\" "));
-                        put("\"location\" : { \"to\" : { \"latitude\" ", temp.get("\"location\" : { \"to\" : { \"latitude\" "));
-                        put("\"location\" : { \"to\" : { \"longitude\" ", temp.get("\"location\" : { \"to\" : { \"longitude\" "));
+                        put("location : { from : { latitude ", temp.get("location : { from : { latitude "));
+                        put("location : { from : { longitude ", temp.get("location : { from : { longitude "));
+                        put("location : { to : { latitude ", temp.get("location : { to : { latitude "));
+                        put("location : { to : { longitude ", temp.get("location : { to : { longitude "));
                     }
                 };
                 i++;
@@ -358,6 +358,61 @@ public class DatabaseJava{
         } finally {
             cursor.close();
         }
+    }
+
+    public HashMap chooseBid(String json) {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ///check if request exist
+        collection = db.getCollection("Requests");
+        exist = collection.find(eq("user_id", doc.get("user_id"))).first() != null;
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("request", "error");
+                }
+            };
+            return ret;
+        }
+        ///get the information of the request and the bidder
+        collection = db.getCollection("Bids");
+        Document bid = collection.find(eq("_id", doc.get("bid_id"))).first();
+        collection = db.getCollection("Requests");
+        Document request = collection.find(eq("_id", doc.get("request_id"))).first();
+        ///move the request to the Progress collection
+        collection = db.getCollection("Progress");
+        Document temp = new Document();
+        temp.append("_id", request.get("_id"));
+        temp.append("customer_id", request.get("customer_id"));
+        temp.append("sp_id", bid.get("sp_id"));
+        temp.append("info", request.get("info"));
+        temp.append("status", request.get("in service"));
+        temp.append(" location : { latitude ", request.get(" location : { latitude "));
+        temp.append(" location : { longitude ", request.get(" location : { longitude "));
+        collection.insertOne(temp);
+        collection = db.getCollection("Requests");
+        collection.deleteOne(eq("_id", doc.get("user_id")));
+        HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("request", "success");
+                }
+            };
+            return ret;
+
+
+
     }
 
     public String hash(String pass) throws NoSuchAlgorithmException {
