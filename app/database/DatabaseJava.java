@@ -29,8 +29,6 @@ import com.mongodb.client.result.UpdateResult;
 public class DatabaseJava{
 
     private  Configuration configuration = Play.current().injector().instanceOf(Configuration .class);
-
-
     MongoClientURI mongoClientURI;
     MongoClient mongoClient;
     MongoDatabase db;
@@ -41,7 +39,6 @@ public class DatabaseJava{
         mongoClient = new MongoClient(mongoClientURI);
         db = mongoClient.getDatabase("heroku_85mqw3gf");
     }
-
 
     public Document getToken(String email){
         MongoCollection<Document> collection = db.getCollection("Users");
@@ -306,6 +303,61 @@ public class DatabaseJava{
 
 
 
+    }
+
+    public HashMap [] getBid(String json) {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object>[] ret = new HashMap[1];
+            ret[0] = new HashMap<String, Object>() {
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        collection = db.getCollection("Bids");
+        ///count how many document are there
+        int i = 0;
+        MongoCursor<Document> cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();
+        try {
+            while (cursor.hasNext()) {
+                cursor.next();
+                i++;
+            }
+        } finally {
+            cursor.close();
+        }
+        ///adding document to the HashMap
+        collection.createIndex(new Document("price", 1));
+        cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();
+        try {
+            HashMap<String, Object>[] ret = new HashMap[i];
+            i = 0;
+            while (cursor.hasNext()) {
+                Document temp = cursor.next();
+                ret[i] = new HashMap<String, Object>() {
+                    {
+                        put("bid_id", temp.get("_id"));
+                        put("request_id", temp.get("request_id"));
+                        put("customer_id", temp.get("customer_id"));
+                        put("sp_id", temp.get("sp_id"));
+                        put("price", temp.get("price"));
+                        put("\"location\" : { \"latitude\" ", temp.get("\"location\" : { \"latitude\" "));
+                        put("\"location\" : { \"longitude\" ", temp.get("\"location\" : { \"latitude\" "));
+                    }
+                };
+                i++;
+            }
+            return ret;
+        } finally {
+            cursor.close();
+        }
     }
 
     public String hash(String pass) throws NoSuchAlgorithmException {
