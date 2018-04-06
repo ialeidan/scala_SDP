@@ -176,14 +176,14 @@ public class DatabaseJava{
             i = 0;
             while (cursor.hasNext()) {
                 Document temp = cursor.next();
+                ObjectId id = (ObjectId)temp.get( "_id" );
                 ret[i] = new HashMap<String, Object>() {
                     {
-                        put("history_id", temp.get("_id"));
-                        put("request_id", temp.get("request_id"));
-                        put("info", temp.get("info"));
+                        put("request_id", id.toHexString());
                         put("customer_id", temp.get("customer_id"));
                         put("sp_id", temp.get("sp_id"));
-                        put("status", temp.get("status"));
+                        put("service", temp.get("service"));
+                        put("info", temp.get("info"));
                         put("rating", temp.get("rating"));
                         put("timestamp", temp.get("timestamp"));
                         put("location : { from : { latitude ", temp.get("location : { from : { latitude "));
@@ -288,8 +288,13 @@ public class DatabaseJava{
             return ret;
         }
         ////else send success and request id
-        collection.insertOne(doc);
-        ObjectId id = (ObjectId)doc.get( "_id" );
+        Document temp = new Document();
+        temp.append("customer_id", doc.get("user_id"));
+        temp.append("service", doc.get("service"));
+        temp.append("location : { latitude ", doc.get("location : { latitude "));
+        temp.append("location : { longitude ", doc.get("location : { longitude "));
+        collection.insertOne(temp);
+        ObjectId id = (ObjectId)temp.get( "_id" );
         HashMap<String, Object> ret = new HashMap<String, Object>() {
             {
                 put("request", "success");
@@ -341,7 +346,7 @@ public class DatabaseJava{
                 ObjectId id = (ObjectId)temp.get( "_id" );
                 ret[i] = new HashMap<String, Object>() {
                     {
-                        put("bid_id", id);
+                        put("bid_id", id.toHexString());
                         put("request_id", temp.get("request_id"));
                         put("customer_id", temp.get("customer_id"));
                         put("sp_id", temp.get("sp_id"));
@@ -390,14 +395,16 @@ public class DatabaseJava{
         Document bid = collection.find(eq("_id", doc.get("bid_id"))).first();
         collection = db.getCollection("Requests");
         Document request = collection.find(eq("_id", doc.get("request_id"))).first();
+
         ///move the request to the Progress collection
         collection = db.getCollection("Progress");
         Document temp = new Document();
         temp.append("_id", request.get("_id"));
         temp.append("customer_id", request.get("customer_id"));
         temp.append("sp_id", bid.get("sp_id"));
+        temp.append("service", bid.get("service"));
         temp.append("info", request.get("info"));
-        temp.append("status", request.get("in service"));
+        temp.append("status", "in service");
         temp.append(" location : { latitude ", request.get(" location : { latitude "));
         temp.append(" location : { longitude ", request.get(" location : { longitude "));
         collection.insertOne(temp);

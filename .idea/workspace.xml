@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b316c487-1fca-48a6-8fb5-b7d848da043c" name="Default" comment="">
+    <list default="true" id="d5d64975-56aa-40cb-a2f1-bca5339c9193" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/play2_settings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app/database/DatabaseJava.java" afterPath="$PROJECT_DIR$/app/database/DatabaseJava.java" />
-=======
-      <change beforePath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" afterPath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
-      <change beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
->>>>>>> 3eceae1a7aaacf4e20ee1f313285f3da2d0242b6
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/play-getting-started/play-getting-started$sources_2.11/1.0-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-docs.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-sources.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/play-getting-started-play-getting-started$sources_2.11-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -26,49 +41,78 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="255" column="8" lean-forward="false" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="86" lean-forward="false" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="337">
-              <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
-=======
-            <state relative-caret-position="441">
-              <caret line="267" column="30" lean-forward="false" selection-start-line="267" selection-start-column="19" selection-end-line="267" selection-end-column="30" />
->>>>>>> 3eceae1a7aaacf4e20ee1f313285f3da2d0242b6
+            <state relative-caret-position="323">
+              <caret line="308" column="0" lean-forward="true" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
               <folding>
                 <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
                 <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+                <element signature="e#1606#1671#0" expanded="false" />
                 <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
+                <element signature="class#2324:2455" expanded="false" />
+                <element signature="initializer##0;class#2324:2455" expanded="false" />
+                <element signature="class#2686:2818" expanded="false" />
+                <element signature="initializer##0;class#2686:2818" expanded="false" />
+                <element signature="class#2955:3138" expanded="false" />
+                <element signature="initializer##0;class#2955:3138" expanded="false" />
+                <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
+                <element signature="class#3487:3615" expanded="false" />
+                <element signature="initializer##0;class#3487:3615" expanded="false" />
+                <element signature="class#3972:4162" expanded="false" />
+                <element signature="initializer##0;class#3972:4162" expanded="false" />
                 <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-<<<<<<< HEAD
+                <element signature="class#4525:4653" expanded="false" />
+                <element signature="initializer##0;class#4525:4653" expanded="false" />
+                <element signature="class#5057:5247" expanded="false" />
+                <element signature="initializer##0;class#5057:5247" expanded="false" />
+                <element signature="method#history#0;class#DatabaseJava#0" expanded="false" />
+                <element signature="class#5686:5819" expanded="false" />
+                <element signature="initializer##0;class#5686:5819" expanded="false" />
+                <element signature="class#6643:7591" expanded="false" />
+                <element signature="initializer##0;class#6643:7591" expanded="false" />
                 <element signature="method#status#0;class#DatabaseJava#0" expanded="false" />
+                <element signature="class#8072:8288" expanded="false" />
+                <element signature="initializer##0;class#8072:8288" expanded="false" />
+                <element signature="class#8560:8685" expanded="false" />
+                <element signature="initializer##0;class#8560:8685" expanded="false" />
+                <element signature="class#9104:9246" expanded="false" />
+                <element signature="initializer##0;class#9104:9246" expanded="false" />
+                <element signature="class#9466:9605" expanded="false" />
+                <element signature="initializer##0;class#9466:9605" expanded="false" />
+                <element signature="class#9753:9867" expanded="false" />
+                <element signature="initializer##0;class#9753:9867" expanded="false" />
                 <element signature="method#sendrequest#0;class#DatabaseJava#0" expanded="false" />
-=======
->>>>>>> 3eceae1a7aaacf4e20ee1f313285f3da2d0242b6
+                <element signature="class#10255:10471" expanded="false" />
+                <element signature="initializer##0;class#10255:10471" expanded="false" />
+                <element signature="class#10763:10884" expanded="false" />
+                <element signature="initializer##0;class#10763:10884" expanded="false" />
+                <element signature="class#11408:11569" expanded="false" />
+                <element signature="initializer##0;class#11408:11569" expanded="false" />
+                <element signature="method#getBid#0;class#DatabaseJava#0" expanded="false" />
+                <element signature="class#11997:12214" expanded="false" />
+                <element signature="initializer##0;class#11997:12214" expanded="false" />
+                <element signature="method#chooseBid#0;class#DatabaseJava#0" expanded="false" />
+                <element signature="class#14218:14434" expanded="false" />
+                <element signature="initializer##0;class#14218:14434" expanded="false" />
+                <element signature="class#14705:14826" expanded="false" />
+                <element signature="initializer##0;class#14705:14826" expanded="false" />
+                <element signature="class#16168:16291" expanded="false" />
+                <element signature="initializer##0;class#16168:16291" expanded="false" />
                 <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,9 +121,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>status</find>
-      <find>not</find>
-      <find>history</find>
+      <find>objectid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,8 +141,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/database/DatabaseJava.java" />
-        <option value="$PROJECT_DIR$/conf/routes" />
-        <option value="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
       </list>
     </option>
   </component>
@@ -119,144 +159,11 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="width" value="973" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
-          </State>
-          <State>
-            <id>Android Lint for Kotlin</id>
-          </State>
-          <State>
-            <id>Ant inspections</id>
-          </State>
-          <State>
-            <id>Application Server Specific Inspections</id>
-          </State>
-          <State>
-            <id>Control flow issuesJava</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Declaration redundancyJava</id>
-          </State>
-          <State>
-            <id>Faces Model</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Hibernate Issues</id>
-          </State>
-          <State>
-            <id>Initialization issuesJava</id>
-          </State>
-          <State>
-            <id>Internationalization issuesJava</id>
-          </State>
-          <State>
-            <id>JBoss Seam issues</id>
-          </State>
-          <State>
-            <id>JPA issues</id>
-          </State>
-          <State>
-            <id>JSON</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java EE issues</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript validity issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Maven</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>RegExp</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>Scala</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>Struts</id>
-          </State>
-          <State>
-            <id>Struts 1Struts</id>
-          </State>
-          <State>
-            <id>Syntactic SimplificationScala</id>
-          </State>
-          <State>
-            <id>TestNGJava</id>
-          </State>
-          <State>
-            <id>UI Form Problems</id>
-          </State>
-          <State>
-            <id>Validity issuesGroovy</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-          <State>
-            <id>XMLSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>XSLT</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Duplicates</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -273,6 +180,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,38 +190,17 @@
               <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scala_sdp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scala_SDP" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -408,7 +297,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1522850443687" />
+    <option name="lastUpdateTimestamp" value="1523035343060" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -451,78 +340,55 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b316c487-1fca-48a6-8fb5-b7d848da043c" name="Default" comment="" />
-      <created>1522850354614</created>
+      <changelist id="d5d64975-56aa-40cb-a2f1-bca5339c9193" name="Default" comment="" />
+      <created>1523035288810</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1522850354614</updated>
-<<<<<<< HEAD
-      <workItem from="1522850356022" duration="9010000" />
-=======
-      <workItem from="1522850356022" duration="6837000" />
-      <workItem from="1522858567593" duration="52000" />
-      <workItem from="1522858666304" duration="784000" />
->>>>>>> 3eceae1a7aaacf4e20ee1f313285f3da2d0242b6
+      <updated>1523035288810</updated>
+      <workItem from="1523035291312" duration="1938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="9010000" />
+    <option name="totallyTimeSpent" value="1938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="973" height="1047" extended-state="0" />
     <editor active="true" />
-=======
-    <option name="totallyTimeSpent" value="7673000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
->>>>>>> 3eceae1a7aaacf4e20ee1f313285f3da2d0242b6
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33297643" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13256785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24764891" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11777302" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-=======
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1452345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
->>>>>>> 3eceae1a7aaacf4e20ee1f313285f3da2d0242b6
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09331919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116648994" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,79 +398,78 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-7">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3502">
-          <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="337">
-          <caret line="182" column="21" lean-forward="true" selection-start-line="182" selection-start-column="21" selection-end-line="182" selection-end-column="21" />
-=======
-        <state relative-caret-position="969">
-          <caret line="57" column="70" lean-forward="false" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
->>>>>>> 3eceae1a7aaacf4e20ee1f313285f3da2d0242b6
+        <state relative-caret-position="323">
+          <caret line="308" column="0" lean-forward="true" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
             <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1606#1671#0" expanded="false" />
             <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="class#2324:2455" expanded="false" />
+            <element signature="initializer##0;class#2324:2455" expanded="false" />
+            <element signature="class#2686:2818" expanded="false" />
+            <element signature="initializer##0;class#2686:2818" expanded="false" />
+            <element signature="class#2955:3138" expanded="false" />
+            <element signature="initializer##0;class#2955:3138" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="class#3487:3615" expanded="false" />
+            <element signature="initializer##0;class#3487:3615" expanded="false" />
+            <element signature="class#3972:4162" expanded="false" />
+            <element signature="initializer##0;class#3972:4162" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-<<<<<<< HEAD
+            <element signature="class#4525:4653" expanded="false" />
+            <element signature="initializer##0;class#4525:4653" expanded="false" />
+            <element signature="class#5057:5247" expanded="false" />
+            <element signature="initializer##0;class#5057:5247" expanded="false" />
+            <element signature="method#history#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="class#5686:5819" expanded="false" />
+            <element signature="initializer##0;class#5686:5819" expanded="false" />
+            <element signature="class#6643:7591" expanded="false" />
+            <element signature="initializer##0;class#6643:7591" expanded="false" />
             <element signature="method#status#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="class#8072:8288" expanded="false" />
+            <element signature="initializer##0;class#8072:8288" expanded="false" />
+            <element signature="class#8560:8685" expanded="false" />
+            <element signature="initializer##0;class#8560:8685" expanded="false" />
+            <element signature="class#9104:9246" expanded="false" />
+            <element signature="initializer##0;class#9104:9246" expanded="false" />
+            <element signature="class#9466:9605" expanded="false" />
+            <element signature="initializer##0;class#9466:9605" expanded="false" />
+            <element signature="class#9753:9867" expanded="false" />
+            <element signature="initializer##0;class#9753:9867" expanded="false" />
             <element signature="method#sendrequest#0;class#DatabaseJava#0" expanded="false" />
-=======
->>>>>>> 3eceae1a7aaacf4e20ee1f313285f3da2d0242b6
+            <element signature="class#10255:10471" expanded="false" />
+            <element signature="initializer##0;class#10255:10471" expanded="false" />
+            <element signature="class#10763:10884" expanded="false" />
+            <element signature="initializer##0;class#10763:10884" expanded="false" />
+            <element signature="class#11408:11569" expanded="false" />
+            <element signature="initializer##0;class#11408:11569" expanded="false" />
+            <element signature="method#getBid#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="class#11997:12214" expanded="false" />
+            <element signature="initializer##0;class#11997:12214" expanded="false" />
+            <element signature="method#chooseBid#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="class#14218:14434" expanded="false" />
+            <element signature="initializer##0;class#14218:14434" expanded="false" />
+            <element signature="class#14705:14826" expanded="false" />
+            <element signature="initializer##0;class#14705:14826" expanded="false" />
+            <element signature="class#16168:16291" expanded="false" />
+            <element signature="initializer##0;class#16168:16291" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="267" column="30" lean-forward="false" selection-start-line="267" selection-start-column="19" selection-end-line="267" selection-end-column="30" />
-          <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="86" lean-forward="false" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="255" column="8" lean-forward="false" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
