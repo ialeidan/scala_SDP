@@ -173,7 +173,7 @@ public class ApplicationJava extends Controller {
         }
 
         try {
-            HashMap<String, Object> ret = database.status(status.toString());//status function
+            HashMap<String, Object> ret = database.getStatus(status.toString());//status function
             return ok(Json.toJson(ret));
         } catch (NoSuchAlgorithmException e) {
             HashMap<String, Object> ERR = new HashMap<String, Object>() {
@@ -206,7 +206,7 @@ public class ApplicationJava extends Controller {
         }
 
         try {
-            HashMap<String, Object> ret = database.sendrequest(request.toString());//request function
+            HashMap<String, Object> ret = database.sendRequest(request.toString());//request function
             return ok(Json.toJson(ret));
         } catch (NoSuchAlgorithmException e) {
             HashMap<String, Object> ERR = new HashMap<String, Object>() {
@@ -239,7 +239,7 @@ public class ApplicationJava extends Controller {
         }
 
         try {
-            HashMap<String, Object> ret = database.getBid(request.toString());//getBid function
+            HashMap<String, Object> ret = database.getBids(request.toString());//getBid function
             return ok(Json.toJson(ret));
         } catch (NoSuchAlgorithmException e) {
             HashMap<String, Object> ERR = new HashMap<String, Object>() {
