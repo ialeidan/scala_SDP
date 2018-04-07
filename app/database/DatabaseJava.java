@@ -657,5 +657,4 @@ public class DatabaseJava{
         }
         return hexString.toString();
     }
-
 }
