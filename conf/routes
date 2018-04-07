@@ -10,6 +10,7 @@ GET    /testJ                      @controllers.ApplicationJava.index1()
 POST   /auth/login                                 @controllers.ApplicationJava.login()
 
 POST   /auth/customer/register                     @controllers.ApplicationJava.register()
+
 POST   /auth/sp/register                     @controllers.ApplicationJava.spRegister()
 
 GET   /history                                    @controllers.ApplicationJava.history()
@@ -19,6 +20,23 @@ GET   /user/status                                    @controllers.ApplicationJa
 POST /customer/request                                 @controllers.ApplicationJava.sendrequest()
 
 GET /customer/bids                                 @controllers.ApplicationJava.getBid()
+
+POST /customer/select_bid                                @controllers.ApplicationJava.chooseBid()
+
+GET /customer/service                                 @controllers.ApplicationJava.getService()
+
+POST /customer/pay                                 @controllers.ApplicationJava.sendPayment()
+
+POST /sp/bid                                 @controllers.ApplicationJava.sendBid()
+
+GET /customer/bids                                 @controllers.ApplicationJava.getRequest()
+
+GET /sp/check_bid                                 @controllers.ApplicationJava.getBidStatus()
+
+POST /lock/status                                 @controllers.ApplicationJava.getBidStatus()
+
+POST /lock/location                                 @controllers.ApplicationJava.getBidStatus()
+
 
 
 # Map static resources from the /public folder to the /assets URL path

@@ -143,7 +143,7 @@ public class DatabaseJava{
         }
     }
 
-    public HashMap sendRequest(String json) {
+    public HashMap sendRequest(String json)throws NoSuchAlgorithmException  {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
@@ -238,7 +238,7 @@ public class DatabaseJava{
         }
     }
 
-    public HashMap sendBid(String json) {
+    public HashMap sendBid(String json) throws NoSuchAlgorithmException{
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
@@ -284,7 +284,7 @@ public class DatabaseJava{
         return ret;
     }
 
-    public HashMap [] getBids(String json) {
+    public HashMap [] getBids(String json) throws NoSuchAlgorithmException {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
@@ -341,7 +341,7 @@ public class DatabaseJava{
         }
     }
 
-    public HashMap getBidStatus(String json) {
+    public HashMap getBidStatus(String json) throws NoSuchAlgorithmException {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
@@ -380,7 +380,7 @@ public class DatabaseJava{
         }
     }
 
-    public HashMap chooseBid(String json) {
+    public HashMap chooseBid(String json) throws NoSuchAlgorithmException {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
@@ -443,7 +443,7 @@ public class DatabaseJava{
         return ret;
     }
 
-    public HashMap getStatus(String json) {
+    public HashMap getStatus(String json)throws NoSuchAlgorithmException  {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
@@ -503,7 +503,7 @@ public class DatabaseJava{
         return ret;
     }
 
-    public HashMap getService(String json) {
+    public HashMap getService(String json) throws NoSuchAlgorithmException  {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
@@ -552,7 +552,7 @@ public class DatabaseJava{
         }
     }
 
-    public HashMap sendPayment(String json) {
+    public HashMap sendPayment(String json)throws NoSuchAlgorithmException  {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
