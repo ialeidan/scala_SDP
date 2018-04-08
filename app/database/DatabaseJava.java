@@ -244,7 +244,7 @@ public class DatabaseJava{
     public HashMap sendBid(String json) throws NoSuchAlgorithmException{
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
-        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
+        boolean exist = collection.find(eq("_id", new ObjectId(doc.getString("user_id")))).first() != null;
         ////check if user authenticated
         if(!exist){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
