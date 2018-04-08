@@ -56,9 +56,7 @@ public class ApplicationJava extends Controller {
             return ok(Json.toJson(ERR));
 
         }
-        //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
 
-//        return ok("Hello ");
     }
 
     public Result spRegister() {
@@ -94,9 +92,6 @@ public class ApplicationJava extends Controller {
 
         }
 
-//        return ok(Json.toJson( spRegister( spReg.get("name"),spReg.get("email"),spReg.get("password"),spReg.get("phone"),spReg.get("username")))); //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
-
-//        return ok("Hello ");
     }
 
     public Result login() {
@@ -132,14 +127,13 @@ public class ApplicationJava extends Controller {
 
         }
 
-//        return ok(Json.toJson( spRegister( spReg.get("name"),spReg.get("email"),spReg.get("password"),spReg.get("phone"),spReg.get("username")))); //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
-
-//        return ok("Hello ");
     }
 
-    public Result history() {
-        JsonNode hist = request().body().asJson();
-        if (hist.get("User_id") == null) {
+    public Result history(String user_id) {
+//        JsonNode hist = request().body().asJson();
+
+//        if (hist.get("User_id") == null) {
+        if (user_id == ""){
             HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
@@ -148,32 +142,17 @@ public class ApplicationJava extends Controller {
                 }
 
             };
-
             return ok(Json.toJson(ERR));
         }
+        try {
+            HashMap<String, Object>[] retDB = database.getHistory(user_id);
 
-//          return ok(Json.toJson( history( hist.get("User_id") ))); //function will be created by Bakri, it will return HashMap Object,parameter is JsonNode
-        return ok("Hello ");
-    }
-
-    public Result status() {
-        JsonNode status = request().body().asJson();
-
-        if (status.get("user_id") == null) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+            HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
+                    put("history", retDB);
                 }
-
             };
 
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.getStatus(status.toString());//status function
             return ok(Json.toJson(ret));
         } catch (NoSuchAlgorithmException e) {
             HashMap<String, Object> ERR = new HashMap<String, Object>() {
@@ -186,339 +165,372 @@ public class ApplicationJava extends Controller {
             };
             e.printStackTrace();
             return ok(Json.toJson(ERR));
-
-        }
-    }
-    public Result sendrequest() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("user_id") == null || request.get("service") == null) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.sendRequest(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
-        }
-    }
-    public Result getBid() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("user_id") == null ) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.getBids(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
         }
     }
 
-    public Result chooseBid() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("user_id") == null || request.get("bid_id") == null) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.chooseBid(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
-        }
-    }
-    public Result getService() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("user_id") == null ){
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.getService(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
-        }
-    }
-    public Result sendPayment() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("user_id") == null || request.get("payment") == null  ){
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.sendPayment(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
-        }
-    }
-    public Result sendBid() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("user_id") == null || request.get("request_id") == null  ){
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.sendBid(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
-        }
-    }
-    public Result getRequest() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("user_id") == null   ){
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.getRequests(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
-        }
-    }
-
-    public Result getBidStatus() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("user_id") == null || request.get("request_id") == null  ){
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.getBidStatus(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
-        }
-    }
-    public Result sendLock() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("device_id") == null || request.get("status") == null  ){
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.sendLock(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
-        }
-    }
-    public Result sendDeviceLocation() {
-        JsonNode request = request().body().asJson();
-
-        if (request.get("user_id") == null || request.get("status") == null  ){
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-
-            return ok(Json.toJson(ERR));
-        }
-
-        try {
-            HashMap<String, Object> ret = database.sendDeviceLocation(request.toString());
-            return ok(Json.toJson(ret));
-        } catch (NoSuchAlgorithmException e) {
-            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-                {
-                    put("error", "Error");
-                    put("code", "400");
-                    put("message", "SOME FIELDS ARE MISSING");
-                }
-
-            };
-            e.printStackTrace();
-            return ok(Json.toJson(ERR));
-
-        }
-    }
+//    public Result status() {
+//        JsonNode status = request().body().asJson();
+//
+//        if (status.get("user_id") == null) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.getStatus(status.toString());//status function
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//    public Result sendrequest() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("user_id") == null || request.get("service") == null) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.sendRequest(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//    public Result getBid() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("user_id") == null ) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.getBids(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//
+//    public Result chooseBid() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("user_id") == null || request.get("bid_id") == null) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.chooseBid(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//    public Result getService() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("user_id") == null ){
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.getService(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//    public Result sendPayment() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("user_id") == null || request.get("payment") == null  ){
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.sendPayment(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//    public Result sendBid() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("user_id") == null || request.get("request_id") == null  ){
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.sendBid(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//    public Result getRequest() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("user_id") == null   ){
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.getRequests(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//
+//    public Result getBidStatus() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("user_id") == null || request.get("request_id") == null  ){
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.getBidStatus(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//    public Result sendLock() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("device_id") == null || request.get("status") == null  ){
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.sendLock(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
+//    public Result sendDeviceLocation() {
+//        JsonNode request = request().body().asJson();
+//
+//        if (request.get("user_id") == null || request.get("status") == null  ){
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//
+//            return ok(Json.toJson(ERR));
+//        }
+//
+//        try {
+//            HashMap<String, Object> ret = database.sendDeviceLocation(request.toString());
+//            return ok(Json.toJson(ret));
+//        } catch (NoSuchAlgorithmException e) {
+//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+//                {
+//                    put("error", "Error");
+//                    put("code", "400");
+//                    put("message", "SOME FIELDS ARE MISSING");
+//                }
+//
+//            };
+//            e.printStackTrace();
+//            return ok(Json.toJson(ERR));
+//
+//        }
+//    }
 }
