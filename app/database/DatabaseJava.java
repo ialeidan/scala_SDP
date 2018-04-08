@@ -593,7 +593,7 @@ public class DatabaseJava{
         String json = "{\"user_id\": \"" + user_id + "\" }";
 
         Document doc = Document.parse(json);
-        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
+        boolean exist = collection.find(eq("_id", new ObjectId(user_id))) != null;
         ////check if user authenticated
         if(!exist){
             HashMap<String, Object>[] ret = new HashMap[1];
