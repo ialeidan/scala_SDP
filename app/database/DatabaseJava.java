@@ -148,48 +148,48 @@ public class DatabaseJava{
         }
     }
 
-//    public HashMap sendRequest(String json)throws NoSuchAlgorithmException  {
-//        MongoCollection<Document> collection = db.getCollection("Users");
-//        Document doc = Document.parse(json);
-//        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
-//        ////check if user authenticated
-//        if(!exist){
-//            HashMap<String, Object> ret = new HashMap<String, Object>(){
-//                {
-//                    put("code", "400");
-//                    put("error", "Error");
-//                    put("message", "NOT_AUTHENTICATED");
-//                }
-//            };
-//            return ret;
-//        }
-//        ///check if another request is running
-//        collection = db.getCollection("Requests");
-//        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
-//        if(exist){
-//            HashMap<String, Object> ret = new HashMap<String, Object>(){
-//                {
-//                    put("request", "error");
-//                }
-//            };
-//            return ret;
-//        }
-//        ////else send success and request id
-//        Document temp = new Document();
-//        temp.append("customer_id", doc.get("user_id"));
-//        temp.append("service", doc.get("service"));
-//        temp.append("location : { latitude ", doc.get("location : { latitude "));
-//        temp.append("location : { longitude ", doc.get("location : { longitude "));
-//        collection.insertOne(temp);
-//        ObjectId id = (ObjectId)temp.get( "_id" );
-//        HashMap<String, Object> ret = new HashMap<String, Object>() {
-//            {
-//                put("request", "success");
-//                put("request_id", id.toHexString());
-//            }
-//        };
-//        return ret;
-//    }
+    public HashMap sendRequest(String json)throws NoSuchAlgorithmException  {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", new ObjectId(doc.getString("user_id")))) != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ///check if another request is running
+        collection = db.getCollection("Requests");
+        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
+        if(exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("request", "error");
+                }
+            };
+            return ret;
+        }
+        ////else send success and request id
+        Document temp = new Document();
+        temp.append("customer_id", doc.get("user_id"));
+        temp.append("service", doc.get("service"));
+        temp.append("location", doc.get("location"));
+        collection.insertOne(temp);
+        
+        ObjectId id = (ObjectId)temp.get( "_id" );
+        HashMap<String, Object> ret = new HashMap<String, Object>() {
+            {
+                put("request", "success");
+                put("request_id", id.toHexString());
+            }
+        };
+        return ret;
+    }
 //
 //    public HashMap [] getRequests(String json) {
 //        MongoCollection<Document> collection = db.getCollection("Users");
@@ -630,33 +630,10 @@ public class DatabaseJava{
                 Document temp = cursor.next();
                 ObjectId id = (ObjectId)temp.get( "_id" );
 
-//                DBObject location = (BasicDBObject) doc.get("location");
-//
-////                HashMap<String, Object> locationFrom = new HashMap<>() {
-////                    {
-////                        put("latitude", temp.get("location"))
-////                    }
-////                };
-
                 String response = temp.toJson().toString();
                 HashMap<String, Object> resultMap = new Gson().fromJson(response, new TypeToken<HashMap<String, Object>>(){}.getType());
 
                 ret[i] = resultMap;
-//                ret[i] = new HashMap<String, Object>() {
-//                    {
-//                        put("request_id", id.toHexString());
-//                        put("customer_id", temp.get("customer_id"));
-//                        put("sp_id", temp.get("sp_id"));
-//                        put("service", temp.get("service"));
-//                        put("info", temp.get("info"));
-//                        put("rating", temp.get("rating"));
-//                        put("timestamp", temp.get("timestamp"));
-//                        put("location", location);
-////                        put("location : { from : { longitude ", temp.get("location : { from : { longitude "));
-////                        put("location : { to : { latitude ", temp.get("location : { to : { latitude "));
-////                        put("location : { to : { longitude ", temp.get("location : { to : { longitude "));
-//                    }
-//                };
                 i++;
             } //5abbff30eed4650004e1588e
             return ret;
