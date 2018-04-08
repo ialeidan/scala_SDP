@@ -590,7 +590,7 @@ public class DatabaseJava{
     public HashMap [] getHistory(String user_id) throws NoSuchAlgorithmException{
         MongoCollection<Document> collection = db.getCollection("Users");
 
-        String json = "{\"user_id\", " + user_id + " }";
+        String json = "{\"user_id\": " + user_id + " }";
 
         Document doc = Document.parse(json);
         boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
