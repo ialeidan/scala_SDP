@@ -1,9 +1,9 @@
 package database;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.mongodb.Block;
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientURI;
+import com.google.common.reflect.TypeToken;
+import com.google.gson.Gson;
+import com.mongodb.*;
 import com.mongodb.casbah.commons.ValidBSONType;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
@@ -13,18 +13,23 @@ import play.Configuration;
 import play.api.Play;
 
 import javax.inject.Inject;
+import javax.print.Doc;
+
 import org.bson.Document;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 import com.mongodb.client.MongoCursor;
 import static com.mongodb.client.model.Filters.*;
 import com.mongodb.client.result.DeleteResult;
 import static com.mongodb.client.model.Updates.*;
 import com.mongodb.client.result.UpdateResult;
+
 
 public class DatabaseJava{
 
@@ -624,21 +629,34 @@ public class DatabaseJava{
             while (cursor.hasNext()) {
                 Document temp = cursor.next();
                 ObjectId id = (ObjectId)temp.get( "_id" );
-                ret[i] = new HashMap<String, Object>() {
-                    {
-                        put("request_id", id.toHexString());
-                        put("customer_id", temp.get("customer_id"));
-                        put("sp_id", temp.get("sp_id"));
-                        put("service", temp.get("service"));
-                        put("info", temp.get("info"));
-                        put("rating", temp.get("rating"));
-                        put("timestamp", temp.get("timestamp"));
-                        put("location : { from : { latitude ", temp.get("location : { from : { latitude "));
-                        put("location : { from : { longitude ", temp.get("location : { from : { longitude "));
-                        put("location : { to : { latitude ", temp.get("location : { to : { latitude "));
-                        put("location : { to : { longitude ", temp.get("location : { to : { longitude "));
-                    }
-                };
+
+//                DBObject location = (BasicDBObject) doc.get("location");
+//
+////                HashMap<String, Object> locationFrom = new HashMap<>() {
+////                    {
+////                        put("latitude", temp.get("location"))
+////                    }
+////                };
+
+                String response = temp.toJson().toString();
+                HashMap<String, Object> resultMap = new Gson().fromJson(response, new TypeToken<HashMap<String, Object>>(){}.getType());
+
+                ret[i] = resultMap;
+//                ret[i] = new HashMap<String, Object>() {
+//                    {
+//                        put("request_id", id.toHexString());
+//                        put("customer_id", temp.get("customer_id"));
+//                        put("sp_id", temp.get("sp_id"));
+//                        put("service", temp.get("service"));
+//                        put("info", temp.get("info"));
+//                        put("rating", temp.get("rating"));
+//                        put("timestamp", temp.get("timestamp"));
+//                        put("location", location);
+////                        put("location : { from : { longitude ", temp.get("location : { from : { longitude "));
+////                        put("location : { to : { latitude ", temp.get("location : { to : { latitude "));
+////                        put("location : { to : { longitude ", temp.get("location : { to : { longitude "));
+//                    }
+//                };
                 i++;
             } //5abbff30eed4650004e1588e
             return ret;
