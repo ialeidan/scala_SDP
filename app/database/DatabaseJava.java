@@ -276,7 +276,7 @@ public class DatabaseJava{
         bid.append("sp_id", doc.get("user_id"));
         bid.append("status", "waiting");
         bid.append("price", doc.get("price"));
-        bid.append("location", doc.get("location"));
+        bid.append("location", request.get("location"));
         collection.insertOne(bid);
         // sp ; 5abc8a5002ba7f0004585fb6
         // req: 5aca4ebf77237d0004fbedf8
