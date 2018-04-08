@@ -258,7 +258,7 @@ public class DatabaseJava{
         }
         ///check if request still in the Requests collection
         collection = db.getCollection("Requests");
-        exist = collection.find(eq("_id", doc.get("request_id"))).first() != null;
+        exist = collection.find(eq("_id", new ObjectId(doc.getString("request_id")))).first() != null;
         if(!exist){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
