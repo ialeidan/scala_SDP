@@ -401,39 +401,48 @@ public class ApplicationJava extends Controller {
 //
 //        }
 //    }
-//    public Result getRequest() {
+    public Result getRequest(String user_id) {
 //        JsonNode request = request().body().asJson();
-//
-//        if (request.get("user_id") == null   ){
-//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-//                {
-//                    put("error", "Error");
-//                    put("code", "400");
-//                    put("message", "SOME FIELDS ARE MISSING");
-//                }
-//
-//            };
-//
-//            return ok(Json.toJson(ERR));
-//        }
-//
-//        try {
-//            HashMap<String, Object> ret = database.getRequests(request.toString());
-//            return ok(Json.toJson(ret));
-//        } catch (NoSuchAlgorithmException e) {
-//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-//                {
-//                    put("error", "Error");
-//                    put("code", "400");
-//                    put("message", "SOME FIELDS ARE MISSING");
-//                }
-//
-//            };
-//            e.printStackTrace();
-//            return ok(Json.toJson(ERR));
-//
-//        }
-//    }
+
+//        if (hist.get("User_id") == null) {
+        if (user_id == ""){
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+
+            return ok(Json.toJson(ERR));
+        }
+
+        try {
+            HashMap<String, Object>[] retDB = database.getRequests(user_id);
+
+            HashMap<String, Object> ret = new HashMap<String, Object>() {
+                {
+                    put("requests", retDB);
+                }
+            };
+
+
+            return ok(Json.toJson(ret));
+        } catch (NoSuchAlgorithmException e) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+            e.printStackTrace();
+            return ok(Json.toJson(ERR));
+
+        }
+    }
 //
 //    public Result getBidStatus() {
 //        JsonNode request = request().body().asJson();

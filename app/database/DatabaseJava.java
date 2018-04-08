@@ -191,57 +191,55 @@ public class DatabaseJava{
         return ret;
     }
 //
-//    public HashMap [] getRequests(String json) {
-//        MongoCollection<Document> collection = db.getCollection("Users");
-//        Document doc = Document.parse(json);
-//        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
-//        ////check if user authenticated
-//        if(!exist){
-//            HashMap<String, Object>[] ret = new HashMap[1];
-//            ret[0] = new HashMap<String, Object>() {
-//                {
-//                    put("Errors", "NOT_AUTHENTICATED");
-//                }
-//            };
-//            return ret;
-//        }
-//        ///count how many document are there
-//        collection = db.getCollection("Requests");
-//        int i = 0;
-//        MongoCursor<Document> cursor = collection.find().iterator();
-//        try {
-//            while (cursor.hasNext()) {
-//                cursor.next();
-//                i++;
-//            }
-//        } finally {
-//            cursor.close();
-//        }
-//        ///adding document to the HashMap
-//        cursor = collection.find().iterator();
-//        try {
-//            HashMap<String, Object>[] ret = new HashMap[i];
-//            i = 0;
-//            while (cursor.hasNext()) {
-//                Document temp = cursor.next();
-//                ObjectId id = (ObjectId)temp.get( "_id" );
-//                ret[i] = new HashMap<String, Object>() {
-//                    {
-//                        put("request_id", id.toHexString());
-//                        put("customer_id", temp.get("customer_id"));
-//                        put("service", temp.get("service"));
-//                        put("info", temp.get("info"));
-//                        put("location : { latitude ", temp.get("location : { latitude "));
-//                        put("location : { longitude ", temp.get("location : { longitude "));
-//                    }
-//                };
-//                i++;
-//            }
-//            return ret;
-//        } finally {
-//            cursor.close();
-//        }
-//    }
+    public HashMap [] getRequests(String user_id) throws NoSuchAlgorithmException{
+        MongoCollection<Document> collection = db.getCollection("Users");
+        String json = "{\"user_id\": \"" + user_id + "\" }";
+
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", new ObjectId(user_id))) != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object>[] ret = new HashMap[1];
+            ret[0] = new HashMap<String, Object>() {
+                {
+                    put("Errors", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ///count how many document are there
+        collection = db.getCollection("Requests");
+        int i = 0;
+        MongoCursor<Document> cursor = collection.find().iterator();
+        try {
+            while (cursor.hasNext()) {
+                cursor.next();
+                i++;
+            }
+        } finally {
+            cursor.close();
+        }
+        ///adding document to the HashMap
+        cursor = collection.find().iterator();
+        try {
+            HashMap<String, Object>[] ret = new HashMap[i];
+            i = 0;
+            while (cursor.hasNext()) {
+                Document temp = cursor.next();
+                ObjectId id = (ObjectId)temp.get( "_id" );
+
+                String response = temp.toJson().toString();
+                HashMap<String, Object> resultMap = new Gson().fromJson(response, new TypeToken<HashMap<String, Object>>(){}.getType());
+
+                ret[i] = resultMap;
+
+                i++;
+            }
+            return ret;
+        } finally {
+            cursor.close();
+        }
+    }
 //
 //    public HashMap sendBid(String json) throws NoSuchAlgorithmException{
 //        MongoCollection<Document> collection = db.getCollection("Users");
@@ -454,6 +452,7 @@ public class DatabaseJava{
         String json = "{\"user_id\": \"" + user_id + "\" }";
 
         Document doc = Document.parse(json);
+        //TODO: Check this,
         boolean exist = collection.find(eq("_id", new ObjectId(user_id))) != null;
         ////check if user authenticated
         if(!exist){
