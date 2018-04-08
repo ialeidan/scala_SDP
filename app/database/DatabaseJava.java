@@ -180,7 +180,7 @@ public class DatabaseJava{
         temp.append("service", doc.get("service"));
         temp.append("location", doc.get("location"));
         collection.insertOne(temp);
-        
+
         ObjectId id = (ObjectId)temp.get( "_id" );
         HashMap<String, Object> ret = new HashMap<String, Object>() {
             {
@@ -448,65 +448,69 @@ public class DatabaseJava{
 //        return ret;
 //    }
 //
-//    public HashMap getStatus(String json)throws NoSuchAlgorithmException  {
-//        MongoCollection<Document> collection = db.getCollection("Users");
-//        Document doc = Document.parse(json);
-//        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
-//        ////check if user authenticated
-//        if(!exist){
-//            HashMap<String, Object> ret = new HashMap<String, Object>(){
-//                {
-//                    put("code", "400");
-//                    put("error", "Error");
-//                    put("message", "NOT_AUTHENTICATED");
-//                }
-//            };
-//            return ret;
-//        }
-//        ////check if requesting
-//        collection = db.getCollection("Requests");
-//        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
-//        if(exist){
-//            HashMap<String, Object> ret = new HashMap<String, Object>(){
-//                {
-//                    put("status", "requesting");
-//                }
-//            };
-//            return ret;
-//        }
-//        ////check if in service or waiting for payment
-//        collection = db.getCollection("Progress");
-//        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
-//        if(exist){
-//            ////check if in service
-//            exist = doc.get("status").equals("in service");
-//            if(exist) {
-//                HashMap<String, Object> ret = new HashMap<String, Object>() {
-//                    {
-//                        put("status", "in service");
-//                    }
-//                };
-//                return ret;
-//            }
-//            ////check if waiting for payment
-//            exist = doc.get("status").equals("payment");
-//            if(exist) {
-//                HashMap<String, Object> ret = new HashMap<String, Object>() {
-//                    {
-//                        put("status", "payment");
-//                    }
-//                };
-//                return ret;
-//            }
-//        }
-//        ////if not all above, return not on service
-//        HashMap<String, Object> ret = new HashMap<String, Object>() {
-//            {
-//                put("status", "not on service");
-//            }
-//        };
-//        return ret;
-//    }
+    public HashMap getStatus(String user_id)throws NoSuchAlgorithmException  {
+        MongoCollection<Document> collection = db.getCollection("Users");
+
+        String json = "{\"user_id\": \"" + user_id + "\" }";
+
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", new ObjectId(user_id))) != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ////check if requesting
+        collection = db.getCollection("Requests");
+        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
+        if(exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("status", "requesting");
+                }
+            };
+            return ret;
+        }
+        //TODO: CHECK.
+        ////check if in service or waiting for payment
+        collection = db.getCollection("Progress");
+        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
+        if(exist){
+            ////check if in service
+            exist = doc.get("status").equals("in service");
+            if(exist) {
+                HashMap<String, Object> ret = new HashMap<String, Object>() {
+                    {
+                        put("status", "in service");
+                    }
+                };
+                return ret;
+            }
+            ////check if waiting for payment
+            exist = doc.get("status").equals("payment");
+            if(exist) {
+                HashMap<String, Object> ret = new HashMap<String, Object>() {
+                    {
+                        put("status", "payment");
+                    }
+                };
+                return ret;
+            }
+        }
+        ////if not all above, return not on service
+        HashMap<String, Object> ret = new HashMap<String, Object>() {
+            {
+                put("status", "not on service");
+            }
+        };
+        return ret;
+    }
 //
 //    public HashMap getService(String json) throws NoSuchAlgorithmException  {
 //        MongoCollection<Document> collection = db.getCollection("Users");
