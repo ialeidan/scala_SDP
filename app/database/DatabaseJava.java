@@ -268,7 +268,7 @@ public class DatabaseJava{
             return ret;
         }
         ///creating the bid and adding it to the collection
-        Document request = collection.find(eq("_id", doc.get("request_id"))).first();
+        Document request = collection.find(eq("_id", new ObjectId(doc.getString("request_id")))).first();
         collection = db.getCollection("Bid");
         Document bid = new Document();
         bid.append("request_id", doc.get("request_id"));
