@@ -17,3 +17,4 @@ libraryDependencies <+= scalaVersion("org.scala-lang" % "scala-compiler" % _ )
 libraryDependencies += json
 libraryDependencies += "org.mongodb" %% "casbah" % "3.1.1"
 libraryDependencies += "org.mongodb" % "mongo-java-driver" % "2.8.0"
+libraryDependencies += "com.google.code.gson" % "gson" % "2.8.2"

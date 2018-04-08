@@ -3,10 +3,18 @@
   <component name="Play2ExcludedModulesSettings">
     <option name="INFO">
       <map>
+        <entry key="play-getting-started">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="playDistrPath" value="$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.3.jar" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
         <entry key="root">
           <value>
             <ProjectSettingsEntry>
-              <option name="confDir" value="C:\Users\Mohammed\IdeaProjects\scala_SDP\app" />
+              <option name="sourceDir" value="C:\Users\Mohammed\IdeaProjects\scala_SDP\app" />
+              <option name="confDir" value="$PROJECT_DIR$/app" />
               <option name="templateImports">
                 <list>
                   <option value="models._" />
@@ -23,7 +31,7 @@
                   <option value="controllers.Assets.Asset" />
                 </list>
               </option>
-              <option name="uri" value="/C:/Users/Mohammed/IdeaProjects/scala_SDP" />
+              <option name="uri" value="$PROJECT_DIR$/../../Heruko%20SDP/heroku_scala" />
             </ProjectSettingsEntry>
           </value>
         </entry>

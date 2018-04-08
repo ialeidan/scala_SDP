@@ -4,7 +4,7 @@
 		module="heroku_scala-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180324165153"
+		publication="20180408195653"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

@@ -1,11 +1,11 @@
-[info] Updating {file:/C:/Users/Mohammed/IdeaProjects/scala_SDP/project/}scala_sdp-build...
-[debug] :: resolving dependencies :: default#scala_sdp-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/ibrahimaleidan/Dev/Heruko%20SDP/heroku_scala/project/}heroku_scala-build...
+[debug] :: resolving dependencies :: default#heroku_scala-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [info] Resolving com.typesafe.play#sbt-plugin;2.4.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.play#sbt-plugin;2.4.3 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#sbt-plugin;2.4.3
@@ -2213,9 +2213,9 @@
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->compile]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->com.typesafe.play#routes-compiler_2.10;2.4.3 [compile->default(compile)]
@@ -3982,10 +3982,10 @@
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->compile]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->com.typesafe.play#routes-compiler_2.10;2.4.3 [compile->default(compile)]
@@ -5752,12 +5752,12 @@
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->compile]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.11 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.11
@@ -5871,9 +5871,9 @@
 [debug] 	found jline#jline;2.13 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->compile]
-[debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(compile)]
+[debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(*)]
 [info] Resolving org.fusesource.jansi#jansi;1.11 ...
-[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.11
 [debug] 	found org.fusesource.jansi#jansi;1.11 in sbt-chain
 [debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->compile(*)]
@@ -6580,11 +6580,11 @@
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->com.typesafe.play#routes-compiler_2.10;2.4.3 [compile->default(compile)]
@@ -8350,13 +8350,13 @@
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->compile]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->master]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile]
@@ -8414,7 +8414,7 @@
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->compile]
-[debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(compile)]
+[debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(*)]
 [debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->compile(*)]
 [debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [runtime->runtime(*)]
 [debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [runtime->compile]
@@ -8961,10 +8961,10 @@
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->com.typesafe.play#routes-compiler_2.10;2.4.3 [compile->default(compile)]
@@ -10730,13 +10730,13 @@
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->compile]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->master]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.4.3 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->com.typesafe.play#routes-compiler_2.10;2.4.3 [compile->default(compile)]
@@ -12502,13 +12502,13 @@
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->runtime]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->compile]
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.4.3->org.javassist#javassist;3.19.0-GA [compile->master]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.11 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->compile]
@@ -12566,7 +12566,7 @@
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.11->jline#jline;2.13 [compile->compile]
-[debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(compile)]
+[debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->master(*)]
 [debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [compile->compile(*)]
 [debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [runtime->runtime(*)]
 [debug] == resolving dependencies jline#jline;2.13->org.fusesource.jansi#jansi;1.11 [runtime->compile]
@@ -13113,18 +13113,18 @@
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-lang#scala-library;2.10.6 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.11->org.scala-sbt#interface;0.13.11 [compile->default(compile)]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#scala_sdp-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies for default#heroku_scala-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-library;2.10.6 [compile->default]
@@ -13142,8 +13142,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#scala-reflect;2.10.6 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.6->org.scala-lang#jline;2.10.6 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.6 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
@@ -13156,11 +13156,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
-[debug] == resolving dependencies default#scala_sdp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#heroku_scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
 [debug] all callers are evicted for org.tukaani#xz;1.4: evicting too
 [debug] all callers are evicted for org.tukaani#xz;1.4: evicting too
 [debug] all callers are evicted for org.tukaani#xz;1.4: evicting too
@@ -13305,19 +13305,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 11337ms :: artifacts dl 3260ms
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT provided produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-provided.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT optional produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-optional.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-compile-internal.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-runtime-internal.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT test-internal produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-test-internal.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT plugin produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-plugin.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT sources produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-sources.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT docs produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-docs.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT pom produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-pom.xml
-[debug] 	report for default#scala_sdp-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Mohammed\IdeaProjects\scala_SDP\project\target\resolution-cache\reports\default-scala_sdp-build-scala-tool.xml
-[debug] 	resolve done (11337ms resolve - 3260ms download)
+[debug] :: resolution report :: resolve 5452ms :: artifacts dl 162ms
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT compile produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-compile.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT runtime produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-runtime.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT test produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-test.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT provided produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-provided.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT optional produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-optional.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT compile-internal produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-compile-internal.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT runtime-internal produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-runtime-internal.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT test-internal produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-test-internal.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT plugin produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-plugin.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT sources produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-sources.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT docs produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-docs.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT pom produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-pom.xml
+[debug] 	report for default#heroku_scala-build;0.1-SNAPSHOT scala-tool produced in /Users/ibrahimaleidan/Dev/Heruko SDP/heroku_scala/project/target/resolution-cache/reports/default-heroku_scala-build-scala-tool.xml
+[debug] 	resolve done (5452ms resolve - 162ms download)
 [info] Done updating.
