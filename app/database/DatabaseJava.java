@@ -241,51 +241,54 @@ public class DatabaseJava{
         }
     }
 //
-//    public HashMap sendBid(String json) throws NoSuchAlgorithmException{
-//        MongoCollection<Document> collection = db.getCollection("Users");
-//        Document doc = Document.parse(json);
-//        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
-//        ////check if user authenticated
-//        if(!exist){
-//            HashMap<String, Object> ret = new HashMap<String, Object>(){
-//                {
-//                    put("code", "400");
-//                    put("error", "Error");
-//                    put("message", "NOT_AUTHENTICATED");
-//                }
-//            };
-//            return ret;
-//        }
-//        ///check if request still in the Requests collection
-//        collection = db.getCollection("Requests");
-//        exist = collection.find(eq("_id", doc.get("request_id"))).first() != null;
-//        if(!exist){
-//            HashMap<String, Object> ret = new HashMap<String, Object>(){
-//                {
-//                    put("request", "error");
-//                }
-//            };
-//            return ret;
-//        }
-//        ///creating the bid and adding it to the collection
-//        Document request = collection.find(eq("_id", doc.get("request_id"))).first();
-//        collection = db.getCollection("Bid");
-//        Document bid = new Document();
-//        bid.append("request_id", doc.get("request_id"));
-//        bid.append("customer_id", request.get("customer_id"));
-//        bid.append("sp_id", doc.get("user_id"));
-//        bid.append("status", "waiting");
-//        bid.append("price", doc.get("price"));
-//        bid.append("location : { latitude ", doc.get("location : { latitude "));
-//        bid.append("location : { longitude ", doc.get("location : { longitude "));
-//        collection.insertOne(bid);
-//        HashMap<String, Object> ret = new HashMap<String, Object>() {
-//            {
-//                put("request", "success");
-//            }
-//        };
-//        return ret;
-//    }
+    public HashMap sendBid(String json) throws NoSuchAlgorithmException{
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ///check if request still in the Requests collection
+        collection = db.getCollection("Requests");
+        exist = collection.find(eq("_id", doc.get("request_id"))).first() != null;
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("request", "error");
+                }
+            };
+            return ret;
+        }
+        ///creating the bid and adding it to the collection
+        Document request = collection.find(eq("_id", doc.get("request_id"))).first();
+        collection = db.getCollection("Bid");
+        Document bid = new Document();
+        bid.append("request_id", doc.get("request_id"));
+        bid.append("customer_id", request.get("customer_id"));
+        bid.append("sp_id", doc.get("user_id"));
+        bid.append("status", "waiting");
+        bid.append("price", doc.get("price"));
+        bid.append("location", doc.get("location"));
+        collection.insertOne(bid);
+        // sp ; 5abc8a5002ba7f0004585fb6
+        // req: 5aca4ebf77237d0004fbedf8
+
+
+        HashMap<String, Object> ret = new HashMap<String, Object>() {
+            {
+                put("request", "success");
+            }
+        };
+        return ret;
+    }
 //
 //    public HashMap [] getBids(String json) throws NoSuchAlgorithmException {
 //        MongoCollection<Document> collection = db.getCollection("Users");
