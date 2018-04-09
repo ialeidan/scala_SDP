@@ -367,8 +367,9 @@ public class DatabaseJava{
         Document bid = collection.find((eq("request_id",doc.get("request_id")))).first();
 //        exist = bid.get("status").equals("waiting");
 
+
         String status = bid.getString("status");
-        if(status == "waiting"){
+        if(status.equals("waiting")){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
                     put("status", bid.get("status"));
@@ -376,7 +377,7 @@ public class DatabaseJava{
             };
             return ret;
         }
-        else if(status == "accepted"){
+        else if(status.equals("accepted")){
             HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
                     put("status", bid.get("status"));
@@ -388,6 +389,8 @@ public class DatabaseJava{
         }else{
             HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
+
+                    put("bb", status);
                     put("status", "canceled");
                 }
             };
