@@ -308,7 +308,7 @@ public class DatabaseJava{
             };
             return ret;
         }
-        collection = db.getCollection("Bids");
+        collection = db.getCollection("Bid");
         ///count how many document are there
         int i = 0;
         MongoCursor<Document> cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();

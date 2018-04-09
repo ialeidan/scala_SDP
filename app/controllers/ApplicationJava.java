@@ -257,7 +257,7 @@ public class ApplicationJava extends Controller {
 
             HashMap<String, Object> ret = new HashMap<String, Object>() {
                 {
-                    put("requests", retDB);
+                    put("bids", retDB);
                 }
             };
 
