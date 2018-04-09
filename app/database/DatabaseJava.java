@@ -290,62 +290,58 @@ public class DatabaseJava{
         return ret;
     }
 //
-//    public HashMap [] getBids(String json) throws NoSuchAlgorithmException {
-//        MongoCollection<Document> collection = db.getCollection("Users");
-//        Document doc = Document.parse(json);
-//        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
-//        ////check if user authenticated
-//        if(!exist){
-//            HashMap<String, Object>[] ret = new HashMap[1];
-//            ret[0] = new HashMap<String, Object>() {
-//                {
-//                    put("code", "400");
-//                    put("error", "Error");
-//                    put("message", "NOT_AUTHENTICATED");
-//                }
-//            };
-//            return ret;
-//        }
-//        collection = db.getCollection("Bids");
-//        ///count how many document are there
-//        int i = 0;
-//        MongoCursor<Document> cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();
-//        try {
-//            while (cursor.hasNext()) {
-//                cursor.next();
-//                i++;
-//            }
-//        } finally {
-//            cursor.close();
-//        }
-//        ///adding document to the HashMap
-//        collection.createIndex(new Document("price", 1));
-//        cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();
-//        try {
-//            HashMap<String, Object>[] ret = new HashMap[i];
-//            i = 0;
-//            while (cursor.hasNext()) {
-//                Document temp = cursor.next();
-//                ObjectId id = (ObjectId)temp.get( "_id" );
-//                ret[i] = new HashMap<String, Object>() {
-//                    {
-//                        put("bid_id", id.toHexString());
-//                        put("request_id", temp.get("request_id"));
-//                        put("customer_id", temp.get("customer_id"));
-//                        put("sp_id", temp.get("sp_id"));
-//                        put("status", temp.get("status"));
-//                        put("price", temp.get("price"));
-//                        put("location : { latitude ", temp.get("location\" : { latitude "));
-//                        put("location : { longitude ", temp.get("location\" : { latitude "));
-//                    }
-//                };
-//                i++;
-//            }
-//            return ret;
-//        } finally {
-//            cursor.close();
-//        }
-//    }
+    public HashMap [] getBids(String user_id) throws NoSuchAlgorithmException {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        String json = "{\"user_id\": \"" + user_id + "\" }";
+
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", new ObjectId(user_id))) != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object>[] ret = new HashMap[1];
+            ret[0] = new HashMap<String, Object>() {
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        collection = db.getCollection("Bids");
+        ///count how many document are there
+        int i = 0;
+        MongoCursor<Document> cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();
+        try {
+            while (cursor.hasNext()) {
+                cursor.next();
+                i++;
+            }
+        } finally {
+            cursor.close();
+        }
+        ///adding document to the HashMap
+        collection.createIndex(new Document("price", 1));
+        cursor = collection.find(eq("customer_id",doc.get("user_id"))).iterator();
+        try {
+            HashMap<String, Object>[] ret = new HashMap[i];
+            i = 0;
+            while (cursor.hasNext()) {
+                Document temp = cursor.next();
+                ObjectId id = (ObjectId)temp.get( "_id" );
+
+                String response = temp.toJson().toString();
+                HashMap<String, Object> resultMap = new Gson().fromJson(response, new TypeToken<HashMap<String, Object>>(){}.getType());
+
+                ret[i] = resultMap;
+
+                i++;
+            }
+            return ret;
+        } finally {
+            cursor.close();
+        }
+    }
 //
 //    public HashMap getBidStatus(String json) throws NoSuchAlgorithmException {
 //        MongoCollection<Document> collection = db.getCollection("Users");

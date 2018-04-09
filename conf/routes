@@ -16,7 +16,7 @@ GET     /history                    @controllers.ApplicationJava.history(user_id
 
 GET     /user/status                @controllers.ApplicationJava.status(user_id: String ?="")
 POST    /customer/request           @controllers.ApplicationJava.sendrequest()
-#GET     /customer/bids              @controllers.ApplicationJava.getBid()
+GET     /customer/bids              @controllers.ApplicationJava.getBids(user_id: String ?="")
 #POST    /customer/select_bid        @controllers.ApplicationJava.chooseBid()
 #GET     /customer/service           @controllers.ApplicationJava.getService()
 #POST    /customer/pay               @controllers.ApplicationJava.sendPayment()
