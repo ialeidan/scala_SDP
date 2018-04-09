@@ -415,7 +415,7 @@ public class DatabaseJava{
         }
         ///check if request exist
         collection = db.getCollection("Requests");
-        exist = collection.find(eq("user_id", doc.get("user_id"))).first() != null;
+        exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
         if(!exist){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
