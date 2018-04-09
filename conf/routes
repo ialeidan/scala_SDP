@@ -22,7 +22,7 @@ GET     /customer/bids              @controllers.ApplicationJava.getBids(user_id
 #POST    /customer/pay               @controllers.ApplicationJava.sendPayment()
 POST    /sp/bid                     @controllers.ApplicationJava.sendBid()
 GET     /sp/requests                @controllers.ApplicationJava.getRequest(user_id: String ?="")
-#GET     /sp/check_bid               @controllers.ApplicationJava.getBidStatus()
+GET     /sp/check_bid               @controllers.ApplicationJava.getBidStatus(user_id: String ?="", request_id: String ?="")
 #POST    /lock/status                @controllers.ApplicationJava.getBidStatus()
 #POST    /lock/location              @controllers.ApplicationJava.getBidStatus()
 

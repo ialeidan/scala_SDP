@@ -452,39 +452,40 @@ public class ApplicationJava extends Controller {
         }
     }
 //
-//    public Result getBidStatus() {
+    public Result getBidStatus(String user_id, String request_id) {
 //        JsonNode request = request().body().asJson();
-//
-//        if (request.get("user_id") == null || request.get("request_id") == null  ){
-//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-//                {
-//                    put("error", "Error");
-//                    put("code", "400");
-//                    put("message", "SOME FIELDS ARE MISSING");
-//                }
-//
-//            };
-//
-//            return ok(Json.toJson(ERR));
-//        }
-//
-//        try {
-//            HashMap<String, Object> ret = database.getBidStatus(request.toString());
-//            return ok(Json.toJson(ret));
-//        } catch (NoSuchAlgorithmException e) {
-//            HashMap<String, Object> ERR = new HashMap<String, Object>() {
-//                {
-//                    put("error", "Error");
-//                    put("code", "400");
-//                    put("message", "SOME FIELDS ARE MISSING");
-//                }
-//
-//            };
-//            e.printStackTrace();
-//            return ok(Json.toJson(ERR));
-//
-//        }
-//    }
+
+//        if (hist.get("User_id") == null) {
+        if (user_id == "" || request_id == ""){
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+
+            return ok(Json.toJson(ERR));
+        }
+
+        try {
+            HashMap<String, Object> ret = database.getBidStatus(user_id, request_id);
+            return ok(Json.toJson(ret));
+        } catch (NoSuchAlgorithmException e) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+            e.printStackTrace();
+            return ok(Json.toJson(ERR));
+
+        }
+    }
 //    public Result sendLock() {
 //        JsonNode request = request().body().asJson();
 //

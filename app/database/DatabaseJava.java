@@ -343,44 +343,57 @@ public class DatabaseJava{
         }
     }
 //
-//    public HashMap getBidStatus(String json) throws NoSuchAlgorithmException {
-//        MongoCollection<Document> collection = db.getCollection("Users");
-//        Document doc = Document.parse(json);
-//        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
-//        ////check if user authenticated
-//        if(!exist){
-//            HashMap<String, Object> ret = new HashMap<String, Object>(){
-//                {
-//                    put("code", "400");
-//                    put("error", "Error");
-//                    put("message", "NOT_AUTHENTICATED");
-//                }
-//            };
-//            return ret;
-//        }
-//        ///check status and return it
-//        collection = db.getCollection("Bids");
-//        Document bid = collection.find(and(eq("_id", doc.get("user_id")),eq("request_id","request_id"))).first();
+    public HashMap getBidStatus(String user_id, String request_id) throws NoSuchAlgorithmException {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        String json = "{\"user_id\": \"" + user_id + "\", \"request_id\": \"" + request_id + "\" }";
+
+        Document doc = Document.parse(json);
+        //TODO: Check this,
+        boolean exist = collection.find(eq("_id", new ObjectId(user_id))) != null;
+        ////check if user authenticated
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ///check status and return it
+        collection = db.getCollection("Bid");
+        Document bid = collection.find(and(eq("_id", doc.get("user_id")),eq("request_id",doc.get("request_id")))).first();
 //        exist = bid.get("status").equals("waiting");
-//        if(exist){
-//            HashMap<String, Object> ret = new HashMap<String, Object>(){
-//                {
-//                    put("status", bid.get("status"));
-//                }
-//            };
-//            return ret;
-//        }
-//        else {
-//            HashMap<String, Object> ret = new HashMap<String, Object>() {
-//                {
-//                    put("status", bid.get("status"));
-//                }
-//            };
-//            collection.deleteOne(and(eq("_id", doc.get("user_id")),eq("request_id","request_id")));
-//            return ret;
-//
-//        }
-//    }
+
+        String status = bid.getString("status");
+        if(status == "waiting"){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("status", bid.get("status"));
+                }
+            };
+            return ret;
+        }
+        else if(status == "accepted"){
+            HashMap<String, Object> ret = new HashMap<String, Object>() {
+                {
+                    put("status", bid.get("status"));
+                }
+            };
+            collection.deleteOne(and(eq("_id", doc.get("user_id")),eq("request_id","request_id")));
+            return ret;
+
+        }else{
+            HashMap<String, Object> ret = new HashMap<String, Object>() {
+                {
+                    put("status", "canceled");
+                }
+            };
+            return ret;
+        }
+    }
 //
 //    public HashMap chooseBid(String json) throws NoSuchAlgorithmException {
 //        MongoCollection<Document> collection = db.getCollection("Users");
