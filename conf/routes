@@ -18,7 +18,7 @@ GET     /user/status                @controllers.ApplicationJava.status(user_id:
 POST    /customer/request           @controllers.ApplicationJava.sendrequest()
 GET     /customer/bids              @controllers.ApplicationJava.getBids(user_id: String ?="")
 POST    /customer/select_bid        @controllers.ApplicationJava.chooseBid()
-#GET     /customer/service           @controllers.ApplicationJava.getService()
+GET     /customer/service           @controllers.ApplicationJava.getService(user_id: String ?="")
 #POST    /customer/pay               @controllers.ApplicationJava.sendPayment()
 POST    /sp/bid                     @controllers.ApplicationJava.sendBid()
 GET     /sp/requests                @controllers.ApplicationJava.getRequest(user_id: String ?="")
