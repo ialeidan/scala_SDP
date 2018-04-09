@@ -364,7 +364,7 @@ public class DatabaseJava{
         }
         ///check status and return it
         collection = db.getCollection("Bid");
-        Document bid = collection.find(and(eq("_id", doc.get("user_id")),eq("request_id",doc.get("request_id")))).first();
+        Document bid = collection.find((eq("request_id",doc.get("request_id")))).first();
 //        exist = bid.get("status").equals("waiting");
 
         String status = bid.getString("status");
@@ -382,7 +382,7 @@ public class DatabaseJava{
                     put("status", bid.get("status"));
                 }
             };
-            collection.deleteOne(and(eq("_id", doc.get("user_id")),eq("request_id","request_id")));
+            collection.deleteOne((eq("request_id","request_id")));
             return ret;
 
         }else{
