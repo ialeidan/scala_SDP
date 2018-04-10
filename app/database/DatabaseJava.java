@@ -605,7 +605,7 @@ public class DatabaseJava{
         }
         ///get the information of the request and the bidder
         collection = db.getCollection("Progress");
-        Document bid = collection.find(eq("sp_id", new ObjectId(doc.getString("user_id")))).first();
+        Document bid = collection.find(eq("sp_id", doc.get("user_id"))).first();
 
         ///move the request to the Progress collection
 
