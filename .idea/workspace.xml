@@ -20,14 +20,14 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.84087235">
+    <splitter split-orientation="horizontal" split-proportion="0.56542814">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="452">
-                  <caret line="613" column="45" lean-forward="false" selection-start-line="613" selection-start-column="38" selection-end-line="613" selection-end-column="45" />
+                <state relative-caret-position="419">
+                  <caret line="647" column="47" lean-forward="true" selection-start-line="647" selection-start-column="47" selection-end-line="647" selection-end-column="47" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -49,7 +49,7 @@
             <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="265">
-                  <caret line="506" column="58" lean-forward="false" selection-start-line="506" selection-start-column="58" selection-end-line="506" selection-end-column="58" />
+                  <caret line="506" column="56" lean-forward="false" selection-start-line="506" selection-start-column="56" selection-end-line="506" selection-end-column="56" />
                   <folding />
                 </state>
               </provider>
@@ -81,7 +81,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="138">
@@ -91,7 +91,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routes" pinned="false" current-in-tab="false">
+          <file leaf-file-name="routes" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/conf/routes">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="330">
@@ -127,9 +127,9 @@
       <find>getbidst</find>
       <find>Progress</find>
       <find>getstat</find>
+      <find>choose</find>
       <find>getser</find>
       <find>getservi</find>
-      <find>choose</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -369,12 +369,12 @@
       <updated>1523035288810</updated>
       <workItem from="1523035291312" duration="10130000" />
       <workItem from="1523137122331" duration="2901000" />
-      <workItem from="1523199596809" duration="15326000" />
+      <workItem from="1523199596809" duration="15554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28357000" />
+    <option name="totallyTimeSpent" value="28585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -548,15 +548,15 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="506" column="58" lean-forward="false" selection-start-line="506" selection-start-column="58" selection-end-line="506" selection-end-column="58" />
+          <caret line="506" column="56" lean-forward="false" selection-start-line="506" selection-start-column="56" selection-end-line="506" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="613" column="45" lean-forward="false" selection-start-line="613" selection-start-column="38" selection-end-line="613" selection-end-column="45" />
+        <state relative-caret-position="419">
+          <caret line="647" column="47" lean-forward="true" selection-start-line="647" selection-start-column="47" selection-end-line="647" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

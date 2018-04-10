@@ -645,7 +645,7 @@ public class DatabaseJava{
 //        progress.remove("status");
         collection = db.getCollection("History");
         collection.insertOne(progress);
-        collection = db.getCollection("Progress ");
+        collection = db.getCollection("Progress");
         collection.deleteOne(eq("customer_id", doc.get("user_id")));
         HashMap<String, Object> ret = new HashMap<String, Object>() {
             {
