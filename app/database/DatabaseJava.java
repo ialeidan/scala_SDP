@@ -610,7 +610,7 @@ public class DatabaseJava{
         ///move the request to the Progress collection
 
         collection.updateOne(
-                (eq("sp_id", bid.get("user_id"))),
+                (eq("sp_id", doc.get("user_id"))),
                 combine(set("status","payment")));
         HashMap<String, Object> ret = new HashMap<String, Object>(){
             {
