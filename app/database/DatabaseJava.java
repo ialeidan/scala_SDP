@@ -577,41 +577,84 @@ public class DatabaseJava{
             return ret;
         }
     }
+    public HashMap endService(String json) throws NoSuchAlgorithmException {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", new ObjectId(doc.getString("user_id")))).first() != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ///check if request exist
+        collection = db.getCollection("Progress");
+        exist = collection.find(eq("sp_id", doc.get("user_id"))).first() != null;
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("request", "error");
+                }
+            };
+            return ret;
+        }
+        ///get the information of the request and the bidder
+        collection = db.getCollection("Progress");
+        Document bid = collection.find(eq("sp_id", new ObjectId(doc.getString("user_id")))).first();
+
+        ///move the request to the Progress collection
+
+        collection.updateOne(
+                (eq("sp_id", bid.get("user_id"))),
+                combine(set("status","payment")));
+        HashMap<String, Object> ret = new HashMap<String, Object>(){
+            {
+                put("request", "success");
+            }
+        };
+        return ret;
+    }
 //
-//    public HashMap sendPayment(String json)throws NoSuchAlgorithmException  {
-//        MongoCollection<Document> collection = db.getCollection("Users");
-//        Document doc = Document.parse(json);
-//        boolean exist = collection.find(eq("_id", doc.get("user_id"))).first() != null;
-//        ////check if user authenticated
-//        if(!exist){
-//            HashMap<String, Object> ret = new HashMap<String, Object>(){
-//                {
-//                    put("code", "400");
-//                    put("error", "Error");
-//                    put("message", "NOT_AUTHENTICATED");
-//                }
-//            };
-//            return ret;
-//        }
-//        ///moving the document from progress to history
-//        collection = db.getCollection("Progress");
-//        Document progress = collection.find(eq("_id", doc.get("user_id"))).first();
-//        progress.append("info", doc.get("payment"));
-//        progress.append("rating", doc.get("Rating"));
-//        progress.append("timestamp", "0");
+    public HashMap sendPayment(String json)throws NoSuchAlgorithmException  {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        boolean exist = collection.find(eq("_id", new ObjectId(doc.getString("user_id")))).first() != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        ///moving the document from progress to history
+        collection = db.getCollection("Progress");
+        Document progress = collection.find(eq("customer_id", doc.get("user_id"))).first();
+        progress.append("info", doc.get("payment"));
+        progress.append("rating", doc.get("rating"));
+//        progress.append("timestamp", doc.get("rating"));
+        progress.append("status", "completed");
 //        progress.remove("status");
-//        collection = db.getCollection("History");
-//        collection.insertOne(progress);
-//        collection = db.getCollection("Progress ");
-//        collection.deleteOne(eq("_id", doc.get("user_id")));
-//        HashMap<String, Object> ret = new HashMap<String, Object>() {
-//            {
-//                put("request", "success");
-//            }
-//        };
-//        return ret;
-//
-//    }
+        collection = db.getCollection("History");
+        collection.insertOne(progress);
+        collection = db.getCollection("Progress ");
+        collection.deleteOne(eq("customer_id", doc.get("user_id")));
+        HashMap<String, Object> ret = new HashMap<String, Object>() {
+            {
+                put("request", "success");
+            }
+        };
+        return ret;
+
+    }
 
     public HashMap [] getHistory(String user_id) throws NoSuchAlgorithmException{
         MongoCollection<Document> collection = db.getCollection("Users");
