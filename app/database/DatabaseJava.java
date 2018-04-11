@@ -234,6 +234,8 @@ public class DatabaseJava{
                 String response = temp.toJson().toString();
                 HashMap<String, Object> resultMap = new Gson().fromJson(response, new TypeToken<HashMap<String, Object>>(){}.getType());
 
+                resultMap.put("request_id", id.toHexString());
+
                 ret[i] = resultMap;
 
                 i++;
@@ -336,6 +338,8 @@ public class DatabaseJava{
                 String response = temp.toJson().toString();
                 HashMap<String, Object> resultMap = new Gson().fromJson(response, new TypeToken<HashMap<String, Object>>(){}.getType());
 
+                resultMap.put("bid_id", id.toHexString());
+
                 ret[i] = resultMap;
 
                 i++;
@@ -386,7 +390,7 @@ public class DatabaseJava{
                     put("status", bid.get("status"));
                 }
             };
-            collection.deleteOne((eq("request_id","request_id")));
+            collection.deleteOne((eq("request_id",doc.get("request_id"))));
             return ret;
 
         }else{
@@ -524,7 +528,7 @@ public class DatabaseJava{
         ////if not all above, return not on service
         HashMap<String, Object> ret = new HashMap<String, Object>() {
             {
-                put("status", "not on service");
+                put("status", "not service");
             }
         };
         return ret;
