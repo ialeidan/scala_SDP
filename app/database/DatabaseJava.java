@@ -54,6 +54,7 @@ public class DatabaseJava{
         ObjectId id = (ObjectId)found.get( "_id" );
         temp.append("access_token", id.toHexString());
         temp.append("user_id", id.toHexString());
+        temp.append("type", found.get("type"));
         return temp;
     }
 
@@ -114,6 +115,7 @@ public class DatabaseJava{
                 {
                     put("access_token", id.toHexString());
                     put("user_id", id.toHexString());
+                    put("type", "customer");
                 }
             };
             return ret;
@@ -142,6 +144,7 @@ public class DatabaseJava{
                 {
                     put("access_token", id.toHexString());
                     put("user_id", id.toHexString());
+                    put("type", "SP");
                 }
             };
             return ret;
