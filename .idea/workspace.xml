@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d64975-56aa-40cb-a2f1-bca5339c9193" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/database/DatabaseJava.java" afterPath="$PROJECT_DIR$/app/database/DatabaseJava.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +26,8 @@
           <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2395">
-                  <caret line="530" column="42" lean-forward="false" selection-start-line="530" selection-start-column="42" selection-end-line="530" selection-end-column="42" />
+                <state relative-caret-position="289">
+                  <caret line="520" column="23" lean-forward="false" selection-start-line="520" selection-start-column="23" selection-end-line="520" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -74,7 +73,7 @@
             <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="6045">
-                  <caret line="407" column="0" lean-forward="false" selection-start-line="407" selection-start-column="0" selection-end-line="469" selection-end-column="5" />
+                  <caret line="408" column="0" lean-forward="false" selection-start-line="408" selection-start-column="0" selection-end-line="470" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -374,12 +373,12 @@
       <workItem from="1523137122331" duration="2901000" />
       <workItem from="1523199596809" duration="15702000" />
       <workItem from="1523442888313" duration="238000" />
-      <workItem from="1523471603543" duration="450000" />
+      <workItem from="1523471603543" duration="1027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29421000" />
+    <option name="totallyTimeSpent" value="29998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -616,8 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2395">
-          <caret line="530" column="42" lean-forward="false" selection-start-line="530" selection-start-column="42" selection-end-line="530" selection-end-column="42" />
+        <state relative-caret-position="289">
+          <caret line="520" column="23" lean-forward="false" selection-start-line="520" selection-start-column="23" selection-end-line="520" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -283,8 +283,9 @@ public class DatabaseJava{
         bid.append("price", doc.get("price"));
         bid.append("location", request.get("location"));
         collection.insertOne(bid);
+        // usr: 5abbff30eed4650004e1588e
         // sp ; 5abc8a5002ba7f0004585fb6
-        // req: 5aca4ebf77237d0004fbedf8
+        // req: 5ace5758cfaeee000408b0ee
 
 
         HashMap<String, Object> ret = new HashMap<String, Object>() {
@@ -502,10 +503,12 @@ public class DatabaseJava{
         //TODO: CHECK.
         ////check if in service or waiting for payment
         collection = db.getCollection("Progress");
+        Document pro = collection.find(eq("customer_id", doc.get("user_id"))).first();
         exist = collection.find(eq("customer_id", doc.get("user_id"))).first() != null;
         if(exist){
             ////check if in service
-            exist = doc.get("status").equals("in service");
+
+            exist = pro.get("status").equals("in service");
             if(exist) {
                 HashMap<String, Object> ret = new HashMap<String, Object>() {
                     {
@@ -515,7 +518,7 @@ public class DatabaseJava{
                 return ret;
             }
             ////check if waiting for payment
-            exist = doc.get("status").equals("payment");
+            exist = pro.get("status").equals("payment");
             if(exist) {
                 HashMap<String, Object> ret = new HashMap<String, Object>() {
                     {
