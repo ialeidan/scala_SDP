@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d64975-56aa-40cb-a2f1-bca5339c9193" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/database/DatabaseJava.java" afterPath="$PROJECT_DIR$/app/database/DatabaseJava.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -20,72 +20,16 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72940433">
+    <splitter split-orientation="horizontal" split-proportion="0.85783523">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="589">
-                  <caret line="623" column="31" lean-forward="false" selection-start-line="623" selection-start-column="21" selection-end-line="623" selection-end-column="31" />
+                <state relative-caret-position="-3573">
+                  <caret line="452" column="52" lean-forward="false" selection-start-line="452" selection-start-column="52" selection-end-line="452" selection-end-column="52" />
                   <folding>
-                    <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="e#1684#1749#0" expanded="false" />
-                    <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#2450:2581" expanded="false" />
-                    <element signature="initializer##0;class#2450:2581" expanded="false" />
-                    <element signature="class#2812:2944" expanded="false" />
-                    <element signature="initializer##0;class#2812:2944" expanded="false" />
-                    <element signature="class#3081:3264" expanded="false" />
-                    <element signature="initializer##0;class#3081:3264" expanded="false" />
-                    <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#3613:3741" expanded="false" />
-                    <element signature="initializer##0;class#3613:3741" expanded="false" />
-                    <element signature="class#4098:4333" expanded="false" />
-                    <element signature="initializer##0;class#4098:4333" expanded="false" />
-                    <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#4696:4824" expanded="false" />
-                    <element signature="initializer##0;class#4696:4824" expanded="false" />
-                    <element signature="class#5228:5457" expanded="false" />
-                    <element signature="initializer##0;class#5228:5457" expanded="false" />
-                    <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#5903:6119" expanded="false" />
-                    <element signature="initializer##0;class#5903:6119" expanded="false" />
-                    <element signature="class#6406:6527" expanded="false" />
-                    <element signature="initializer##0;class#6406:6527" expanded="false" />
-                    <element signature="class#6940:7101" expanded="false" />
-                    <element signature="initializer##0;class#6940:7101" expanded="false" />
-                    <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#7624:7757" expanded="false" />
-                    <element signature="initializer##0;class#7624:7757" expanded="false" />
-                    <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#19889:20000" expanded="false" />
-                    <element signature="initializer##0;class#19889:20000" expanded="false" />
-                    <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#20510:20726" expanded="false" />
-                    <element signature="initializer##0;class#20510:20726" expanded="false" />
-                    <element signature="class#21032:21233" expanded="false" />
-                    <element signature="initializer##0;class#21032:21233" expanded="false" />
-                    <element signature="class#21393:21645" expanded="false" />
-                    <element signature="initializer##0;class#21393:21645" expanded="false" />
-                    <element signature="class#21742:21864" expanded="false" />
-                    <element signature="initializer##0;class#21742:21864" expanded="false" />
-                    <element signature="class#22317:22533" expanded="false" />
-                    <element signature="initializer##0;class#22317:22533" expanded="false" />
-                    <element signature="class#22802:22923" expanded="false" />
-                    <element signature="initializer##0;class#22802:22923" expanded="false" />
-                    <element signature="class#23391:23498" expanded="false" />
-                    <element signature="initializer##0;class#23391:23498" expanded="false" />
-                    <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#23940:24156" expanded="false" />
-                    <element signature="initializer##0;class#23940:24156" expanded="false" />
-                    <element signature="class#24894:25002" expanded="false" />
-                    <element signature="initializer##0;class#24894:25002" expanded="false" />
-                    <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#25524:25657" expanded="false" />
-                    <element signature="initializer##0;class#25524:25657" expanded="false" />
-                    <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -94,8 +38,8 @@
           <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/build.sbt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
                   <folding />
                 </state>
               </provider>
@@ -104,8 +48,8 @@
           <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="884">
-                  <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+                <state relative-caret-position="810">
+                  <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -114,8 +58,8 @@
           <file leaf-file-name="routes" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/conf/routes">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -128,9 +72,11 @@
           <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6817">
-                  <caret line="429" column="0" lean-forward="false" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="6045">
+                  <caret line="408" column="0" lean-forward="false" selection-start-line="408" selection-start-column="0" selection-end-line="471" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -138,8 +84,8 @@
           <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="9877">
-                  <caret line="588" column="1" lean-forward="false" selection-start-line="588" selection-start-column="1" selection-end-line="588" selection-end-column="1" />
+                <state relative-caret-position="5130">
+                  <caret line="349" column="100" lean-forward="false" selection-start-line="349" selection-start-column="100" selection-end-line="349" selection-end-column="100" />
                   <folding />
                 </state>
               </provider>
@@ -148,8 +94,8 @@
           <file leaf-file-name="routes" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/conf/routes">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -294,8 +240,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/database/DatabaseJava.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -388,6 +332,652 @@
         <option name="mySupportsDeletion" value="false" />
         <option name="myCanBeAbsent" value="false" />
         <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/database/DatabaseJava.java</PATH>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" />
+            <option name="myStatusName" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" />
+          <option name="myStatusName" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" />
+        </FILE-GROUP>
       </FILE-GROUP>
     </UpdatedFiles>
   </component>
@@ -543,36 +1133,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30032000" />
+    <option name="totallyTimeSpent" value="30083000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.178125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18012924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -598,8 +1187,8 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18012924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -655,6 +1244,68 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Global.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="451" column="57" lean-forward="true" selection-start-line="451" selection-start-column="57" selection-end-line="451" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -668,63 +1319,7 @@
         <state relative-caret-position="6732">
           <caret line="424" column="0" lean-forward="false" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,63 +1353,7 @@
         <state relative-caret-position="6851">
           <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="465" selection-end-column="5" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,63 +1387,7 @@
         <state relative-caret-position="6000">
           <caret line="400" column="0" lean-forward="false" selection-start-line="400" selection-start-column="0" selection-end-line="462" selection-end-column="5" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -930,63 +1413,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1004,63 +1431,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1130,63 +1501,7 @@
         <state relative-caret-position="283">
           <caret line="588" column="19" lean-forward="true" selection-start-line="588" selection-start-column="19" selection-end-line="588" selection-end-column="19" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1196,63 +1511,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1286,63 +1545,7 @@
         <state relative-caret-position="6000">
           <caret line="400" column="0" lean-forward="false" selection-start-line="400" selection-start-column="0" selection-end-line="462" selection-end-column="5" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1368,63 +1571,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1442,63 +1589,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1541,90 +1632,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state relative-caret-position="285">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="810">
+          <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="623" column="31" lean-forward="false" selection-start-line="623" selection-start-column="21" selection-end-line="623" selection-end-column="31" />
+        <state relative-caret-position="-3573">
+          <caret line="452" column="52" lean-forward="false" selection-start-line="452" selection-start-column="52" selection-end-line="452" selection-end-column="52" />
           <folding>
-            <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="e#1684#1749#0" expanded="false" />
-            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#2450:2581" expanded="false" />
-            <element signature="initializer##0;class#2450:2581" expanded="false" />
-            <element signature="class#2812:2944" expanded="false" />
-            <element signature="initializer##0;class#2812:2944" expanded="false" />
-            <element signature="class#3081:3264" expanded="false" />
-            <element signature="initializer##0;class#3081:3264" expanded="false" />
-            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#3613:3741" expanded="false" />
-            <element signature="initializer##0;class#3613:3741" expanded="false" />
-            <element signature="class#4098:4333" expanded="false" />
-            <element signature="initializer##0;class#4098:4333" expanded="false" />
-            <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#4696:4824" expanded="false" />
-            <element signature="initializer##0;class#4696:4824" expanded="false" />
-            <element signature="class#5228:5457" expanded="false" />
-            <element signature="initializer##0;class#5228:5457" expanded="false" />
-            <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#5903:6119" expanded="false" />
-            <element signature="initializer##0;class#5903:6119" expanded="false" />
-            <element signature="class#6406:6527" expanded="false" />
-            <element signature="initializer##0;class#6406:6527" expanded="false" />
-            <element signature="class#6940:7101" expanded="false" />
-            <element signature="initializer##0;class#6940:7101" expanded="false" />
-            <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#7624:7757" expanded="false" />
-            <element signature="initializer##0;class#7624:7757" expanded="false" />
-            <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#19889:20000" expanded="false" />
-            <element signature="initializer##0;class#19889:20000" expanded="false" />
-            <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20510:20726" expanded="false" />
-            <element signature="initializer##0;class#20510:20726" expanded="false" />
-            <element signature="class#21032:21233" expanded="false" />
-            <element signature="initializer##0;class#21032:21233" expanded="false" />
-            <element signature="class#21393:21645" expanded="false" />
-            <element signature="initializer##0;class#21393:21645" expanded="false" />
-            <element signature="class#21742:21864" expanded="false" />
-            <element signature="initializer##0;class#21742:21864" expanded="false" />
-            <element signature="class#22317:22533" expanded="false" />
-            <element signature="initializer##0;class#22317:22533" expanded="false" />
-            <element signature="class#22802:22923" expanded="false" />
-            <element signature="initializer##0;class#22802:22923" expanded="false" />
-            <element signature="class#23391:23498" expanded="false" />
-            <element signature="initializer##0;class#23391:23498" expanded="false" />
-            <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#23940:24156" expanded="false" />
-            <element signature="initializer##0;class#23940:24156" expanded="false" />
-            <element signature="class#24894:25002" expanded="false" />
-            <element signature="initializer##0;class#24894:25002" expanded="false" />
-            <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25524:25657" expanded="false" />
-            <element signature="initializer##0;class#25524:25657" expanded="false" />
-            <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

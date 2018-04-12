@@ -450,6 +450,7 @@ public class DatabaseJava{
         temp.append("price", bid.get("price"));
         temp.append("status", "in service");
         temp.append("location", request.get("location"));
+        temp.append("request_id", id.toHexString());
         collection.insertOne(temp);
 
         collection = db.getCollection("Requests");
