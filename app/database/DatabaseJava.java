@@ -580,6 +580,7 @@ public class DatabaseJava{
             return ret;
         }
     }
+
     public HashMap endService(String json) throws NoSuchAlgorithmException {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
@@ -613,7 +614,7 @@ public class DatabaseJava{
         ///move the request to the Progress collection
 
         collection.updateOne(
-                (eq("sp_id", doc.get("user_id"))),
+                (eq("request_id", doc.get("request_id"))),
                 combine(set("status","payment")));
         HashMap<String, Object> ret = new HashMap<String, Object>(){
             {
