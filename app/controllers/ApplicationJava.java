@@ -202,6 +202,42 @@ public class ApplicationJava extends Controller {
 
         }
     }
+
+    public Result spStatus(String user_id) {
+//        JsonNode status = request().body().asJson();
+
+//        if (status.get("user_id") == null) {
+        if (user_id == ""){
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+
+            return ok(Json.toJson(ERR));
+        }
+
+        try {
+            HashMap<String, Object> ret = database.getSPStatus(user_id);//status function
+            return ok(Json.toJson(ret));
+        } catch (NoSuchAlgorithmException e) {
+            HashMap<String, Object> ERR = new HashMap<String, Object>() {
+                {
+                    put("error", "Error");
+                    put("code", "400");
+                    put("message", "SOME FIELDS ARE MISSING");
+                }
+
+            };
+            e.printStackTrace();
+            return ok(Json.toJson(ERR));
+
+        }
+    }
+
     public Result sendrequest() {
         JsonNode request = request().body().asJson();
 

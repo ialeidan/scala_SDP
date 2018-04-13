@@ -15,6 +15,7 @@ POST    /auth/sp/register           @controllers.ApplicationJava.spRegister()
 GET     /history                    @controllers.ApplicationJava.history(user_id: String ?="")
 
 GET     /user/status                @controllers.ApplicationJava.status(user_id: String ?="")
+GET     /sp/status                  @controllers.ApplicationJava.spStatus(user_id: String ?="")
 POST    /customer/request           @controllers.ApplicationJava.sendrequest()
 GET     /customer/bids              @controllers.ApplicationJava.getBids(user_id: String ?="")
 POST    /customer/select_bid        @controllers.ApplicationJava.chooseBid()

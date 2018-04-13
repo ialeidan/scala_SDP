@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d64975-56aa-40cb-a2f1-bca5339c9193" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" afterPath="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
       <change beforePath="$PROJECT_DIR$/app/database/DatabaseJava.java" afterPath="$PROJECT_DIR$/app/database/DatabaseJava.java" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -24,11 +25,242 @@
     <splitter split-orientation="horizontal" split-proportion="0.85783523">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="47">
-                  <caret line="89" column="47" lean-forward="false" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
+                <state relative-caret-position="657">
+                  <caret line="574" column="44" lean-forward="false" selection-start-line="574" selection-start-column="44" selection-end-line="574" selection-end-column="44" />
+                  <folding>
+                    <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="e#1684#1749#0" expanded="false" />
+                    <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#2450:2581" expanded="false" />
+                    <element signature="initializer##0;class#2450:2581" expanded="false" />
+                    <element signature="class#2812:2944" expanded="false" />
+                    <element signature="initializer##0;class#2812:2944" expanded="false" />
+                    <element signature="class#3081:3312" expanded="false" />
+                    <element signature="initializer##0;class#3081:3312" expanded="false" />
+                    <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#3661:3789" expanded="false" />
+                    <element signature="initializer##0;class#3661:3789" expanded="false" />
+                    <element signature="class#4146:4381" expanded="false" />
+                    <element signature="initializer##0;class#4146:4381" expanded="false" />
+                    <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#4744:4872" expanded="false" />
+                    <element signature="initializer##0;class#4744:4872" expanded="false" />
+                    <element signature="class#5276:5505" expanded="false" />
+                    <element signature="initializer##0;class#5276:5505" expanded="false" />
+                    <element signature="method#sendRequest#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#5951:6167" expanded="false" />
+                    <element signature="initializer##0;class#5951:6167" expanded="false" />
+                    <element signature="class#6454:6575" expanded="false" />
+                    <element signature="initializer##0;class#6454:6575" expanded="false" />
+                    <element signature="class#6988:7149" expanded="false" />
+                    <element signature="initializer##0;class#6988:7149" expanded="false" />
+                    <element signature="method#getRequests#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#7672:7805" expanded="false" />
+                    <element signature="initializer##0;class#7672:7805" expanded="false" />
+                    <element signature="method#sendBid#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#9361:9577" expanded="false" />
+                    <element signature="initializer##0;class#9361:9577" expanded="false" />
+                    <element signature="class#9894:10015" expanded="false" />
+                    <element signature="initializer##0;class#9894:10015" expanded="false" />
+                    <element signature="e#10659#10691#0" expanded="false" />
+                    <element signature="class#10818:10926" expanded="false" />
+                    <element signature="initializer##0;class#10818:10926" expanded="false" />
+                    <element signature="method#getBids#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#11446:11663" expanded="false" />
+                    <element signature="initializer##0;class#11446:11663" expanded="false" />
+                    <element signature="method#getBidStatus#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="e#13375#13406#0" expanded="false" />
+                    <element signature="class#13513:13729" expanded="false" />
+                    <element signature="initializer##0;class#13513:13729" expanded="false" />
+                    <element signature="class#14129:14259" expanded="false" />
+                    <element signature="initializer##0;class#14129:14259" expanded="false" />
+                    <element signature="class#14385:14516" expanded="false" />
+                    <element signature="initializer##0;class#14385:14516" expanded="false" />
+                    <element signature="class#14680:14844" expanded="false" />
+                    <element signature="initializer##0;class#14680:14844" expanded="false" />
+                    <element signature="method#chooseBid#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#15298:15514" expanded="false" />
+                    <element signature="initializer##0;class#15298:15514" expanded="false" />
+                    <element signature="class#15789:15910" expanded="false" />
+                    <element signature="initializer##0;class#15789:15910" expanded="false" />
+                    <element signature="class#17582:17689" expanded="false" />
+                    <element signature="initializer##0;class#17582:17689" expanded="false" />
+                    <element signature="method#getStatus#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#18198:18414" expanded="false" />
+                    <element signature="initializer##0;class#18198:18414" expanded="false" />
+                    <element signature="class#18686:18811" expanded="false" />
+                    <element signature="initializer##0;class#18686:18811" expanded="false" />
+                    <element signature="e#18855#18869#0" expanded="false" />
+                    <element signature="class#19341:19483" expanded="false" />
+                    <element signature="initializer##0;class#19341:19483" expanded="false" />
+                    <element signature="class#19703:19842" expanded="false" />
+                    <element signature="initializer##0;class#19703:19842" expanded="false" />
+                    <element signature="class#19990:20101" expanded="false" />
+                    <element signature="initializer##0;class#19990:20101" expanded="false" />
+                    <element signature="class#21589:21715" expanded="false" />
+                    <element signature="initializer##0;class#21589:21715" expanded="false" />
+                    <element signature="class#21911:22034" expanded="false" />
+                    <element signature="initializer##0;class#21911:22034" expanded="false" />
+                    <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#22757:22973" expanded="false" />
+                    <element signature="initializer##0;class#22757:22973" expanded="false" />
+                    <element signature="class#23279:23480" expanded="false" />
+                    <element signature="initializer##0;class#23279:23480" expanded="false" />
+                    <element signature="class#23640:23892" expanded="false" />
+                    <element signature="initializer##0;class#23640:23892" expanded="false" />
+                    <element signature="class#23989:24111" expanded="false" />
+                    <element signature="initializer##0;class#23989:24111" expanded="false" />
+                    <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#24564:24780" expanded="false" />
+                    <element signature="initializer##0;class#24564:24780" expanded="false" />
+                    <element signature="class#25049:25170" expanded="false" />
+                    <element signature="initializer##0;class#25049:25170" expanded="false" />
+                    <element signature="class#25638:25745" expanded="false" />
+                    <element signature="initializer##0;class#25638:25745" expanded="false" />
+                    <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#26187:26403" expanded="false" />
+                    <element signature="initializer##0;class#26187:26403" expanded="false" />
+                    <element signature="class#27141:27249" expanded="false" />
+                    <element signature="initializer##0;class#27141:27249" expanded="false" />
+                    <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
+                    <element signature="class#27771:27904" expanded="false" />
+                    <element signature="initializer##0;class#27771:27904" expanded="false" />
+                    <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build.sbt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="446">
+                  <caret line="228" column="42" lean-forward="true" selection-start-line="228" selection-start-column="42" selection-end-line="228" selection-end-column="42" />
+                  <folding>
+                    <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="class#705:929" expanded="false" />
+                    <element signature="initializer##0;class#705:929" expanded="false" />
+                    <element signature="class#1210:1434" expanded="false" />
+                    <element signature="initializer##0;class#1210:1434" expanded="false" />
+                    <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="class#1830:2054" expanded="false" />
+                    <element signature="initializer##0;class#1830:2054" expanded="false" />
+                    <element signature="class#2338:2562" expanded="false" />
+                    <element signature="initializer##0;class#2338:2562" expanded="false" />
+                    <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="class#2859:3083" expanded="false" />
+                    <element signature="initializer##0;class#2859:3083" expanded="false" />
+                    <element signature="class#3362:3586" expanded="false" />
+                    <element signature="initializer##0;class#3362:3586" expanded="false" />
+                    <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="e#3725#3777#0" expanded="false" />
+                    <element signature="class#3898:4124" expanded="false" />
+                    <element signature="initializer##0;class#3898:4124" expanded="false" />
+                    <element signature="class#4314:4434" expanded="false" />
+                    <element signature="initializer##0;class#4314:4434" expanded="false" />
+                    <element signature="class#4571:4795" expanded="false" />
+                    <element signature="initializer##0;class#4571:4795" expanded="false" />
+                    <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="e#4931#4985#0" expanded="false" />
+                    <element signature="class#5108:5332" expanded="false" />
+                    <element signature="initializer##0;class#5108:5332" expanded="false" />
+                    <element signature="class#5623:5847" expanded="false" />
+                    <element signature="initializer##0;class#5623:5847" expanded="false" />
+                    <element signature="class#6163:6387" expanded="false" />
+                    <element signature="initializer##0;class#6163:6387" expanded="false" />
+                    <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="class#7247:7471" expanded="false" />
+                    <element signature="initializer##0;class#7247:7471" expanded="false" />
+                    <element signature="class#7758:7982" expanded="false" />
+                    <element signature="initializer##0;class#7758:7982" expanded="false" />
+                    <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="e#8119#8174#0" expanded="false" />
+                    <element signature="class#8295:8519" expanded="false" />
+                    <element signature="initializer##0;class#8295:8519" expanded="false" />
+                    <element signature="class#8708:8825" expanded="false" />
+                    <element signature="initializer##0;class#8708:8825" expanded="false" />
+                    <element signature="class#8962:9186" expanded="false" />
+                    <element signature="initializer##0;class#8962:9186" expanded="false" />
+                    <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="class#9494:9718" expanded="false" />
+                    <element signature="initializer##0;class#9494:9718" expanded="false" />
+                    <element signature="class#10003:10227" expanded="false" />
+                    <element signature="initializer##0;class#10003:10227" expanded="false" />
+                    <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="e#10367#10421#0" expanded="false" />
+                    <element signature="class#10544:10768" expanded="false" />
+                    <element signature="initializer##0;class#10544:10768" expanded="false" />
+                    <element signature="class#11043:11267" expanded="false" />
+                    <element signature="initializer##0;class#11043:11267" expanded="false" />
+                    <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="class#11609:11833" expanded="false" />
+                    <element signature="initializer##0;class#11609:11833" expanded="false" />
+                    <element signature="class#12120:12344" expanded="false" />
+                    <element signature="initializer##0;class#12120:12344" expanded="false" />
+                    <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="class#12683:12907" expanded="false" />
+                    <element signature="initializer##0;class#12683:12907" expanded="false" />
+                    <element signature="class#13190:13414" expanded="false" />
+                    <element signature="initializer##0;class#13190:13414" expanded="false" />
+                    <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="e#13554#13609#0" expanded="false" />
+                    <element signature="class#13730:13954" expanded="false" />
+                    <element signature="initializer##0;class#13730:13954" expanded="false" />
+                    <element signature="class#14147:14268" expanded="false" />
+                    <element signature="initializer##0;class#14147:14268" expanded="false" />
+                    <element signature="class#14406:14630" expanded="false" />
+                    <element signature="initializer##0;class#14406:14630" expanded="false" />
+                    <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="e#14794#14849#0" expanded="false" />
+                    <element signature="class#14990:15214" expanded="false" />
+                    <element signature="initializer##0;class#14990:15214" expanded="false" />
+                    <element signature="class#15503:15727" expanded="false" />
+                    <element signature="initializer##0;class#15503:15727" expanded="false" />
+                    <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+                    <element signature="class#16037:16261" expanded="false" />
+                    <element signature="initializer##0;class#16037:16261" expanded="false" />
+                    <element signature="class#16547:16771" expanded="false" />
+                    <element signature="initializer##0;class#16547:16771" expanded="false" />
+                    <element signature="e#16864#16896#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="routes" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/conf/routes">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1440">
+                  <caret line="409" column="0" lean-forward="false" selection-start-line="409" selection-start-column="0" selection-end-line="472" selection-end-column="5" />
                   <folding>
                     <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
                     <element signature="class#2450:2581" expanded="false" />
@@ -91,76 +323,30 @@
                     <element signature="class#19990:20101" expanded="false" />
                     <element signature="initializer##0;class#19990:20101" expanded="false" />
                     <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#20611:20827" expanded="false" />
-                    <element signature="initializer##0;class#20611:20827" expanded="false" />
-                    <element signature="class#21133:21334" expanded="false" />
-                    <element signature="initializer##0;class#21133:21334" expanded="false" />
-                    <element signature="class#21494:21746" expanded="false" />
-                    <element signature="initializer##0;class#21494:21746" expanded="false" />
-                    <element signature="class#21843:21965" expanded="false" />
-                    <element signature="initializer##0;class#21843:21965" expanded="false" />
+                    <element signature="class#22757:22973" expanded="false" />
+                    <element signature="initializer##0;class#22757:22973" expanded="false" />
+                    <element signature="class#23279:23480" expanded="false" />
+                    <element signature="initializer##0;class#23279:23480" expanded="false" />
+                    <element signature="class#23640:23892" expanded="false" />
+                    <element signature="initializer##0;class#23640:23892" expanded="false" />
+                    <element signature="class#23989:24111" expanded="false" />
+                    <element signature="initializer##0;class#23989:24111" expanded="false" />
                     <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#22418:22634" expanded="false" />
-                    <element signature="initializer##0;class#22418:22634" expanded="false" />
-                    <element signature="class#22903:23024" expanded="false" />
-                    <element signature="initializer##0;class#22903:23024" expanded="false" />
-                    <element signature="class#23492:23599" expanded="false" />
-                    <element signature="initializer##0;class#23492:23599" expanded="false" />
+                    <element signature="class#24564:24780" expanded="false" />
+                    <element signature="initializer##0;class#24564:24780" expanded="false" />
+                    <element signature="class#25049:25170" expanded="false" />
+                    <element signature="initializer##0;class#25049:25170" expanded="false" />
+                    <element signature="class#25638:25745" expanded="false" />
+                    <element signature="initializer##0;class#25638:25745" expanded="false" />
                     <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#24041:24257" expanded="false" />
-                    <element signature="initializer##0;class#24041:24257" expanded="false" />
-                    <element signature="class#24995:25103" expanded="false" />
-                    <element signature="initializer##0;class#24995:25103" expanded="false" />
+                    <element signature="class#26187:26403" expanded="false" />
+                    <element signature="initializer##0;class#26187:26403" expanded="false" />
+                    <element signature="class#27141:27249" expanded="false" />
+                    <element signature="initializer##0;class#27141:27249" expanded="false" />
                     <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-                    <element signature="class#25625:25758" expanded="false" />
-                    <element signature="initializer##0;class#25625:25758" expanded="false" />
+                    <element signature="class#27771:27904" expanded="false" />
+                    <element signature="initializer##0;class#27771:27904" expanded="false" />
                     <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build.sbt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ApplicationJava.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="810">
-                  <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="routes" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/conf/routes">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="DatabaseJava.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6120">
-                  <caret line="409" column="0" lean-forward="false" selection-start-line="409" selection-start-column="0" selection-end-line="472" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -170,7 +356,7 @@
             <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="5130">
-                  <caret line="349" column="100" lean-forward="false" selection-start-line="349" selection-start-column="100" selection-end-line="349" selection-end-column="100" />
+                  <caret line="385" column="100" lean-forward="false" selection-start-line="385" selection-start-column="100" selection-end-line="385" selection-end-column="100" />
                   <folding />
                 </state>
               </provider>
@@ -179,8 +365,8 @@
           <file leaf-file-name="routes" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/conf/routes">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+                <state relative-caret-position="345">
+                  <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -236,9 +422,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/conf/routes" />
-        <option value="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
         <option value="$PROJECT_DIR$/app/database/DatabaseJava.java" />
+        <option value="$PROJECT_DIR$/app/controllers/ApplicationJava.java" />
+        <option value="$PROJECT_DIR$/conf/routes" />
       </list>
     </option>
   </component>
@@ -460,11 +646,12 @@
       <workItem from="1523442888313" duration="238000" />
       <workItem from="1523471603543" duration="1027000" />
       <workItem from="1523626597918" duration="84000" />
+      <workItem from="1523631093265" duration="131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30272000" />
+    <option name="totallyTimeSpent" value="30403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -591,7 +778,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,10 +883,20 @@
           <caret line="451" column="57" lean-forward="true" selection-start-line="451" selection-start-column="57" selection-end-line="451" selection-end-column="57" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -668,30 +952,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -711,10 +999,20 @@
           <caret line="424" column="0" lean-forward="false" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -770,30 +1068,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -803,7 +1105,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -829,10 +1218,20 @@
           <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="465" selection-end-column="5" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -888,30 +1287,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -921,7 +1324,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -947,10 +1437,20 @@
           <caret line="400" column="0" lean-forward="false" selection-start-line="400" selection-start-column="0" selection-end-line="462" selection-end-column="5" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -1006,30 +1506,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -1039,7 +1543,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7590">
           <caret line="506" column="56" lean-forward="false" selection-start-line="506" selection-start-column="56" selection-end-line="506" selection-end-column="56" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,10 +1648,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -1116,30 +1717,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -1149,7 +1754,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,10 +1851,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -1218,30 +1920,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -1251,7 +1957,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3978">
           <caret line="241" column="27" lean-forward="true" selection-start-line="241" selection-start-column="27" selection-end-line="241" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1295,7 +2088,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1313,10 +2193,20 @@
           <caret line="588" column="19" lean-forward="true" selection-start-line="588" selection-start-column="19" selection-end-line="588" selection-end-column="19" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -1372,30 +2262,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -1407,10 +2301,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -1466,30 +2370,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -1499,7 +2407,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1525,10 +2520,20 @@
           <caret line="400" column="0" lean-forward="false" selection-start-line="400" selection-start-column="0" selection-end-line="462" selection-end-column="5" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -1584,30 +2589,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -1617,7 +2626,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7590">
           <caret line="506" column="56" lean-forward="false" selection-start-line="506" selection-start-column="56" selection-end-line="506" selection-end-column="56" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1635,10 +2731,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -1694,30 +2800,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -1727,7 +2837,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1737,10 +2934,20 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -1796,30 +3003,34 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
         </state>
@@ -1829,7 +3040,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3978">
           <caret line="241" column="27" lean-forward="true" selection-start-line="241" selection-start-column="27" selection-end-line="241" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1869,32 +3167,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/DatabaseJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="89" column="47" lean-forward="false" selection-start-line="89" selection-start-column="47" selection-end-line="89" selection-end-column="47" />
+        <state relative-caret-position="657">
+          <caret line="574" column="44" lean-forward="false" selection-start-line="574" selection-start-column="44" selection-end-line="574" selection-end-column="44" />
           <folding>
             <element signature="method#DatabaseJava#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="method#getToken#0;class#DatabaseJava#0" expanded="false" />
+            <element signature="e#1684#1749#0" expanded="false" />
+            <element signature="method#Login#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#2450:2581" expanded="false" />
             <element signature="initializer##0;class#2450:2581" expanded="false" />
+            <element signature="class#2812:2944" expanded="false" />
+            <element signature="initializer##0;class#2812:2944" expanded="false" />
+            <element signature="class#3081:3312" expanded="false" />
+            <element signature="initializer##0;class#3081:3312" expanded="false" />
+            <element signature="method#register#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#3661:3789" expanded="false" />
             <element signature="initializer##0;class#3661:3789" expanded="false" />
+            <element signature="class#4146:4381" expanded="false" />
+            <element signature="initializer##0;class#4146:4381" expanded="false" />
             <element signature="method#spRegister#0;class#DatabaseJava#0" expanded="false" />
             <element signature="class#4744:4872" expanded="false" />
             <element signature="initializer##0;class#4744:4872" expanded="false" />
@@ -1950,32 +3242,139 @@
             <element signature="initializer##0;class#19703:19842" expanded="false" />
             <element signature="class#19990:20101" expanded="false" />
             <element signature="initializer##0;class#19990:20101" expanded="false" />
+            <element signature="class#21589:21715" expanded="false" />
+            <element signature="initializer##0;class#21589:21715" expanded="false" />
+            <element signature="class#21911:22034" expanded="false" />
+            <element signature="initializer##0;class#21911:22034" expanded="false" />
             <element signature="method#getService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#20611:20827" expanded="false" />
-            <element signature="initializer##0;class#20611:20827" expanded="false" />
-            <element signature="class#21133:21334" expanded="false" />
-            <element signature="initializer##0;class#21133:21334" expanded="false" />
-            <element signature="class#21494:21746" expanded="false" />
-            <element signature="initializer##0;class#21494:21746" expanded="false" />
-            <element signature="class#21843:21965" expanded="false" />
-            <element signature="initializer##0;class#21843:21965" expanded="false" />
+            <element signature="class#22757:22973" expanded="false" />
+            <element signature="initializer##0;class#22757:22973" expanded="false" />
+            <element signature="class#23279:23480" expanded="false" />
+            <element signature="initializer##0;class#23279:23480" expanded="false" />
+            <element signature="class#23640:23892" expanded="false" />
+            <element signature="initializer##0;class#23640:23892" expanded="false" />
+            <element signature="class#23989:24111" expanded="false" />
+            <element signature="initializer##0;class#23989:24111" expanded="false" />
             <element signature="method#endService#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#22418:22634" expanded="false" />
-            <element signature="initializer##0;class#22418:22634" expanded="false" />
-            <element signature="class#22903:23024" expanded="false" />
-            <element signature="initializer##0;class#22903:23024" expanded="false" />
-            <element signature="class#23492:23599" expanded="false" />
-            <element signature="initializer##0;class#23492:23599" expanded="false" />
+            <element signature="class#24564:24780" expanded="false" />
+            <element signature="initializer##0;class#24564:24780" expanded="false" />
+            <element signature="class#25049:25170" expanded="false" />
+            <element signature="initializer##0;class#25049:25170" expanded="false" />
+            <element signature="class#25638:25745" expanded="false" />
+            <element signature="initializer##0;class#25638:25745" expanded="false" />
             <element signature="method#sendPayment#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#24041:24257" expanded="false" />
-            <element signature="initializer##0;class#24041:24257" expanded="false" />
-            <element signature="class#24995:25103" expanded="false" />
-            <element signature="initializer##0;class#24995:25103" expanded="false" />
+            <element signature="class#26187:26403" expanded="false" />
+            <element signature="initializer##0;class#26187:26403" expanded="false" />
+            <element signature="class#27141:27249" expanded="false" />
+            <element signature="initializer##0;class#27141:27249" expanded="false" />
             <element signature="method#getHistory#0;class#DatabaseJava#0" expanded="false" />
-            <element signature="class#25625:25758" expanded="false" />
-            <element signature="initializer##0;class#25625:25758" expanded="false" />
+            <element signature="class#27771:27904" expanded="false" />
+            <element signature="initializer##0;class#27771:27904" expanded="false" />
             <element signature="method#hash#0;class#DatabaseJava#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ApplicationJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="228" column="42" lean-forward="true" selection-start-line="228" selection-start-column="42" selection-end-line="228" selection-end-column="42" />
+          <folding>
+            <element signature="method#index1#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="method#register#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#705:929" expanded="false" />
+            <element signature="initializer##0;class#705:929" expanded="false" />
+            <element signature="class#1210:1434" expanded="false" />
+            <element signature="initializer##0;class#1210:1434" expanded="false" />
+            <element signature="method#spRegister#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#1830:2054" expanded="false" />
+            <element signature="initializer##0;class#1830:2054" expanded="false" />
+            <element signature="class#2338:2562" expanded="false" />
+            <element signature="initializer##0;class#2338:2562" expanded="false" />
+            <element signature="method#login#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#2859:3083" expanded="false" />
+            <element signature="initializer##0;class#2859:3083" expanded="false" />
+            <element signature="class#3362:3586" expanded="false" />
+            <element signature="initializer##0;class#3362:3586" expanded="false" />
+            <element signature="method#history#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#3725#3777#0" expanded="false" />
+            <element signature="class#3898:4124" expanded="false" />
+            <element signature="initializer##0;class#3898:4124" expanded="false" />
+            <element signature="class#4314:4434" expanded="false" />
+            <element signature="initializer##0;class#4314:4434" expanded="false" />
+            <element signature="class#4571:4795" expanded="false" />
+            <element signature="initializer##0;class#4571:4795" expanded="false" />
+            <element signature="method#status#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#4931#4985#0" expanded="false" />
+            <element signature="class#5108:5332" expanded="false" />
+            <element signature="initializer##0;class#5108:5332" expanded="false" />
+            <element signature="class#5623:5847" expanded="false" />
+            <element signature="initializer##0;class#5623:5847" expanded="false" />
+            <element signature="class#6163:6387" expanded="false" />
+            <element signature="initializer##0;class#6163:6387" expanded="false" />
+            <element signature="method#sendrequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#7247:7471" expanded="false" />
+            <element signature="initializer##0;class#7247:7471" expanded="false" />
+            <element signature="class#7758:7982" expanded="false" />
+            <element signature="initializer##0;class#7758:7982" expanded="false" />
+            <element signature="method#getBids#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#8119#8174#0" expanded="false" />
+            <element signature="class#8295:8519" expanded="false" />
+            <element signature="initializer##0;class#8295:8519" expanded="false" />
+            <element signature="class#8708:8825" expanded="false" />
+            <element signature="initializer##0;class#8708:8825" expanded="false" />
+            <element signature="class#8962:9186" expanded="false" />
+            <element signature="initializer##0;class#8962:9186" expanded="false" />
+            <element signature="method#chooseBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#9494:9718" expanded="false" />
+            <element signature="initializer##0;class#9494:9718" expanded="false" />
+            <element signature="class#10003:10227" expanded="false" />
+            <element signature="initializer##0;class#10003:10227" expanded="false" />
+            <element signature="method#getService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#10367#10421#0" expanded="false" />
+            <element signature="class#10544:10768" expanded="false" />
+            <element signature="initializer##0;class#10544:10768" expanded="false" />
+            <element signature="class#11043:11267" expanded="false" />
+            <element signature="initializer##0;class#11043:11267" expanded="false" />
+            <element signature="method#sendPayment#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#11609:11833" expanded="false" />
+            <element signature="initializer##0;class#11609:11833" expanded="false" />
+            <element signature="class#12120:12344" expanded="false" />
+            <element signature="initializer##0;class#12120:12344" expanded="false" />
+            <element signature="method#sendBid#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#12683:12907" expanded="false" />
+            <element signature="initializer##0;class#12683:12907" expanded="false" />
+            <element signature="class#13190:13414" expanded="false" />
+            <element signature="initializer##0;class#13190:13414" expanded="false" />
+            <element signature="method#getRequest#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#13554#13609#0" expanded="false" />
+            <element signature="class#13730:13954" expanded="false" />
+            <element signature="initializer##0;class#13730:13954" expanded="false" />
+            <element signature="class#14147:14268" expanded="false" />
+            <element signature="initializer##0;class#14147:14268" expanded="false" />
+            <element signature="class#14406:14630" expanded="false" />
+            <element signature="initializer##0;class#14406:14630" expanded="false" />
+            <element signature="method#getBidStatus#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="e#14794#14849#0" expanded="false" />
+            <element signature="class#14990:15214" expanded="false" />
+            <element signature="initializer##0;class#14990:15214" expanded="false" />
+            <element signature="class#15503:15727" expanded="false" />
+            <element signature="initializer##0;class#15503:15727" expanded="false" />
+            <element signature="method#endService#0;class#ApplicationJava#0" expanded="false" />
+            <element signature="class#16037:16261" expanded="false" />
+            <element signature="initializer##0;class#16037:16261" expanded="false" />
+            <element signature="class#16547:16771" expanded="false" />
+            <element signature="initializer##0;class#16547:16771" expanded="false" />
+            <element signature="e#16864#16896#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
