@@ -87,6 +87,7 @@ public class DatabaseJava{
             {
                 put("access_token", token.get("access_token"));
                 put("user_id", token.get("user_id"));
+                put("type", token.get("type"));
             }
         };
         return ret;
