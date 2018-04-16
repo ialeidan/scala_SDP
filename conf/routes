@@ -22,11 +22,11 @@ POST    /customer/select_bid        @controllers.ApplicationJava.chooseBid()
 GET     /customer/service           @controllers.ApplicationJava.getService(user_id: String ?="")
 POST    /customer/pay               @controllers.ApplicationJava.sendPayment()
 POST    /sp/bid                     @controllers.ApplicationJava.sendBid()
-POST    /sp/finish                     @controllers.ApplicationJava.endService()
+POST    /sp/finish                  @controllers.ApplicationJava.endService()
 GET     /sp/requests                @controllers.ApplicationJava.getRequest(user_id: String ?="")
 GET     /sp/check_bid               @controllers.ApplicationJava.getBidStatus(user_id: String ?="", request_id: String ?="")
-#POST    /lock/status                @controllers.ApplicationJava.getBidStatus()
-#POST    /lock/location              @controllers.ApplicationJava.getBidStatus()
+POST    /lock/status                @controllers.ApplicationJava.getBidStatus()
+POST    /lock/location              @controllers.ApplicationJava.getBidStatus()
 
 
 

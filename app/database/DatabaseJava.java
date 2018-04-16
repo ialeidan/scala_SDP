@@ -262,6 +262,9 @@ public class DatabaseJava{
             };
             return ret;
         }
+        collection = db.getCollection("Users");
+        Document user = collection.find(eq("_id", new ObjectId(doc.getString("user_id")))).first();
+
         ///check if request still in the Requests collection
         collection = db.getCollection("Requests");
         exist = collection.find(eq("_id", new ObjectId(doc.getString("request_id")))).first() != null;
@@ -283,6 +286,7 @@ public class DatabaseJava{
         bid.append("status", "waiting");
         bid.append("price", doc.get("price"));
         bid.append("location", request.get("location"));
+        bid.append("device", user.get("device"));
         collection.insertOne(bid);
         // usr: 5abbff30eed4650004e1588e
         // sp ; 5abc8a5002ba7f0004585fb6
@@ -452,6 +456,8 @@ public class DatabaseJava{
         temp.append("status", "in service");
         temp.append("location", request.get("location"));
         temp.append("request_id", id.toHexString());
+        temp.append("device", bid.get("device"));
+        temp.append("device_status", "unlocked");
         collection.insertOne(temp);
 
         collection = db.getCollection("Requests");
@@ -786,6 +792,65 @@ public class DatabaseJava{
         }
 
     }
+
+    public HashMap sendLock(String json) throws NoSuchAlgorithmException{
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        ///check if request exist
+        collection = db.getCollection("Progress");
+        boolean exist = collection.find(eq("device", doc.get("device_id"))).first() != null;
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("request", "error");
+                }
+            };
+            return ret;
+        }
+        ///get the information of the request and the bidder
+        collection = db.getCollection("Progress");
+        Document progress = collection.find(eq("device", doc.get("device_id"))).first();
+
+        collection.updateOne(
+                eq("device", doc.get("device_id")),
+                combine(set("device_status",doc.get("status"))));
+        HashMap<String, Object> ret = new HashMap<String, Object>(){
+            {
+                put("request", "success");
+            }
+        };
+        return ret;
+    }
+
+    public HashMap sendDeviceLocation(String json) throws NoSuchAlgorithmException{
+        MongoCollection<Document> collection = db.getCollection("Users");
+        Document doc = Document.parse(json);
+        ///check if request exist
+        collection = db.getCollection("Progress");
+        boolean exist = collection.find(eq("device", doc.get("device_id"))).first() != null;
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("request", "error");
+                }
+            };
+            return ret;
+        }
+        ///get the information of the request and the bidder
+        collection = db.getCollection("Progress");
+        Document progress = collection.find(eq("device", doc.get("device_id"))).first();
+
+        collection.updateMany(
+                eq("device", doc.get("device_id")),
+                combine(set("device_status",doc.get("status")), set("location", doc.get("location"))));
+        HashMap<String, Object> ret = new HashMap<String, Object>(){
+            {
+                put("request", "success");
+            }
+        };
+        return ret;
+    }
+
 
     public String hash(String pass) throws NoSuchAlgorithmException {
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
