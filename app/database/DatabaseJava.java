@@ -638,6 +638,7 @@ public class DatabaseJava{
                 {
                     put("service", progress.get("service"));
                     put("location", progress.get("location"));
+                    put("sp_location", progress.get("sp_location"));
                 }
             };
             return ret;
