@@ -665,6 +665,59 @@ public class DatabaseJava{
         }
     }
 
+    public HashMap getSPService(String user_id) throws NoSuchAlgorithmException  {
+        MongoCollection<Document> collection = db.getCollection("Users");
+        String json = "{\"user_id\": \"" + user_id + "\" }";
+
+        Document doc = Document.parse(json);
+        //TODO: Check this,
+        boolean exist = collection.find(eq("_id", new ObjectId(user_id))) != null;
+        ////check if user authenticated
+        if(!exist){
+            HashMap<String, Object> ret = new HashMap<String, Object>(){
+                {
+                    put("code", "400");
+                    put("error", "Error");
+                    put("message", "NOT_AUTHENTICATED");
+                }
+            };
+            return ret;
+        }
+        collection = db.getCollection("Progress");
+        Document progress = collection.find(eq("sp_id", doc.get("user_id"))).first();
+        exist = progress.get("status").equals("in service");
+        if(exist) {
+            HashMap<String, Object> ret = new HashMap<String, Object>() {
+                {
+                    put("service", progress.get("service"));
+                    put("location", progress.get("location"));
+                    put("sp_location", progress.get("sp_location"));
+                    put("cu_location", progress.get("cu_location"));
+                }
+            };
+            return ret;
+        }
+        exist = progress.get("status").equals("payment");
+        if(exist) {
+            HashMap<String, Object> ret = new HashMap<String, Object>() {
+                {
+                    put("service", progress.get("service"));
+                    put("price", progress.get("price"));
+                    put("sp_id", progress.get("sp_id"));
+                }
+            };
+            return ret;
+        }
+        else {
+            HashMap<String, Object> ret = new HashMap<String, Object>() {
+                {
+                    put("request", "error");
+                }
+            };
+            return ret;
+        }
+    }
+
     public HashMap endService(String json) throws NoSuchAlgorithmException {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
