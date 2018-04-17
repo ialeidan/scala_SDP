@@ -23,7 +23,7 @@ GET     /customer/service           @controllers.ApplicationJava.getService(user
 GET     /sp/service                 @controllers.ApplicationJava.getSPService(user_id: String ?="")
 POST    /customer/pay               @controllers.ApplicationJava.sendPayment()
 POST    /sp/bid                     @controllers.ApplicationJava.sendBid()
-POST    /sp/finish                  @controllers.ApplicationJava.endService()
+POST    /lock/finish                  @controllers.ApplicationJava.endService()
 GET     /sp/requests                @controllers.ApplicationJava.getRequest(user_id: String ?="")
 GET     /sp/check_bid               @controllers.ApplicationJava.getBidStatus(user_id: String ?="", request_id: String ?="")
 POST    /lock/status                @controllers.ApplicationJava.sendLock()

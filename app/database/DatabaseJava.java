@@ -721,7 +721,7 @@ public class DatabaseJava{
     public HashMap endService(String json) throws NoSuchAlgorithmException {
         MongoCollection<Document> collection = db.getCollection("Users");
         Document doc = Document.parse(json);
-        boolean exist = collection.find(eq("_id", new ObjectId(doc.getString("user_id")))).first() != null;
+        boolean exist = collection.find(eq("device", doc.getString("device_id"))).first() != null;
         ////check if user authenticated
         if(!exist){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
@@ -735,7 +735,7 @@ public class DatabaseJava{
         }
         ///check if request exist
         collection = db.getCollection("Progress");
-        exist = collection.find(eq("sp_id", doc.get("user_id"))).first() != null;
+        exist = collection.find(eq("device", doc.get("device_id"))).first() != null;
         if(!exist){
             HashMap<String, Object> ret = new HashMap<String, Object>(){
                 {
@@ -746,12 +746,12 @@ public class DatabaseJava{
         }
         ///get the information of the request and the bidder
         collection = db.getCollection("Progress");
-        Document bid = collection.find(eq("sp_id", doc.get("user_id"))).first();
+        Document bid = collection.find(eq("device", doc.get("device_id"))).first();
 
         ///move the request to the Progress collection
 
         collection.updateOne(
-                (eq("request_id", doc.get("request_id"))),
+                (eq("device", doc.get("device_id"))),
                 combine(set("status","payment")));
         HashMap<String, Object> ret = new HashMap<String, Object>(){
             {

@@ -563,7 +563,7 @@ public class ApplicationJava extends Controller {
     public Result endService() {
         JsonNode request = request().body().asJson();
 
-        if (request.get("user_id") == null || request.get("request_id") == null) {
+        if (request.get("device_id") == null) {
             HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");
