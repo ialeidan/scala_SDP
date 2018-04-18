@@ -453,7 +453,7 @@ public class ApplicationJava extends Controller {
     public Result sendBid() {
         JsonNode request = request().body().asJson();
 
-        if (request.get("user_id") == null || request.get("request_id") == null  || request.get("price") == null){
+        if (request.get("user_id") == null || request.get("request_id") == null  || request.get("price") == null || request.get("location") == null){
             HashMap<String, Object> ERR = new HashMap<String, Object>() {
                 {
                     put("error", "Error");

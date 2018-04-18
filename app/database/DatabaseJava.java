@@ -287,6 +287,7 @@ public class DatabaseJava{
         bid.append("price", doc.get("price"));
         bid.append("location", request.get("location"));
         bid.append("device", user.get("device"));
+        bid.append("sp_location", doc.get("location"));
         collection.insertOne(bid);
         // usr: 5abbff30eed4650004e1588e
         // sp ; 5abc8a5002ba7f0004585fb6
@@ -454,7 +455,9 @@ public class DatabaseJava{
         temp.append("info", request.get("info"));
         temp.append("price", bid.get("price"));
         temp.append("status", "in service");
-        temp.append("location", request.get("location"));
+        temp.append("cu_location", request.get("location"));
+        temp.append("sp_location", bid.get("sp_location"));
+        temp.append("location", request.get("sp_location"));
         temp.append("request_id", id.toHexString());
         temp.append("device", bid.get("device"));
         temp.append("device_status", "unlocked");
@@ -639,7 +642,7 @@ public class DatabaseJava{
                     put("service", progress.get("service"));
                     put("location", progress.get("location"));
                     put("sp_location", progress.get("sp_location"));
-		    put("cu_location", progress.get("cu_location"));
+		            put("cu_location", progress.get("cu_location"));
                 }
             };
             return ret;
