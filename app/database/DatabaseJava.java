@@ -457,7 +457,7 @@ public class DatabaseJava{
         temp.append("status", "in service");
         temp.append("cu_location", request.get("location"));
         temp.append("sp_location", bid.get("sp_location"));
-        temp.append("location", request.get("sp_location"));
+        temp.append("location", bid.get("sp_location"));
         temp.append("request_id", id.toHexString());
         temp.append("device", bid.get("device"));
         temp.append("device_status", "unlocked");
